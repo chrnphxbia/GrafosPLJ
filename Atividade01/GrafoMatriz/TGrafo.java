@@ -1,3 +1,7 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 //definição de uma estrutura Matriz de Adjacência para armezanar um grafo
 public class TGrafo {
 	// Atributos Privados
@@ -16,6 +20,35 @@ public class TGrafo {
 		for(int i = 0; i< n; i++)
 			for(int j = 0; j< n; j++)
 				this.adj[i][j]=0;	
+	}
+
+	public TGrafo(String arquivo) {
+		try {
+			int origem, destino;
+
+			Scanner scanner = new Scanner(new File(arquivo));
+			this.n = scanner.nextInt();
+			this.m = scanner.nextInt();
+
+			this.adj = new int[this.n][this.n];
+			
+			for(int i = 0; i< n; i++) {
+				for(int j = 0; j< n; j++) {
+					this.adj[i][j]=0;
+				}
+			}
+
+			for(int k = 0; k < this.m; k++) {
+				origem = scanner.nextInt();
+				destino = scanner.nextInt();
+				this.adj[origem][destino] = 1;
+			}
+
+			scanner.close();
+
+		} catch (FileNotFoundException e) {
+			System.err.println("Arquivo não encontrado.");
+		}
 	}
 
 	// Insere uma aresta no Grafo tal que
@@ -94,6 +127,5 @@ public class TGrafo {
 		}
 		return 1;
 	}
-
 
 }
