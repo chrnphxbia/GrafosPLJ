@@ -184,14 +184,14 @@ public class TGrafo {
 	Método que verifica e retorna se o grafo
 	dirigido é completo. 
 	*/
-	public boolean isCompleto(){
+	public int isCompleto(){
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
 				if (i != j && adj[i][j] == 0) {
-					return false;
+					return 0;
 				}
 			}
 		}
-		return true;
+		return 1;
 	}
 }
