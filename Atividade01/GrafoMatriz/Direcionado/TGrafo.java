@@ -73,8 +73,8 @@ public class TGrafo {
 	// número de vértices, arestas
 	// e a matriz de adjacência obtida	
 	public void show() {
-	    System.out.println("n: " + n );
-	    System.out.println("m: " + m );
+	    System.out.println("\nImpressão do Grafo\nn (vértices): " + n );
+	    System.out.println("m (arestas): " + m );
 	    for( int i=0; i < n; i++){
 	    	System.out.print("\n");
 	        for( int w=0; w < n; w++)
@@ -82,7 +82,7 @@ public class TGrafo {
 	            	System.out.print("Adj[" + i + "," + w + "]= 1" + " ");
 	            else System.out.print("Adj[" + i + "," + w + "]= 0" + " ");
 	    }
-	    System.out.println("\n\nfim da impressao do grafo." );
+	    System.out.println("\n\nFim da impressão do grafo." );
 	}
 
 	public int inDegree(int v){
@@ -128,4 +128,28 @@ public class TGrafo {
 		return 1;
 	}
 
+	public void removeV(int v) {
+		if(v >= this.n) {
+			System.err.println("Não há vértice " + v + " no grafo.\nNão é " +
+				"possível realizar remoção.");
+			return;
+		}
+
+		int row, column;
+		int novaMatriz[][] = new int[this.n-1][this.n-1];
+
+		for(int i = 0; i < this.n - 1; i++) {
+			row = i;
+			if(i >= v) { row++; }
+			for(int j = 0; j < this.n - 1; j++) {
+				column = j;
+				if(j >= v) { column++; }
+				novaMatriz[i][j] = this.adj[row][column];
+			}
+		}
+	
+		this.m = this.m - inDegree(v) - outDegree(v);
+		this.n--;
+		this.adj = novaMatriz;
+	}
 }
