@@ -73,8 +73,8 @@ public class TGrafo {
 	// número de vértices, arestas
 	// e a matriz de adjacência obtida	
 	public void show() {
-	    System.out.println("\nImpressão do Grafo\nn (vértices): " + n );
-	    System.out.println("m (arestas): " + m );
+	    System.out.println("n: " + n );
+	    System.out.println("m: " + m );
 	    for( int i=0; i < n; i++){
 	    	System.out.print("\n");
 	        for( int w=0; w < n; w++)
@@ -82,9 +82,14 @@ public class TGrafo {
 	            	System.out.print("Adj[" + i + "," + w + "]= 1" + " ");
 	            else System.out.print("Adj[" + i + "," + w + "]= 0" + " ");
 	    }
-	    System.out.println("\n\nFim da impressão do grafo." );
+	    System.out.println("\n\nfim da impressao do grafo." );
 	}
 
+	/*
+	(Exercício 1)
+	Método que calcula e retorna o grau de entrada
+	de um vértice v de um grafo dirigido
+	*/
 	public int inDegree(int v){
 		int inDegree = 0;
 
@@ -96,6 +101,11 @@ public class TGrafo {
 		return inDegree;
 	}
 
+	/*
+	(Exercício 2)
+	Método que calcula e retorna o grau de saída
+	de um vértice v de um grafo dirigido
+	*/
 	public int outDegree(int v){
 		int outDegree = 0;
 
@@ -107,16 +117,31 @@ public class TGrafo {
 		return outDegree;
 	}
 	
+	/*
+	(Exercício 3)
+	Método que retorna 1 se vértice for uma fonte (grau de saída 
+	maior que zero e grau de entrada igual a 0), ou 0 caso contrário.
+	*/
 	public int isFonte(int v) {
 		if (outDegree(v) > 0 && inDegree(v) == 0) { return 1; } 
 		return 0;
 	}
-
+	
+	/*
+	(Exercício 4)
+	Método que retorna 1 se vértice for um Sorvedouro (grau de entrada
+	maior que zero e grau de saída igual a 0), ou 0 caso contrário.
+	*/
 	public int isSorvedouro(int v){
 		if (inDegree(v) > 0 && outDegree(v) == 0) { return 1; } 
 		return 0;
 	}
 
+	/*
+	(Exercício 5)
+	Método que retorna 1 se se o grafo dirigido 
+	for simétrico, ou 0 caso contrário.
+	*/
 	public int isSimetrico(){
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++){
@@ -152,4 +177,20 @@ public class TGrafo {
 		this.n--;
 		this.adj = novaMatriz;
 	}
-}
+
+
+	/*
+	(Exercício 11)
+	Método que verifica e retorna se o grafo
+	dirigido é completo. 
+	*/
+	public boolean isCompleto(){
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				if (i != j && adj[i][j] == 0) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
