@@ -69,6 +69,18 @@ public class TGrafoND {
 	    }
 	}
 
+	public int getDegree(int v) {
+		int degree = 0;
+
+		for(int j = 0; j < n; j++) {
+			if(adj[v][j] != Double.POSITIVE_INFINITY) {
+				degree++;
+			}
+		}
+
+		return degree;
+	}
+
     public void show() {
 	    System.out.println("n: " + n );
 	    System.out.println("m: " + m );
@@ -80,5 +92,30 @@ public class TGrafoND {
 	            else System.out.print("Adj[" + i + "," + w + "]= " + Double.POSITIVE_INFINITY + " ");
 	    }
 	    System.out.println("\n\nfim da impressao do grafo." );
+	}
+
+	public void removeV(int v) {
+		if(v >= this.n) {
+			System.err.println("Não há vértice " + v + " no grafo.\nNão é " +
+				"possível realizar remoção.");
+			return;
+		}
+
+		int row, column;
+		Double novaMatriz[][] = new Double[this.n-1][this.n-1];
+
+		for(int i = 0; i < this.n - 1; i++) {
+			row = i;
+			if(i >= v) { row++; }
+			for(int j = 0; j < this.n - 1; j++) {
+				column = j;
+				if(j >= v) { column++; }
+				novaMatriz[i][j] = this.adj[row][column];
+			}
+		}
+	
+		this.m = this.m - getDegree(v);
+		this.n--;
+		this.adj = novaMatriz;
 	}
 }

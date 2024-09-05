@@ -12,5 +12,8 @@ public class TesteTGrafoND {
 
         TGrafoND grafo02 = new TGrafoND("exemplo.txt");
         grafo02.show();
+
+        grafo01.removeV(0);
+        grafo01.show();
     }
 }
