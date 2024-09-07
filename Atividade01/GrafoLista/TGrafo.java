@@ -1,3 +1,10 @@
+package Lista;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+
 //definicao da classe de nós da lista
 class TNo{ // define uma struct (registro)
 	public	int w;  // vértice que é adjacente ao elemento da lista
@@ -24,6 +31,41 @@ public class TGrafo{
 			adjac[i]=null;	
 	    this.adj = adjac;
 	};
+
+	/*
+	(Exercício 23)
+	Construtor para entrada de arquivo Onde na primeira linha
+	contém um inteiro V (vértice), na segunda contém um inteiro
+	A (arestas) e nas demais linha contém dois inteiros pertencentes
+	ao intervalo 0..V-1. 
+	*/
+	public TGrafo(String arquivo){
+		try{
+			Scanner scanner = new Scanner(new File(arquivo));
+
+			 // Ler o número de vértices e arestas
+			this.n = scanner.nextInt(); // Primeira linha: número de vértices
+			int arestas = scanner.nextInt(); // Segunda linha: número de arestas
+
+			// Inicializar o vetor de listas de adjacência
+			adj = new TNo[n]; 
+        	for (int i = 0; i < n; i++) {
+            	adj[i] = null;
+        	}
+
+			// Ler as arestas
+			for (int i = 0; i < arestas; i++) {
+				int origem = scanner.nextInt();  // Vértice de origem
+				int destino = scanner.nextInt();  // Vértice de destino
+				insereA(origem, destino);  // Insere a aresta origem -> destino
+			}
+			scanner.close();
+		} catch (FileNotFoundException e) {
+			System.err.println("Arquivo não encontrado.");
+		}
+	}
+
+
 	/*
 	Método que cria uma aresta v-w no grafo. O método supõe que
 	v e w são distintos, positivos e menores que V.
@@ -136,6 +178,5 @@ public class TGrafo{
 		// Se não foi encontrado como adjacente em nenhum outro vértice
 		return 1;
 	}
-	
 
 }
