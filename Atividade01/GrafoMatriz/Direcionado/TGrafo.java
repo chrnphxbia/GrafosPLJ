@@ -41,7 +41,10 @@ public class TGrafo {
 			for(int k = 0; k < linhas; k++) {
 				origem = scanner.nextInt();
 				destino = scanner.nextInt();
-				insereA(origem, destino);
+				if(adj[origem][destino] == 0 ){
+					adj[origem][destino] = 1;
+					m++; // atualiza qtd arestas
+				}
 			}
 
 			scanner.close();
@@ -153,6 +156,8 @@ public class TGrafo {
 		return 1;
 	}
 
+	/* (Exercício 9)
+	Método que remove vértice do grafo */
 	public void removeV(int v) {
 		if(v >= this.n) {
 			System.err.println("Não há vértice " + v + " no grafo.\nNão é " +
@@ -193,5 +198,20 @@ public class TGrafo {
 			}
 		}
 		return 1;
+	}
+
+	/* (Exercício 12)
+	 * Método para obter complemento do grafo
+	 */
+	public TGrafo getComplemento() {
+		TGrafo complemento = new TGrafo(this.n);
+
+		for(int i = 0; i < this.n; i++) {
+			for(int j = 0; j < this.n; j++) {
+				if(this.adj[i][j] == 0 & i != j) complemento.insereA(i, j);
+			}
+		}
+
+		return complemento;
 	}
 }

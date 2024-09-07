@@ -11,7 +11,9 @@ public class TesteGrafoMatriz {
 
         TGrafo grafo02 = new TGrafo("exemplo.txt");
         grafo02.show();
-        grafo02.removeV(0);
-        grafo02.show();
+        // grafo02.removeV(0);
+        // grafo02.show();
+        TGrafo comp = grafo02.getComplemento();
+        comp.show();
     }
 }
