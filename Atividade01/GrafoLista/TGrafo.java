@@ -179,4 +179,29 @@ public class TGrafo{
 		return 1;
 	}
 
+    //Exericio 22 
+    //Método que verifica se o gráfico é simétrico ou não
+    public int isSimetric(){
+        boolean encontrei_par = false;
+        for(int i = 0; i < vertices; i++){ //Percorre os indices do vetor
+            TNo no = adj[i];
+            while(no != null){//Percorre os elementos da lista;
+                int elem = no.w;
+                TNo aux = adj[elem];
+                while(aux != null){//Percorre os elementos da outra lista
+                    if(aux.w == i){
+                        encontrei_par = true;
+                    }
+                    aux = aux.prox;
+                }
+                if(!encontrei_par){
+                    return 0;
+                }
+                no = no.prox;
+            }
+            
+        }
+        return 1;
+    }
+
 }
