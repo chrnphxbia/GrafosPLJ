@@ -148,6 +148,27 @@ public class TGrafo{
 	Método que decide se dois grafos direcionados são iguais
 	*/
 	
+	/*
+	(Exercício 19)
+	Método que inverte os elementos da lista de adjacência
+	*/
+	public void inverteLista(){
+            for(int i = 0;i < vertices;i++){
+                TNo atual = adj[i]; //Vamos usar pra percorrer a lista
+                TNo anterior = null; //Faz um backup do nó
+                TNo novaLista = null; //Vamos criar a estrutura aqui
+        
+                while(atual != null){//Percorre a lista inteira
+                    anterior = atual;
+                 
+                    atual = atual.prox;
+             
+                    anterior.prox = novaLista;
+                    novaLista = anterior; 
+                }
+            this.adj[i] = anterior; //Ligando a lista que foi criada
+            }
+    	}
 
 	/*
 	(Exercício 20)
