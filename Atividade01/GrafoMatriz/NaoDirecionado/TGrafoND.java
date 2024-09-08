@@ -118,4 +118,24 @@ public class TGrafoND {
 		this.n--;
 		this.adj = novaMatriz;
 	}
+
+	//Exercicio 10
+    //Grafo não dirigido é completo
+    public boolean verificarGrafoCompleto(){
+        for(int i = 0; i < vertices; i++){
+            for(int j = 0;j < vertices;j++){
+                //Diagonal principal precisa ser INFINITY
+                
+                //Funciona para rotulados e não rotulados/
+                if( i == j  && adj[i][j] != Double.POSITIVE_INFINITY) {
+                    return false;
+                }
+                //Todos os outros números são diferentes de INFINTY
+                if( i != j && adj[i][j] == Double.POSITIVE_INFINITY){
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
 }
