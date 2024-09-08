@@ -4,89 +4,98 @@ import java.util.Scanner;
 
 //definição de uma estrutura Matriz de Adjacência para armezanar um grafo
 public class TGrafo {
-	// Atributos Privados
-	private	int n; // quantidade de vértices
-	private	int m; // quantidade de arestas
-	private	int adj[][]; //matriz de adjacência
-	// Métodos Públicos
-	public TGrafo( int n) {  // construtor
-	    this.n = n;
-	    // No início dos tempos não há arestas
-	    this.m = 0; 
-	    // alocação da matriz do TGrafo
-	    this.adj = new int [n][n];
+    private int vertices;
+    private int arestas;
+    private double adj[][];
+    
+   
+    
+    
+    public TGrafo(String arquivo){
+        try{
+            //int origem,destino;
+            Scanner teclado = new Scanner(new File(arquivo));
+            //System.out.println("Arquivo aberto");
+            this.vertices = teclado.nextInt();
+            this.arestas = teclado.nextInt();
+          
+            this.adj =  new double[vertices][vertices];
+            
+            for(int i = 0;i < vertices;i++){
+                for(int j =0;j < vertices;j++){
+                        adj[i][j] = Double.POSITIVE_INFINITY;
+                    }
+                }
+            
+            for(int i = 0 ;i < arestas;i++){
+                int w = teclado.nextInt();
+                int x = teclado.nextInt();
+                int peso = teclado.nextInt();
+                adj[w][x] = peso;
+            }
+        }
+        catch(FileNotFoundException e){
+            System.err.println("Arquivo não encontrado");
+        }
+    }
+    
+    
+    
+    
+    public TGrafo(int vertices){
+        this.vertices = vertices;
+        this.arestas = 0;
+        
+        this.adj =  new double[vertices][vertices];//Alocação em java
+        for(int i = 0;i < vertices;i++){
+            for(int j =0;j < vertices;j++){
+                this.adj[i][j] = Double.POSITIVE_INFINITY;
+            }
+        }
+    }
 
-	    // Inicia a matriz com zeros
-		for(int i = 0; i< n; i++)
-			for(int j = 0; j< n; j++)
-				this.adj[i][j]=0;	
-	}
 
-	public TGrafo(String arquivo) {
-		try {
-			int origem, destino;
-
-			Scanner scanner = new Scanner(new File(arquivo));
-			this.n = scanner.nextInt();
-			int linhas = scanner.nextInt();
-
-			this.adj = new int[this.n][this.n];
-			
-			for(int i = 0; i< n; i++) {
-				for(int j = 0; j< n; j++) {
-					this.adj[i][j]=0;
-				}
-			}
-
-			for(int k = 0; k < linhas; k++) {
-				origem = scanner.nextInt();
-				destino = scanner.nextInt();
-				if(adj[origem][destino] == 0 ){
-					adj[origem][destino] = 1;
-					m++; // atualiza qtd arestas
-				}
-			}
-
-			scanner.close();
-
-		} catch (FileNotFoundException e) {
-			System.err.println("Arquivo não encontrado.");
-		}
-	}
-
-	// Insere uma aresta no Grafo tal que
-	// v é adjacente a w
-	public void insereA(int v, int w) {
-	    // testa se nao temos a aresta
-	    if(adj[v][w] == 0 ){
-	        adj[v][w] = 1;
-	        m++; // atualiza qtd arestas
-	    }
-	}
+    //Inserir aresta com v adjacente a w
+    public void insereAresta(int v,int w,double peso){
+        if(v > vertices || w > vertices){
+            System.out.println("Excessão lista fora dos limites - Não foi possivel inserir");
+        }else{
+            if(this.adj[v][w] == Double.POSITIVE_INFINITY ){
+                this.adj[v][w] = peso;
+                arestas++;
+              }else{
+                System.out.println("Aresta :" + v + w  + " já existe ");
+            }
+        }
+    }
 	
-	// remove uma aresta v->w do Grafo	
-	public void removeA(int v, int w) {
-	    // testa se temos a aresta
-	    if(adj[v][w] == 1 ){
-	        adj[v][w] = 0;
-	        m--; // atualiza qtd arestas
-	    }
+	public void removeAresta(int v,int w){
+        
+        if(v > vertices || w > vertices){
+            System.out.println("Excessão lista fora dos limites - Não foi possivel encontrar");
+        }
+        if(adj[v][w] != Double.POSITIVE_INFINITY ){
+	        adj[v][w] = Double.POSITIVE_INFINITY;
+	        arestas--; // atualiza qtd arestas
+	    }else{
+                System.out.println("Aresta já removida");
+            }
 	}
+
+
 	// Apresenta o Grafo contendo
 	// número de vértices, arestas
 	// e a matriz de adjacência obtida	
-	public void show() {
-	    System.out.println("n: " + n );
-	    System.out.println("m: " + m );
-	    for( int i=0; i < n; i++){
-	    	System.out.print("\n");
-	        for( int w=0; w < n; w++)
-	            if(adj[i][w] == 1)
-	            	System.out.print("Adj[" + i + "," + w + "]= 1" + " ");
-	            else System.out.print("Adj[" + i + "," + w + "]= 0" + " ");
-	    }
-	    System.out.println("\n\nfim da impressao do grafo." );
-	}
+	public void show(){
+            System.out.println("n: " + vertices);
+            System.out.println("m: " + arestas);
+            for(int i = 0;i < vertices;i++){
+                System.out.println("");
+                for(int j=0;j < vertices;j++){
+                     System.out.print("Adj [" + i + "," + j + "] = " + adj[i][j] + " ");
+            	}
+            }
+    	}
 
 	/*
 	(Exercício 1)
