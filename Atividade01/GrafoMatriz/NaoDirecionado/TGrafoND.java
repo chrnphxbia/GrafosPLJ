@@ -119,7 +119,7 @@ public class TGrafoND {
 		this.adj = novaMatriz;
 	}
 
-	//Exercicio 10
+	//(Exercicio 10)
     //Grafo não dirigido é completo
     public boolean verificarGrafoCompleto(){
         for(int i = 0; i < vertices; i++){
@@ -136,5 +136,25 @@ public class TGrafoND {
             }
         }
         return true;
+    }
+
+	//(Exercicio 13)
+    //Verificar se o grafo é conexo ou nao
+    public int checkConect(){        
+        int qtd_zeros = 0;
+        for(int i = 0;i < vertices;i++){
+            for(int j =0;j < vertices;j++){
+                //Primeiro caso -> nao valorados Segundo caso -> grafos valorados
+                if(adj[i][j] == 0 || adj[i][j] == Double.POSITIVE_INFINITY){
+                    qtd_zeros++;
+                }
+            }
+            if(qtd_zeros == vertices){
+                return 1; //Retornando desconexo;
+                
+            }
+            qtd_zeros = 0;
+        }
+        return 0;//Retornando conexo
     }
 }
