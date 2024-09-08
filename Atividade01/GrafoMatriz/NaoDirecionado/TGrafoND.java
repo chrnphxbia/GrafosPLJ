@@ -126,7 +126,6 @@ public class TGrafoND {
             for(int j = 0;j < vertices;j++){
                 //Diagonal principal precisa ser INFINITY
                 
-                //Funciona para rotulados e não rotulados/
                 if( i == j  && adj[i][j] != Double.POSITIVE_INFINITY) {
                     return false;
                 }
