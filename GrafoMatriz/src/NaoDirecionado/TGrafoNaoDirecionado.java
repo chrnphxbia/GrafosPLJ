@@ -1,5 +1,10 @@
 package NaoDirecionado;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+import PPilha.Pilha;
+
 public class TGrafoNaoDirecionado {
 	private	int n; // Número de vértices
 	private	int m; // Número de arestas
@@ -59,6 +64,39 @@ public class TGrafoNaoDirecionado {
             }
 	    }
         System.out.println();
+	}
+
+	public TGrafoNaoDirecionado(String arquivo) {
+		try {
+			int origem, destino;
+
+			Scanner scanner = new Scanner(new File(arquivo));
+			this.n = scanner.nextInt();
+			int linhas = scanner.nextInt();
+
+			this.adj = new int[this.n][this.n];
+			
+			for(int i = 0; i< n; i++) {
+				for(int j = 0; j< n; j++) {
+					this.adj[i][j] = 0;
+				}
+			}
+
+			for(int k = 0; k < linhas; k++) {
+				origem = scanner.nextInt();
+				destino = scanner.nextInt();
+				if(this.adj[origem][destino] == 0 ){
+					this.adj[origem][destino] = 1;
+					this.adj[destino][origem] = 1;
+					m++; // atualiza qtd arestas
+				}
+			}
+
+			scanner.close();
+
+		} catch (FileNotFoundException e) {
+			System.err.println("Arquivo não encontrado.");
+		}
 	}
 
 	public int getDegree(int v) {
@@ -134,5 +172,42 @@ public class TGrafoNaoDirecionado {
 		}
 
 		return temp.adj;
+	}
+
+	// Método que retorna String com vértices visitados em Percurso em Profundidade
+	// Argumentos: Vértice inicial para percurso
+	public String percursoProfundidade(int v) {
+		int n;
+		Pilha p = new Pilha();
+		int marcados[] = new int[this.n];
+		for(int i = 0; i < this.n; i++) marcados[i] = 0; // Inicializando vetor
+		StringBuilder percurso = new StringBuilder();
+
+		n = v; 
+		percurso.append(n).append(" "); // Visitando vértice
+		marcados[n] = 1; // Marcando vértice
+		p.push(n);
+
+		while(!p.isEmpty()) {
+			n = p.pop();
+			for(int i = 0; i < this.n; i++) {
+				if(marcados[i] == 0 && this.adj[n][i] == 1 && n != i) {
+					percurso.append(i).append(" "); // Visita vértice
+					p.push(n);
+					marcados[i] = 1; // Marca vértice
+					n = i;
+				}
+			}
+		}
+
+		return percurso.toString();
+	}
+
+	// Exercício 13
+	// Método que retorna se um grafo não direcionado é conexo (0) ou desconexo (1)
+	public int getConexidade() {
+		int numVmarcados = this.percursoProfundidade(0).replaceAll("\\s","").length();
+		if(numVmarcados == this.n) return 0;
+		return 1;
 	}
 }
