@@ -10,7 +10,7 @@ public class TGrafoNDRotulado {
     public TGrafoNDRotulado(int n) {  
 	    this.n = n;
 	    this.m = 0; 
-	    this.adj = new Float [n][n];
+	    this.adj = new Float[n][n];
 
 		for(int i = 0; i< n; i++) {
             for(int j = 0; j< n; j++) {

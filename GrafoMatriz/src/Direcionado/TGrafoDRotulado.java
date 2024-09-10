@@ -5,21 +5,21 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 import PPilha.Pilha;
 
-public class TGrafoDirecionado {
+public class TGrafoDRotulado {
 	private	int n; // Número de vértices
 	private	int m; // Número de arestas
-	private	int adj[][]; // Matriz de adjacência
+	private	Float adj[][]; // Matriz de adjacência
 
     // Método Construtor
     // Argumentos: Número de vértices do grafo
-	public TGrafoDirecionado(int n) {  
+	public TGrafoDRotulado(int n) {  
 	    this.n = n;
 	    this.m = 0; 
-	    this.adj = new int [n][n];
+	    this.adj = new Float[n][n];
 
 		for(int i = 0; i< n; i++) {
             for(int j = 0; j< n; j++) {
-                this.adj[i][j] = 0;	
+                this.adj[i][j] = Float.POSITIVE_INFINITY;	
             }
         }
 	}
@@ -28,9 +28,9 @@ public class TGrafoDirecionado {
 
     // Método que insere uma aresta no grafo direcionado
     // Argumentos: Vértice de origem, vértice de destino
-	public void insereA(int v, int w) {
-	    if(this.adj[v][w] == 0 ) { // Verifica se aresta ainda não existe
-	        this.adj[v][w] = 1; // Cria aresta na matriz de adjacência
+	public void insereA(int v, int w, float peso) {
+	    if(this.adj[v][w] == Float.POSITIVE_INFINITY ) { // Verifica se aresta ainda não existe
+	        this.adj[v][w] = peso; // Cria aresta na matriz de adjacência
 	        this.m++; // Atualiza número de arestas do grafo
 	    }
 	}
@@ -38,8 +38,8 @@ public class TGrafoDirecionado {
     // Método que remove uma aresta do grafo direcionado
     // Argumentos: Vértice de origem, vértice de destino
 	public void removeA(int v, int w) {
-	    if(this.adj[v][w] == 1 ) { // Verifica se aresta existe
-	        this.adj[v][w] = 0; // Remove aresta da matriz de adjacência
+	    if(this.adj[v][w] != Float.POSITIVE_INFINITY) { // Verifica se aresta existe
+	        this.adj[v][w] = Float.POSITIVE_INFINITY; // Remove aresta da matriz de adjacência
 	        this.m--; // Atualiza número de arestas do grafo
 	    }
 	}
@@ -51,10 +51,10 @@ public class TGrafoDirecionado {
 	    for(int i=0; i < n; i++) {
 	    	System.out.println();
 	        for(int w = 0; w < n; w++) {
-                if(this.adj[i][w] == 1) {
-                    System.out.print("Adj[" + i + "," + w + "] = 1" + " ");
+                if(this.adj[i][w] != Float.POSITIVE_INFINITY) {
+                    System.out.print("Adj[" + i + "," + w + "] = " + this.adj[i][w] + " ");
                 } else {
-                    System.out.print("Adj[" + i + "," + w + "] = 0" + " ");
+                    System.out.print("Adj[" + i + "," + w + "] = " + Float.POSITIVE_INFINITY + " ");
                 }
             }
 	    }
@@ -68,7 +68,7 @@ public class TGrafoDirecionado {
 		int inDegree = 0; 
 
 		for (int i = 0; i < n ; i++) {
-			if (this.adj[i][v]==1){
+			if(this.adj[i][v] != Float.POSITIVE_INFINITY) {
 				inDegree++;
 			}
 		}
@@ -82,7 +82,7 @@ public class TGrafoDirecionado {
 		int outDegree = 0;
 
 		for (int j = 0; j < n; j++) {
-			if (this.adj[v][j] == 1) {
+			if (this.adj[v][j] != Float.POSITIVE_INFINITY) {
 				outDegree++;
 			}
 		}
@@ -123,27 +123,29 @@ public class TGrafoDirecionado {
     // Exercício 06
     // Método Construtor
     // Argumentos: Caminho para arquivo de leitura
-    public TGrafoDirecionado(String arquivo) {
+    public TGrafoDRotulado(String arquivo) {
 		try {
 			int origem, destino;
+            Float peso;
 
 			Scanner scanner = new Scanner(new File(arquivo));
 			this.n = scanner.nextInt();
 			int linhas = scanner.nextInt();
 
-			this.adj = new int[this.n][this.n];
+			this.adj = new Float[this.n][this.n];
 			
-			for(int i = 0; i< n; i++) {
-				for(int j = 0; j< n; j++) {
-					this.adj[i][j] = 0;
+			for(int i = 0; i < n; i++) {
+				for(int j = 0; j < n; j++) {
+					this.adj[i][j] = Float.POSITIVE_INFINITY;
 				}
 			}
 
 			for(int k = 0; k < linhas; k++) {
 				origem = scanner.nextInt();
 				destino = scanner.nextInt();
-				if(this.adj[origem][destino] == 0 ){
-					this.adj[origem][destino] = 1;
+                peso = Float.parseFloat(scanner.nextLine());
+				if(this.adj[origem][destino] == Float.POSITIVE_INFINITY) {
+					this.adj[origem][destino] = peso;
 					this.m++; // atualiza qtd arestas
 				}
 			}
@@ -166,7 +168,7 @@ public class TGrafoDirecionado {
 		}
 
 		int row, column;
-		int novaMatriz[][] = new int[this.n-1][this.n-1];
+		Float novaMatriz[][] = new Float[this.n-1][this.n-1];
 
 		for(int i = 0; i < this.n - 1; i++) {
 			row = i;
@@ -194,22 +196,6 @@ public class TGrafoDirecionado {
 			}
 		}
 		return 1;
-	}
-
-	// Exercício 12
-	// Método que retorna complemento de um grafo direcionado em forma de matriz
-	public int[][] getCompMatriz() {
-		TGrafoDirecionado temp = new TGrafoDirecionado(this.n);
-
-		for(int i = 0; i < this.n; i++) {
-			for(int j = 0; j < this.n; j++) {
-				if(i != j && this.adj[i][j] == 0) {
-					temp.insereA(i, j);
-				}
-			}
-		}
-
-		return temp.adj;
 	}
 
 	// Método que retorna String com vértices visitados em Percurso em Profundidade

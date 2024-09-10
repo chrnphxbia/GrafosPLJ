@@ -130,5 +130,10 @@ public class TesteGrafoMatriz {
 		System.out.println("\n> Grafo 09 - Grafo Não Direcionado Desconexo");
 		grafo09.show();
 		System.out.println("\n> Exercício 13: Grafo 09 é desconexo (Esperado: 1)? " + grafo09.getConexidade());
+
+		// Testando Grafo Direcionado Não Rotulado
+		TGrafoDRotulado grafo10 = new TGrafoDRotulado("exemplosGrafos/GDRotulado.txt");
+		System.out.println("\n> Exercício 16: Grafo 10 (Direcionado Rotulado) lido do arquivo GDRotulado.txt");
+		grafo10.show();
 	}
 }
