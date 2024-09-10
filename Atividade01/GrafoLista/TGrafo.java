@@ -1,5 +1,3 @@
-package Lista;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -147,13 +145,39 @@ public class TGrafo{
 	(Exercício 17)
 	Método que decide se dois grafos direcionados são iguais
 	*/
+	public int isIgual(TGrafo grafo2){
+		// Verifica se o número de vértices e arestas são iguais
+		if (this.n != grafo2.n || this.m != grafo2.m) {
+			return 0;
+		}
+
+		for (int i = 0; i < this.n; i++){
+			TNo no1 = this.adj[i];
+			TNo no2 = grafo2.adj[i];
+
+			// Verifica se as listas de adjacência de ambos os grafos são iguais
+			while (no1 != null && no2 != null){
+				if (no1.w != no2.w){ // Se encontrar um vértice adjacente diferente
+					return 0;
+				}
+				no1 = no1.prox;
+				no2 = no2.prox;
+			}
+
+			// Se uma das listas tiver terminado antes da outra
+            		if (no1 != null || no2 != null) {
+                		return 0;
+            		}
+		}
+		return 1;
+	}
 	
 	/*
 	(Exercício 19)
 	Método que inverte os elementos da lista de adjacência
 	*/
 	public void inverteLista(){
-            for(int i = 0;i < vertices;i++){
+            for(int i = 0;i < n;i++){
                 TNo atual = adj[i]; //Vamos usar pra percorrer a lista
                 TNo anterior = null; //Faz um backup do nó
                 TNo novaLista = null; //Vamos criar a estrutura aqui
@@ -204,7 +228,7 @@ public class TGrafo{
     //Método que verifica se o gráfico é simétrico ou não
     public int isSimetric(){
         boolean encontrei_par = false;
-        for(int i = 0; i < vertices; i++){ //Percorre os indices do vetor
+        for(int i = 0; i < n; i++){ //Percorre os indices do vetor
             TNo no = adj[i];
             while(no != null){//Percorre os elementos da lista;
                 int elem = no.w;
@@ -224,5 +248,27 @@ public class TGrafo{
         }
         return 1;
     }
-
+	/*
+	(Exercício 26)
+	Método que verifica se o grafo (dirigido ou não) é completo.
+	Em que 1 é completo e 0 não é.
+	*/
+	public int isCompleto() {
+		for (int v = 0; v < n; v++) {
+			for (int w = 0; w < n; w++) {
+				if (v != w) {
+					TNo no = adj[v];
+					// Verifica se existe a aresta v -> w
+					while (no != null && no.w != w) {
+						no = no.prox;
+					}
+					// Se não encontrar a aresta v -> w
+					if (no == null) {
+						return 0;
+					}
+				}
+			}
+		}
+		return 1;
+	}
 }
