@@ -66,5 +66,10 @@ public class TesteGrafoLista {
 		System.out.println("\n> Exercício 23: Grafo 05 gerado a partir de leitura do arquivo grafo05.txt:");
 		TGrafoLista grafo05 = new TGrafoLista("grafo05.txt");
 		grafo05.show();
+		
+		System.out.println("\n> Exercício 26: Grafo 05 é completo (Esperado: 0)? " + grafo05.isCompleto());
+		System.out.println("\n> Grafo 03:");
+		grafo03.show();
+		System.out.println("\n> Exercício 26: Grafo 03 é completo (Esperado: 1)? " + grafo03.isCompleto());
 	}
 }

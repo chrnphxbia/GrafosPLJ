@@ -233,4 +233,25 @@ public class TGrafoLista{
 			System.err.println("Arquivo não encontrado.");
 		}
 	}
+
+	// Exercício 26
+	// Verifica se o grafo é completo
+	public int isCompleto() {
+		for (int v = 0; v < n; v++) {
+			for (int w = 0; w < n; w++) {
+				if (v != w) {
+					TNo no = adj[v];
+					// Verifica se existe a aresta v -> w
+					while (no != null && no.w != w) {
+						no = no.prox;
+					}
+					// Se não encontrar a aresta v -> w
+					if (no == null) {
+						return 0;
+					}
+				}
+			}
+		}
+		return 1;
+	}
 }
