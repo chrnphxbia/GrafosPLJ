@@ -223,4 +223,68 @@ public class TGrafo {
 
 		return complemento;
 	}
+
+	/*Exercício 14
+	 Método que retorne a categoria de conexidade
+	 para um grafo direcionado (3 – C3, 2 – C2, 1 – C1 ou 0 – c0).
+	 */
+
+	public int getCategoriaConexidade() {
+		// Verifica se é fortemente conexo (C3)
+		if (f_conexo()) { return 3;}
+
+		// Verifica se o grafo é fracamente conexo (C2)
+		if (sf_conexo()) { return 2;}
+
+ 		// Verifica se o grafo é desconexo (C0)
+		if (desconexo()){ return 0;}
+
+		// Caso contrário, é unilateralmente conexo (C1)
+		return 1;
+	 }
+
+	// Método auxiliar
+	private boolean f_conexo(){
+		for (int v = 0; v < n; v++){
+			String percurso = percursoProfundidade(v); // Realiza o percurso em profundidade
+			String[] verticesVisitados = percurso.split(" ");
+			if (verticesVisitados.length != n) {
+				return false; // Se nem todos os vértices foram visitados, não é fortemente conexo
+			}
+		}
+		return true; // Se todos os vértices foram visitados
+	}
+
+	private boolean sf_conexo(){
+		for (int v = 0; v < n; v++){
+			for (int w = 0; w < n; w++){
+				if (v != w){
+					String percursoV = percursoProfundidade(v); // Percurso a partir de v
+					String percursoW = percursoProfundidade(w); // Percurso a partir de w
+					if (!percursoV.contains(String.valueOf(w)) && !percursoW.contains(String.valueOf(v))){
+						return false; // Se não há conexão entre v e w, o grafo não é fracamente conexo
+					}
+				}
+			}
+		}
+		return true;
+	}
+
+	private boolean desconexo(){
+		// Criar a matriz simétrica (não direcionada) do grafo
+        int[][] simetrico = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (this.adj[i][j] == 1 || this.adj[j][i] == 1) {
+                    simetrico[i][j] = 1;
+                    simetrico[j][i] = 1;
+                }
+            }
+        }
+		// Verificar a conectividade na matriz simétrica usando percurso em profundidade
+        String percurso = percursoProfundidade(0); // Percurso a partir de um vértice qualquer
+        String[] verticesVisitados = percurso.split(" ");
+
+        return verticesVisitados.length != n; // Se não visitou todos os vértices, o grafo é desconexo
+	}
 }
