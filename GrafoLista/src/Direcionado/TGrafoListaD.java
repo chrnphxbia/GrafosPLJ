@@ -1,50 +1,39 @@
-//definicao da classe de nós da lista
+package Direcionado;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-class TNo { // define uma struct (registro)
-	public	int w;  // vértice que é adjacente ao elemento da lista
-	public TNo prox;
+class TNo {
+	public int w; // Vértice adjacente na lista
+	public TNo prox; // Próximo nó da lista
 }
 
-//definição de uma classe para armezanar um grafo
-public class TGrafoLista{
-	// atributos privados
+public class TGrafoListaD {
 	private	int n; // quantidade de vértices
 	private	int m; // quantidade de arestas
 	private	TNo adj[]; // um vetor onde cada entrada guarda o inicio de uma lista
-	// métodos públicos
-	// Construtor do grafo com a lista de
-	// adjacência
-	public TGrafoLista( int n ) {
-	    // aloca a estrutura TGrafo
+	
+	public TGrafoListaD(int n) {
 	    this.n = n;
 	    this.m = 0;
-	    // aloca m vetor para guardar lista de adjacencias
 	    TNo adjac[] = new TNo[n];
-	    // Inicia o vetor com nullL
-		for(int i = 0; i< n; i++)
-			adjac[i]=null;	
+		for(int i = 0; i< n; i++) adjac[i] = null;	
 	    this.adj = adjac;
 	};
-	/*
-	Método que cria uma aresta v-w no grafo. O método supõe que
+
+	/* Método que cria uma aresta v-w no grafo. O método supõe que
 	v e w são distintos, positivos e menores que V.
 	Se o grafo já tem a aresta v-w, o método não faz nada.
-	O método também atualiza a quantidade de arestas no grafo.
-	*/
-	public void insereA( int v, int w) {
-		
+	O método também atualiza a quantidade de arestas no grafo. */
+	public void insereA(int v, int w) {
 	    TNo novoNo;
 	    // anda na lista para chegar ao final
 	    TNo no = adj[v];
 	    TNo ant = null;
 	    // anda na lista enquanto no != NULL E w  > no->w
-	    while( no != null && w >= no.w ){
-	        if( w == no.w)
-	            return;
+	    while(no != null && w >= no.w) {
+	        if(w == no.w) return;
 	        ant = no;
 	        no = no.prox;
 	    };
@@ -53,13 +42,9 @@ public class TGrafoLista{
 	    novoNo.w = w;
 	    novoNo.prox = no;
 	    // atualiza a lista
-	    if( ant == null){
-	        // insere no inicio
-	        adj[v] = novoNo;
-	    } else
-	        // insere no final
-	        ant.prox = novoNo;
-	    m++;	
+	    if(ant == null) adj[v] = novoNo;// insere no inicio
+		else ant.prox = novoNo; // insere no final
+	    this.m++;	
 	}
 	
 	/*
@@ -69,19 +54,20 @@ public class TGrafoLista{
 	o método não faz nada. O método também atualiza a
 	quantidade de arestas no grafo.
 	*/
-	public void removeA( int v, int w) {
+	public void removeA(int v, int w) {
 	    // Obtém o início da lista do vértice v
 	    TNo no = adj[v];
 	    TNo ant = null;
 	    // Percorre a lista do vértice v
 	    // procurando w (se adjacente)
-	    while( no != null && no.w != w ){
+	    while(no != null && no.w != w) {
 	    		ant = no;
 	    		no = no.prox;
 	    }
 	    // Se w é adjacente, remove da lista de v
-	    if (no != null){
-	    	ant.prox = no.prox;
+	    if(no != null) {
+			if(no != adj[v]) ant.prox = no.prox;
+			else adj[v] = no.prox;
 	    	no = null;
 	    	m--;
 		}	
@@ -107,8 +93,8 @@ public class TGrafoLista{
 	}
 
     // Exercício 17
-    // Método que verifica se dois grafos são iguais
-	public int isIgual(TGrafoLista grafo2){
+    // Método que verifica se dois grafos direcionados são iguais
+	public int isIgual(TGrafoListaD grafo2) {
 		// Verifica se o número de vértices e arestas são iguais
 		if (this.n != grafo2.n || this.m != grafo2.m) {
 			return 0;
@@ -165,11 +151,11 @@ public class TGrafoLista{
 		}
 
 		// Verificar se algum outro vértice tem v como adjacente (grau de entrada)
-		for (int i = 0; i < n; i++){
-			if (i != v){
+		for (int i = 0; i < n; i++) {
+			if (i != v) {
 				TNo no = adj[i];
 				while (no != null) {
-					if (no.w == v){
+					if (no.w == v) {
 						return 0; // Se encontrarmos v como adjacente, não é uma fonte
 					}
 					no = no.prox;
@@ -181,22 +167,39 @@ public class TGrafoLista{
 		return 1;
 	}
 
+	// Exercício 21
+	// Método que retorna 1 se grau de entrada > 0 e grau de saída == 0 de um vértice v
+	public int isSorvedouro(int v) {
+		if(this.adj[v] != null) return 0; // Se v tiver adjacentes, grau de saída != 0
+
+		TNo aux = new TNo();
+		for(int i = 0; i < this.n; i++) { // Percorrendo vetor de listas
+			aux = this.adj[i];
+			while(aux != null) { // Percorrendo nós da lista atual
+				if(aux.w == v) return 1; // Se v for encontrado, grau de entrada > 0
+				aux = aux.prox;
+			}
+		}
+
+		return 0; // Caso grau de saída == 0 porém grau de entrada = 0
+	}
+
     // Exercício 22 
     // Método que verifica se o gráfico é simétrico ou não
-    public int isSimetric(){
+    public int isSimetric() {
         boolean encontrei_par = false;
-        for(int i = 0; i < n; i++){ //Percorre os indices do vetor
+        for(int i = 0; i < n; i++) { //Percorre os indices do vetor
             TNo no = adj[i];
             while(no != null){//Percorre os elementos da lista;
                 int elem = no.w;
                 TNo aux = adj[elem];
-                while(aux != null){//Percorre os elementos da outra lista
-                    if(aux.w == i){
+                while(aux != null) {//Percorre os elementos da outra lista
+                    if(aux.w == i) {
                         encontrei_par = true;
                     }
                     aux = aux.prox;
                 }
-                if(!encontrei_par){
+                if(!encontrei_par) {
                     return 0;
                 }
                 no = no.prox;
@@ -208,7 +211,7 @@ public class TGrafoLista{
 
 	// Exercício 23
 	// Método construtor a partir de leitura de arquivo
-	public TGrafoLista(String arquivo) {
+	public TGrafoListaD(String arquivo) {
 		try{
 			Scanner scanner = new Scanner(new File(arquivo));
 
