@@ -246,7 +246,7 @@ public class TGrafo {
 	// Método auxiliar
 	private boolean f_conexo(){
 		for (int v = 0; v < n; v++){
-			String percurso = percursoProfundidade(v); // Realiza o percurso em profundidade
+			String percurso = depthFirstSearch(v); // Realiza o percurso em profundidade
 			String[] verticesVisitados = percurso.split(" ");
 			if (verticesVisitados.length != n) {
 				return false; // Se nem todos os vértices foram visitados, não é fortemente conexo
@@ -259,8 +259,8 @@ public class TGrafo {
 		for (int v = 0; v < n; v++){
 			for (int w = 0; w < n; w++){
 				if (v != w){
-					String percursoV = percursoProfundidade(v); // Percurso a partir de v
-					String percursoW = percursoProfundidade(w); // Percurso a partir de w
+					String percursoV = depthFirstSearch(v); // Percurso a partir de v
+					String percursoW = depthFirstSearch(w); // Percurso a partir de w
 					if (!percursoV.contains(String.valueOf(w)) && !percursoW.contains(String.valueOf(v))){
 						return false; // Se não há conexão entre v e w, o grafo não é fracamente conexo
 					}
@@ -284,7 +284,7 @@ public class TGrafo {
         	}
 
 		// Verificar a conectividade na matriz simétrica usando percurso em profundidade
-       		String percurso = simetrico.percursoProfundidade(0);
+       		String percurso = simetrico.depthFirstSearch(0);
         	return percurso.replaceAll("\\s","").length() != n; // Se não visitou todos os vértices, o grafo é desconexo
 	}
 }
