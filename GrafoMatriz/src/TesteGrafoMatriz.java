@@ -110,30 +110,20 @@ public class TesteGrafoMatriz {
 	    }
         System.out.println();
 
-		System.out.println("\n> Grafo 07 - Grafo Não Direcionado");
-		TGrafoNaoDirecionado grafo07 = new TGrafoNaoDirecionado(4);
-		grafo07.insereA(0, 1);
-		grafo07.insereA(0, 2);
-		grafo07.insereA(1, 3);
-		grafo07.insereA(2, 3);
-		grafo07.show();
-		System.out.println("\n> Busca em profundidade no Grafo 07");
-		System.out.println("Percurso do Grafo 07: " + grafo07.percursoProfundidade(0));
-
 		// Testando conexidade Grafo ND
-		TGrafoNaoDirecionado grafo08 = new TGrafoNaoDirecionado("exemplosGrafos/ndconexo.txt");
-		System.out.println("\n> Grafo 08 - Grafo Não Direcionado Conexo");
-		grafo08.show();
-		System.out.println("\n> Exercício 13: Grafo 08 é conexo (Esperado: 0)? " + grafo08.getConexidade());
+		TGrafoNaoDirecionado grafo07 = new TGrafoNaoDirecionado("exemplosGrafos/ndconexo.txt");
+		System.out.println("\n> Grafo 07 - Grafo Não Direcionado Conexo");
+		grafo07.show();
+		System.out.println("\n> Exercício 13: Grafo 07 (Conexo = 0, Desconexo = 1): " + grafo07.getConexidade());
 
-		TGrafoNaoDirecionado grafo09 = new TGrafoNaoDirecionado("exemplosGrafos/nddesconexo.txt");
-		System.out.println("\n> Grafo 09 - Grafo Não Direcionado Desconexo");
-		grafo09.show();
-		System.out.println("\n> Exercício 13: Grafo 09 é desconexo (Esperado: 1)? " + grafo09.getConexidade());
+		TGrafoNaoDirecionado grafo08 = new TGrafoNaoDirecionado("exemplosGrafos/nddesconexo.txt");
+		System.out.println("\n> Grafo 08 - Grafo Não Direcionado Desconexo");
+		grafo08.show();
+		System.out.println("\n> Exercício 13: Grafo 08 (Conexo = 0, Desconexo = 1): " + grafo08.getConexidade());
 
 		// Testando Grafo Direcionado Não Rotulado
-		TGrafoDRotulado grafo10 = new TGrafoDRotulado("exemplosGrafos/GDRotulado.txt");
-		System.out.println("\n> Exercício 16: Grafo 10 (Direcionado Rotulado) lido do arquivo GDRotulado.txt");
-		grafo10.show();
+		TGrafoDRotulado grafo09 = new TGrafoDRotulado("exemplosGrafos/GDRotulado.txt");
+		System.out.println("\n> Exercício 16: Grafo 09 (Direcionado Rotulado) lido do arquivo GDRotulado.txt");
+		grafo09.show();
 	}
 }

@@ -3,7 +3,6 @@ package Direcionado;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-import PPilha.Pilha;
 
 public class TGrafoDRotulado {
 	private	int n; // Número de vértices
@@ -196,34 +195,5 @@ public class TGrafoDRotulado {
 			}
 		}
 		return 1;
-	}
-
-	// Método que retorna String com vértices visitados em Percurso em Profundidade
-	// Argumentos: Vértice inicial para percurso
-	public String percursoProfundidade(int v) {
-		int n;
-		Pilha p = new Pilha();
-		int marcados[] = new int[this.n];
-		for(int i = 0; i < this.n; i++) marcados[i] = 0; // Inicializando vetor
-		StringBuilder percurso = new StringBuilder();
-
-		n = v; 
-		percurso.append(n).append(" "); // Visitando vértice
-		marcados[n] = 1; // Marcando vértice
-		p.push(n);
-
-		while(!p.isEmpty()) {
-			n = p.pop();
-			for(int i = 0; i < this.n; i++) {
-				if(marcados[i] == 0 && this.adj[n][i] == 1 && n != i) {
-					percurso.append(i).append(" "); // Visita vértice
-					p.push(n);
-					marcados[i] = 1; // Marca vértice
-					n = i;
-				}
-			}
-		}
-
-		return percurso.toString();
 	}
 }

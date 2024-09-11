@@ -3,7 +3,8 @@ package NaoDirecionado;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-import PPilha.Pilha;
+
+import FFilaCircular.FilaCircular;
 
 public class TGrafoNaoDirecionado {
 	private	int n; // Número de vértices
@@ -174,40 +175,52 @@ public class TGrafoNaoDirecionado {
 		return temp.adj;
 	}
 
-	// Método que retorna String com vértices visitados em Percurso em Profundidade
-	// Argumentos: Vértice inicial para percurso
-	public String percursoProfundidade(int v) {
-		int n;
-		Pilha p = new Pilha();
-		int marcados[] = new int[this.n];
-		for(int i = 0; i < this.n; i++) marcados[i] = 0; // Inicializando vetor
-		StringBuilder percurso = new StringBuilder();
-
-		n = v; 
-		percurso.append(n).append(" "); // Visitando vértice
-		marcados[n] = 1; // Marcando vértice
-		p.push(n);
-
-		while(!p.isEmpty()) {
-			n = p.pop();
-			for(int i = 0; i < this.n; i++) {
-				if(marcados[i] == 0 && this.adj[n][i] == 1 && n != i) {
-					percurso.append(i).append(" "); // Visita vértice
-					p.push(n);
-					marcados[i] = 1; // Marca vértice
-					n = i;
-				}
-			}
-		}
-
-		return percurso.toString();
-	}
-
 	// Exercício 13
 	// Método que retorna se um grafo não direcionado é conexo (0) ou desconexo (1)
 	public int getConexidade() {
-		int numVmarcados = this.percursoProfundidade(0).replaceAll("\\s","").length();
+		int numVmarcados = this.depthFirstSearch(0).replaceAll("\\s","").length();
 		if(numVmarcados == this.n) return 0;
 		return 1;
+	}
+
+	public String depthFirstSearch(int src) {
+		boolean[] visited = new boolean[this.n];
+		StringBuilder sb = new StringBuilder();
+		dFSHelper(src, visited, sb);
+		return sb.toString();
+	}
+
+	private void dFSHelper(int src, boolean[] visited, StringBuilder sb) {
+		if(visited[src]) return;
+		visited[src] = true;
+		sb.append(src).append(" ");
+
+		for(int i = 0; i < this.n; i++) {
+			if(this.adj[src][i] == 1) {
+				dFSHelper(i, visited, sb);
+			}
+		}
+
+		return;
+	}
+
+	public void breadthFirstSearch(int src) {
+		FilaCircular queue = new FilaCircular();
+		boolean[] visited = new boolean[this.n];
+
+		queue.enqueue(src);
+		visited[src] = true;
+
+		while(!queue.qIsEmpty()) {
+			src = queue.dequeue();
+			System.out.print(src + " ");
+
+			for(int i = 0; i < this.n; i++) {
+				if(this.adj[src][i] == 1 && !visited[i]) {
+					queue.enqueue(i);
+					visited[i] = true;
+				}
+			}
+		}
 	}
 }
