@@ -272,19 +272,19 @@ public class TGrafo {
 
 	private boolean desconexo(){
 		// Criar a matriz simétrica (não direcionada) do grafo
-        int[][] simetrico = new int[n][n];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (this.adj[i][j] == 1 || this.adj[j][i] == 1) {
-                    simetrico[i][j] = 1;
-                    simetrico[j][i] = 1;
-                }
-            }
-        }
-		// Verificar a conectividade na matriz simétrica usando percurso em profundidade
-        String percurso = percursoProfundidade(0); // Percurso a partir de um vértice qualquer
-        String[] verticesVisitados = percurso.split(" ");
+        	TGrafoDirecionado simetrico = new TGrafoDirecionado(n);
 
-        return verticesVisitados.length != n; // Se não visitou todos os vértices, o grafo é desconexo
+        	for (int i = 0; i < n; i++) {
+            		for (int j = 0; j < n; j++) {
+               			if (this.adj[i][j] == 1 || this.adj[j][i] == 1) {
+                    			simetrico.adj[i][j] = 1;
+                    			simetrico.adj[j][i] = 1;
+                		}
+            		}
+        	}
+
+		// Verificar a conectividade na matriz simétrica usando percurso em profundidade
+       		String percurso = simetrico.percursoProfundidade(0);
+        	return percurso.replaceAll("\\s","").length() != n; // Se não visitou todos os vértices, o grafo é desconexo
 	}
 }
