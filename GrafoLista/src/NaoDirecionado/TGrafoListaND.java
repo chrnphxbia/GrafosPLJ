@@ -204,6 +204,30 @@ public class TGrafoListaND {
 		}
 	}
 
+	// Exercício 24
+	// Método que remove vértice de um grafo não direcionado
+	public void removeV(int v) {
+		while(this.adj[v] != null) removeA(v, adj[v].w);
+
+		TNo aux;
+		int proxIndice;
+		TNo novoVetor[] = new TNo[this.n - 1];
+		
+		for(int i = 0; i < this.n - 1; i++) {
+			proxIndice = i;
+			if(i >= v) proxIndice++;
+			aux = this.adj[proxIndice];
+			while(aux != null) {
+				if(aux.w > v) aux.w--;
+				aux = aux.prox;
+			}
+			novoVetor[i] = this.adj[proxIndice];
+		}
+
+		this.adj = novoVetor;
+		this.n--;
+	}
+
 	// Exercício 26
 	// Verifica se o grafo é completo
 	public int isCompleto() {

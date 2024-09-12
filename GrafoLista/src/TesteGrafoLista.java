@@ -1,4 +1,5 @@
 import Direcionado.*;
+// import NaoDirecionado.*;
 import NaoDirecionado.TGrafoListaND;
 
 public class TesteGrafoLista {
@@ -81,12 +82,12 @@ public class TesteGrafoLista {
 		grafo03.show();
 		System.out.println("\n> Exercício 26: Grafo 03 é completo (Esperado: 1)? " + grafo03.isCompleto());
 
-		// testes nao direcionado
-		System.out.println("teste");
-		TGrafoListaND grafo07 = new TGrafoListaND("exemplosGrafos/grafond.txt");
+		// teste
+		System.out.println("\nTestes de remocao de vertice");
+		TGrafoListaND grafo07 = new TGrafoListaND("exemplosGrafos/exemplo.txt");
 		grafo07.show();
 		System.out.println();
-		grafo07.removeA(2, 4);
+		grafo07.removeV(4);
 		grafo07.show();
 	}
 }
