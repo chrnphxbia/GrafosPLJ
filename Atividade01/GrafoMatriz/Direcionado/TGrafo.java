@@ -293,97 +293,96 @@ public class TGrafo {
  	Método que retorne o grafo reduzido de um grafo direcionado no formato de uma matriz de adjacência
  	*/
 	public TGrafoDirecionado getGrafoReduzido() {
-        // Passo 1: Realizar DFS no grafo original e gravar a ordem de finalização
-        Pilha pilha = new Pilha(n); // Utilizando a classe Pilha em vez de Stack
-        boolean[] visited = new boolean[n];
-
-        for (int i = 0; i < n; i++) {
-            if (!visited[i]) {
-                dfs(i, visited, pilha);
-            }
-        }
-
-        // Passo 2: Reverter o grafo
-        TGrafoDirecionado grafoRevertido = getGrafoRevertido();
-
-        // Passo 3: Realizar DFS no grafo revertido na ordem de finalização
-        Arrays.fill(visited, false); // Limpar o vetor de visitados
-        List<List<Integer>> componentes = new ArrayList<>();
-
-        while (!pilha.isEmpty()) {
-            int v = pilha.pop();
-            if (!visited[v]) {
-                List<Integer> componente = new ArrayList<>();
-                grafoRevertido.dfsRevertido(v, visited, componente);
-                componentes.add(componente);
-            }
-        }
-
-        // Criar o grafo reduzido
-        int numComponentes = componentes.size();
-        TGrafoDirecionado grafoReduzido = new TGrafoDirecionado(numComponentes);
-
-        // Mapear cada vértice original para sua componente
-        int[] componenteDeVertice = new int[n];
-        for (int i = 0; i < numComponentes; i++) {
-            for (int vertice : componentes.get(i)) {
-                componenteDeVertice[vertice] = i;
-            }
-        }
-
-        // Construir o grafo reduzido inserindo arestas entre as componentes
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (this.adj[i][j] == 1) {
-                    int compI = componenteDeVertice[i];
-                    int compJ = componenteDeVertice[j];
-                    if (compI != compJ) {
-                        grafoReduzido.insereA(compI, compJ); // Insere aresta entre componentes
-                    }
-                }
-            }
-        }
-
-        return grafoReduzido;
-    }
-
-    // DFS para gravar a ordem de finalização dos vértices
-    private void dfs(int v, boolean[] visited, Pilha pilha) {
-        visited[v] = true;
-
-        for (int i = 0; i < n; i++) {
-            if (adj[v][i] == 1 && !visited[i]) {
-                dfs(i, visited, pilha);
-            }
-        }
-
-        pilha.push(v); // Inserir o vértice na pilha após a finalização
-    }
-
-    // Retorna o grafo revertido
-    private TGrafoDirecionado getGrafoRevertido() {
-        TGrafoDirecionado grafoRevertido = new TGrafoDirecionado(this.n);
-
-        for (int i = 0; i < this.n; i++) {
-            for (int j = 0; j < this.n; j++) {
-                if (this.adj[i][j] == 1) {
-                    grafoRevertido.insereA(j, i); // Reverte as arestas
-                }
-            }
-        }
-
-        return grafoRevertido;
-    }
-
-    // DFS para encontrar componentes no grafo revertido
-    private void dfsRevertido(int v, boolean[] visited, List<Integer> componente) {
-        visited[v] = true;
-        componente.add(v);
-
-        for (int i = 0; i < n; i++) {
-            if (adj[v][i] == 1 && !visited[i]) {
-                dfsRevertido(i, visited, componente);
-            }
-        }
-    }
+		// Passo 1: DFS no grafo original para obter ordem de finalização
+		Pilha pilha = new Pilha(n);
+		boolean[] visited = new boolean[n];
+		
+		// Usar um único laço DFS para preencher a pilha de finalização
+		for (int i = 0; i < n; i++) {
+			if (!visited[i]) {
+				dfs(i, visited, pilha);
+			}
+		}
+	
+		// Passo 2: Obter grafo revertido
+		TGrafoDirecionado grafoRevertido = getGrafoRevertido();
+	
+		// Passo 3: BFS no grafo revertido para identificar componentes fortemente conectadas
+		Arrays.fill(visited, false); // Limpar o vetor de visitados
+		int[] componenteDeVertice = new int[n];   // Mapear vértices para componentes
+		int numComponentes = 0;   // Contador de componentes
+	
+		// Processar os vértices pela ordem de finalização
+		while (!pilha.isEmpty()) {
+			int v = pilha.pop();
+			if (!visited[v]) {
+				bfsComponente(v, grafoRevertido, visited, componenteDeVertice, numComponentes++);
+			}
+		}
+	
+		// Criar e preencher o grafo reduzido com arestas entre componentes diferentes
+		return construirGrafoReduzido(componenteDeVertice, numComponentes);
+	}
+	
+	// DFS para ordem de finalização
+	private void dfs(int v, boolean[] visited, Pilha pilha) {
+		visited[v] = true;
+		for (int i = 0; i < n; i++) {
+			if (adj[v][i] == 1 && !visited[i]) {
+				dfs(i, visited, pilha);
+			}
+		}
+		pilha.push(v); // Adicionar à pilha após a DFS
+	}
+	
+	// BFS para identificar componentes fortemente conectadas
+	private void bfsComponente(int v, TGrafoDirecionado grafoRevertido, boolean[] visited, int[] componenteDeVertice, int numComponentes) {
+		FilaCircular fila = new FilaCircular(n);
+		fila.enqueue(v);
+		visited[v] = true;
+	
+		while (!fila.qIsEmpty()) {
+			int verticeAtual = fila.dequeue();
+			componenteDeVertice[verticeAtual] = numComponentes;
+	
+			// Visitar vizinhos não visitados
+			for (int i = 0; i < n; i++) {
+				if (grafoRevertido.adj[verticeAtual][i] == 1 && !visited[i]) {
+					fila.enqueue(i);
+					visited[i] = true;
+				}
+			}
+		}
+	}
+	
+	// Construir o grafo reduzido com base nas componentes
+	private TGrafoDirecionado construirGrafoReduzido(int[] componenteDeVertice, int numComponentes) {
+		TGrafoDirecionado grafoReduzido = new TGrafoDirecionado(numComponentes);
+	
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				if (this.adj[i][j] == 1) {
+					int compI = componenteDeVertice[i];
+					int compJ = componenteDeVertice[j];
+					if (compI != compJ) {
+						grafoReduzido.insereA(compI, compJ);
+					}
+				}
+			}
+		}
+		return grafoReduzido;
+	}
+	
+	// Retorna o grafo revertido
+	private TGrafoDirecionado getGrafoRevertido() {
+		TGrafoDirecionado grafoRevertido = new TGrafoDirecionado(n);
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				if (adj[i][j] == 1) {
+					grafoRevertido.insereA(j, i);
+				}
+			}
+		}
+		return grafoRevertido;
+	}
 }
