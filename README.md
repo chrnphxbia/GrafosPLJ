@@ -10,9 +10,9 @@ Alcântara de Oliveira.
 ## Sobre os participantes
 |Nome|GitHub|
 |---|---|
-|Jônatas Garcia de Oliveira|[Jonatas-G-Oliveira](github.com/Jonatas-G-Oliveira)|
-|Livia Alabarse dos Santos|[lihviaa](github.com/lihviaa)|
-|Pedro Henrique Araujo Farias|[chrnphxbia](github.com/chrnphxbia)|
+|Jônatas Garcia de Oliveira|[Jonatas-G-Oliveira](https://github.com/Jonatas-G-Oliveira)|
+|Livia Alabarse dos Santos|[lihviaa](https://github.com/lihviaa)|
+|Pedro Henrique Araujo Farias|[chrnphxbia](https://github.com/chrnphxbia)|
 
 ## Estrutura dos diretórios
 
