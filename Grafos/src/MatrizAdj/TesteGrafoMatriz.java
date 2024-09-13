@@ -129,6 +129,6 @@ public class TesteGrafoMatriz {
 		System.out.println("\n> Exercício 16: Grafo 09 (Direcionado Rotulado) lido do arquivo GDRotulado.txt");
 		grafo09.show();
 
-		System.out.println("|| -------------------------- FIM DOS TESTES -------------------------- ||\n\n");
+		System.out.println("|| -------------------------- FIM DOS TESTES -------------------------- ||");
 	}
 }

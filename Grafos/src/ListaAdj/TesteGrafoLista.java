@@ -2,6 +2,7 @@ package ListaAdj;
 
 import ListaAdj.Direcionado.*;
 import ListaAdj.NaoDirecionado.*;
+import MatrizAdj.Direcionado.TGrafoDirecionado;
 
 public class TesteGrafoLista {
 
@@ -27,6 +28,14 @@ public class TesteGrafoLista {
 		grafo02.insereA(2, 0);
 		grafo02.show();
 		System.out.println("\n> Exercício 17: Grafos 01 e 02 são iguais (Esperado: 1)? " + grafo01.isIgual(grafo02));
+
+		TGrafoListaD grafoLista = new TGrafoListaD("exemplosGrafos/ListaAdj/conversao.txt");
+		System.out.println("\n> Grafo em Lista: ");
+		grafoLista.show();
+		TGrafoDirecionado grafoMatriz = grafoLista.toMatriz();
+		System.out.println("\n> Exercício 18: Convertendo grafo em lista para grafo em matriz: ");
+		System.out.println("\n> Grafo em Matriz: ");
+		grafoMatriz.show();
 
 		System.out.println("\n> Grafo 03:");
 		TGrafoListaD grafo03 = new TGrafoListaD(5);

@@ -3,6 +3,7 @@ package ListaAdj.Direcionado;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+import MatrizAdj.Direcionado.TGrafoDirecionado;
 
 class TNo {
 	public int w; // Vértice adjacente na lista
@@ -119,6 +120,23 @@ public class TGrafoListaD {
             		}
 		}
 		return 1;
+	}
+
+	// Exercício 18
+	// Método que converte grafo direcionado em lista para matriz 
+	public TGrafoDirecionado toMatriz() {
+		TNo aux;
+		TGrafoDirecionado grafoMatriz = new TGrafoDirecionado(this.n);
+
+		for(int i = 0; i < this.n; i++) {
+			aux = this.adj[i];
+			while(aux != null) {
+				grafoMatriz.insereA(i, aux.w);
+				aux = aux.prox;
+			}
+		}
+
+		return grafoMatriz;
 	}
 
     // Exercício 19
