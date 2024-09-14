@@ -1,9 +1,10 @@
 package MatrizAdj.Direcionado;
 
 import java.io.File;
-import java.io.FileNotFoundException;
+import java.util.Arrays;
 import java.util.Scanner;
-
+import MatrizAdj.PPilha.*;
+import java.io.FileNotFoundException;
 import MatrizAdj.FFilaCircular.FilaCircular;
 
 public class TGrafoDirecionado {
@@ -211,6 +212,163 @@ public class TGrafoDirecionado {
 		}
 
 		return temp.adj;
+	}
+
+	// Exercício 14
+	// Método que retorne a categoria de conexidade para um grafo direcionado 
+	// (3 – C3, 2 – C2, 1 – C1 ou 0 – c0).
+	public int getCategoriaConexidade() {
+		// Verifica se é fortemente conexo (C3)
+		if (f_conexo()) { return 3;}
+
+		// Verifica se o grafo é fracamente conexo (C2)
+		if (sf_conexo()) { return 2;}
+
+ 		// Verifica se o grafo é desconexo (C0)
+		if (desconexo()){ return 0;}
+
+		// Caso contrário, é unilateralmente conexo (C1)
+		return 1;
+	}
+
+	private boolean f_conexo(){
+		for (int v = 0; v < n; v++){
+			String percurso = depthFirstSearch(v); // Realiza o percurso em profundidade
+			String[] verticesVisitados = percurso.split(" ");
+			if (verticesVisitados.length != n) {
+				return false; // Se nem todos os vértices foram visitados, não é fortemente conexo
+			}
+		}
+		return true; // Se todos os vértices foram visitados
+	}
+
+	private boolean sf_conexo(){
+		for (int v = 0; v < n; v++){
+			for (int w = 0; w < n; w++){
+				if (v != w){
+					String percursoV = depthFirstSearch(v); // Percurso a partir de v
+					String percursoW = depthFirstSearch(w); // Percurso a partir de w
+					if (!percursoV.contains(String.valueOf(w)) && !percursoW.contains(String.valueOf(v))){
+						return false; // Se não há conexão entre v e w, o grafo não é fracamente conexo
+					}
+				}
+			}
+		}
+		return true;
+	}
+
+	private boolean desconexo(){
+		// Criar a matriz simétrica (não direcionada) do grafo
+        	TGrafoDirecionado simetrico = new TGrafoDirecionado(n);
+
+        	for (int i = 0; i < n; i++) {
+            		for (int j = 0; j < n; j++) {
+               			if (this.adj[i][j] == 1 || this.adj[j][i] == 1) {
+                    			simetrico.adj[i][j] = 1;
+                    			simetrico.adj[j][i] = 1;
+                		}
+            		}
+        	}
+
+		// Verificar a conectividade na matriz simétrica usando percurso em profundidade
+       		String percurso = simetrico.depthFirstSearch(0);
+        	return percurso.replaceAll("\\s","").length() != n; // Se não visitou todos os vértices, o grafo é desconexo
+	}
+
+	// Exercício 15
+ 	// Método que retorne o grafo reduzido de um grafo direcionado no formato de uma matriz de adjacência
+	public TGrafoDirecionado getGrafoReduzido() {
+		// Passo 1: DFS no grafo original para obter ordem de finalização
+		Pilha pilha = new Pilha(n);
+		boolean[] visited = new boolean[n];
+		
+		// Usar um único laço DFS para preencher a pilha de finalização
+		for (int i = 0; i < n; i++) {
+			if (!visited[i]) {
+				dfs(i, visited, pilha);
+			}
+		}
+	
+		// Passo 2: Obter grafo revertido
+		TGrafoDirecionado grafoRevertido = getGrafoRevertido();
+	
+		// Passo 3: BFS no grafo revertido para identificar componentes fortemente conectadas
+		Arrays.fill(visited, false); // Limpar o vetor de visitados
+		int[] componenteDeVertice = new int[n];   // Mapear vértices para componentes
+		int numComponentes = 0;   // Contador de componentes
+	
+		// Processar os vértices pela ordem de finalização
+		while (!pilha.isEmpty()) {
+			int v = pilha.pop();
+			if (!visited[v]) {
+				bfsComponente(v, grafoRevertido, visited, componenteDeVertice, numComponentes++);
+			}
+		}
+	
+		// Criar e preencher o grafo reduzido com arestas entre componentes diferentes
+		return construirGrafoReduzido(componenteDeVertice, numComponentes);
+	}
+
+	// DFS para ordem de finalização
+	private void dfs(int v, boolean[] visited, Pilha pilha) {
+		visited[v] = true;
+		for (int i = 0; i < n; i++) {
+			if (adj[v][i] == 1 && !visited[i]) {
+				dfs(i, visited, pilha);
+			}
+		}
+		pilha.push(v); // Adicionar à pilha após a DFS
+	}
+
+	// BFS para identificar componentes fortemente conectadas
+	private void bfsComponente(int v, TGrafoDirecionado grafoRevertido, boolean[] visited, int[] componenteDeVertice, int numComponentes) {
+		FilaCircular fila = new FilaCircular(n);
+		fila.enqueue(v);
+		visited[v] = true;
+	
+		while (!fila.qIsEmpty()) {
+			int verticeAtual = fila.dequeue();
+			componenteDeVertice[verticeAtual] = numComponentes;
+	
+			// Visitar vizinhos não visitados
+			for (int i = 0; i < n; i++) {
+				if (grafoRevertido.adj[verticeAtual][i] == 1 && !visited[i]) {
+					fila.enqueue(i);
+					visited[i] = true;
+				}
+			}
+		}
+	}
+
+	// Construir o grafo reduzido com base nas componentes
+	private TGrafoDirecionado construirGrafoReduzido(int[] componenteDeVertice, int numComponentes) {
+		TGrafoDirecionado grafoReduzido = new TGrafoDirecionado(numComponentes);
+	
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				if (this.adj[i][j] == 1) {
+					int compI = componenteDeVertice[i];
+					int compJ = componenteDeVertice[j];
+					if (compI != compJ) {
+						grafoReduzido.insereA(compI, compJ);
+					}
+				}
+			}
+		}
+		return grafoReduzido;
+	}
+
+	// Retorna o grafo revertido
+	private TGrafoDirecionado getGrafoRevertido() {
+		TGrafoDirecionado grafoRevertido = new TGrafoDirecionado(n);
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				if (adj[i][j] == 1) {
+					grafoRevertido.insereA(j, i);
+				}
+			}
+		}
+		return grafoRevertido;
 	}
 
 	public String depthFirstSearch(int src) {
