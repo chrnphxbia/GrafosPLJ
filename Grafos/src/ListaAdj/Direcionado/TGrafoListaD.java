@@ -255,6 +255,29 @@ public class TGrafoListaD {
 		}
 	}
 
+
+	//Exericio 25 
+	//Remover os vértices de um grafo dirigido
+	public void removeVertice(int v){
+	vertices--;
+      
+		TNo novaLista[] = new TNo[vertices];
+		int proxIndice = 0;
+
+		//Tratando os elementos do vetor
+      		for(int i = 0;i < vertices;i++){ 
+          		if(i == v){//Pulando uma coluna
+              			proxIndice++;
+          		}
+          
+          	//Tratando os elementos da lista encadeada
+          	removeA(proxIndice,v);
+          	novaLista[i] = adj[proxIndice] ;
+          	proxIndice++;
+      		}
+         this.adj = novaLista;
+    }
+
 	// Exercício 26
 	// Verifica se o grafo é completo
 	public int isCompleto() {
