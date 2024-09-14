@@ -259,13 +259,13 @@ public class TGrafoListaD {
 	//Exericio 25 
 	//Remover os vértices de um grafo dirigido
 	public void removeVertice(int v){
-	vertices--;
+	n--;
       
-		TNo novaLista[] = new TNo[vertices];
+		TNo novaLista[] = new TNo[n];
 		int proxIndice = 0;
 
 		//Tratando os elementos do vetor
-      		for(int i = 0;i < vertices;i++){ 
+      		for(int i = 0;i < n;i++){ 
           		if(i == v){//Pulando uma coluna
               			proxIndice++;
           		}
