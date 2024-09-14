@@ -114,7 +114,7 @@ public class TGrafoNaoDirecionado {
 
 	// Exercício 09
 	// Método que remove vértice de grafo não direcionado
-	// Argumentos: Vértice a ser removido
+	// Argumentos: Vértice a ser removido-
 	public void removeV(int v) {
 		if(v >= this.n) {
 			System.err.println("Não há vértice " + v + " no grafo.\nNão é " +
@@ -145,8 +145,6 @@ public class TGrafoNaoDirecionado {
     public int verificarGrafoCompleto() {
         for(int i = 0; i < this.n; i++) {
             for(int j = 0; j < this.n; j++) {
-                // Diagonal principal precisa ser INFINITY
-                
                 if(i == j  && this.adj[i][j] != 0) {
                     return 0;
                 }

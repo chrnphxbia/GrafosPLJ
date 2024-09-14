@@ -88,19 +88,35 @@ public class TesteGrafoLista {
 		TGrafoListaD grafo05 = new TGrafoListaD("exemplosGrafos/ListaAdj/grafo05.txt");
 		grafo05.show();
 		
-		System.out.println("\n> Exercício 26: Grafo 05 é completo (Esperado: 0)? " + grafo05.isCompleto());
-		System.out.println("\n> Grafo 03:");
-		grafo03.show();
-		System.out.println("\n> Exercício 26: Grafo 03 é completo (Esperado: 1)? " + grafo03.isCompleto());
+		
 
 		// teste
-		System.out.println("\nTestes de remocao de vertice");
+		System.out.println("\n> Exercicio  24: Testes de remocao de vertice");
 		TGrafoListaND grafo07 = new TGrafoListaND("exemplosGrafos/ListaAdj/exemplo.txt");
 		grafo07.show();
 		System.out.println();
 		grafo07.removeV(4);
 		grafo07.show();
 
-		System.out.println("|| -------------------------- FIM DOS TESTES -------------------------- ||");
+		System.out.println("> Exercício 25:Removendo vértice grafo direcionado");
+		TGrafoListaD grafo08 = new TGrafoListaD(4);
+		grafo08.insereA(3, 0);
+        grafo08.insereA(3, 2);
+        grafo08.insereA(1, 2);
+        grafo08.insereA(3, 1);
+		grafo08.insereA(0, 3);
+        grafo08.insereA(2, 3);
+		grafo08.exibirGrafo();
+		System.out.println("\nRemovendo o vertice 2");
+		grafo08.removeVertice(2);
+		grafo08.exibirGrafo();
+
+
+		System.out.println("\n> Exercício 26: Grafo 05 é completo (Esperado: 0)? " + grafo05.isCompleto());
+		System.out.println("\n> Grafo 03:");
+		grafo03.show();
+		System.out.println("\n> Exercício 26: Grafo 03 é completo (Esperado: 1)? " + grafo03.isCompleto());
+
+		System.out.println("\n|| -------------------------- FIM DOS TESTES -------------------------- ||");
 	}
 }
