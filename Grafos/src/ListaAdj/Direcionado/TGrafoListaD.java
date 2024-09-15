@@ -258,25 +258,28 @@ public class TGrafoListaD {
 
 	//Exericio 25 
 	//Remover os vértices de um grafo dirigido
-	public void removeVertice(int v){
-	n--;
-      
-		TNo novaLista[] = new TNo[n];
-		int proxIndice = 0;
+	public void removeV(int v) {
+		while(this.adj[v] != null) removeA(v, adj[v].w);
+		for(int i = 0; i < this.n; i++) removeA(i, v);
 
-		//Tratando os elementos do vetor
-      		for(int i = 0;i < n;i++){ 
-          		if(i == v){//Pulando uma coluna
-              			proxIndice++;
-          		}
-          
-          	//Tratando os elementos da lista encadeada
-          	removeA(proxIndice,v);
-          	novaLista[i] = adj[proxIndice] ;
-          	proxIndice++;
-      		}
-         this.adj = novaLista;
-    }
+		TNo aux;
+		int proxIndice;
+		TNo novoVetor[] = new TNo[this.n - 1];
+		
+		for(int i = 0; i < this.n - 1; i++) {
+			proxIndice = i;
+			if(i >= v) proxIndice++;
+			aux = this.adj[proxIndice];
+			while(aux != null) {
+				if(aux.w > v) aux.w--;
+				aux = aux.prox;
+			}
+			novoVetor[i] = this.adj[proxIndice];
+		}
+
+		this.adj = novoVetor;
+		this.n--;
+	}
 
 	//Ex 25 Helper
 	public void exibirGrafo(){

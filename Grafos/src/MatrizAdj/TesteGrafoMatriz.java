@@ -108,33 +108,15 @@ public class TesteGrafoMatriz {
 		System.out.println("\n> Grafo 02: ");
 		grafo02.show();
 		System.out.println("\n> Exercício 12: Obtendo matriz do grafo complementar ao Grafo 02 (Direcionado):");
-		int[][] matrizCompDir = grafo02.getCompMatriz();
-		for(int i=0; i < grafo02.getVertices(); i++) {
-			System.out.println();
-	        for(int w = 0; w < grafo02.getVertices(); w++) {
-				if(matrizCompDir[i][w] == 1) {
-					System.out.print("Adj[" + i + "," + w + "] = 1" + " ");
-                } else {
-					System.out.print("Adj[" + i + "," + w + "] = 0" + " ");
-                }
-            }
-	    }
+		TGrafoDirecionado matrizCompDir = grafo02.getCompMatriz();
+		matrizCompDir.show();
         System.out.println();
 		
 		System.out.println("\n> Grafo 03: ");
 		grafo03.show();
 		System.out.println("\n> Exercício 12: Obtendo matriz do grafo complementar ao Grafo 03 (Não Direcionado):");
-		int[][] matrizCompND = grafo03.getCompMatriz();
-		for(int i=0; i < grafo03.getVertices(); i++) {
-			System.out.println();
-	        for(int w = 0; w < grafo03.getVertices(); w++) {
-				if(matrizCompND[i][w] == 1) {
-					System.out.print("Adj[" + i + "," + w + "] = 1" + " ");
-                } else {
-					System.out.print("Adj[" + i + "," + w + "] = 0" + " ");
-                }
-            }
-	    }
+		TGrafoNaoDirecionado matrizCompND = grafo03.getCompMatriz();
+		matrizCompND.show();
         System.out.println();
 
 		// Testando conexidade Grafo ND

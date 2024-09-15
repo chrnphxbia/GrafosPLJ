@@ -94,9 +94,17 @@ public class TesteGrafoLista {
 		System.out.println("\n> Grafo 07 Não Direcionado: ");
 		TGrafoListaND grafo07 = new TGrafoListaND("exemplosGrafos/ListaAdj/exemplo.txt");
 		grafo07.show();
-		System.out.println("\n> Exercício 25: Removendo vértice 4 do Grafo 07: \n");
+		System.out.println("\n> Exercício 24: Removendo vértice 4 do Grafo 07: \n");
 		grafo07.removeV(4);
 		grafo07.show();
+
+		// Testando remoção em grafo direcionado
+		System.out.println("\n> Grafo 08 Direcionado: ");
+		TGrafoListaD grafo08 = new TGrafoListaD("exemplosGrafos/ListaAdj/grafo08.txt");
+		grafo08.show();
+		System.out.println("\n> Exercício 25: Removendo vértice 3 do Grafo 08: \n");
+		grafo08.removeV(3);
+		grafo08.show();
 
 		System.out.println("\n> Grafo 05: ");
 		grafo05.show();

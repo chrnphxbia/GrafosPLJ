@@ -200,7 +200,7 @@ public class TGrafoDirecionado {
 
 	// Exercício 12
 	// Método que retorna complemento de um grafo direcionado em forma de matriz
-	public int[][] getCompMatriz() {
+	public TGrafoDirecionado getCompMatriz() {
 		TGrafoDirecionado temp = new TGrafoDirecionado(this.n);
 
 		for(int i = 0; i < this.n; i++) {
@@ -211,7 +211,7 @@ public class TGrafoDirecionado {
 			}
 		}
 
-		return temp.adj;
+		return temp;
 	}
 
 	// Exercício 14

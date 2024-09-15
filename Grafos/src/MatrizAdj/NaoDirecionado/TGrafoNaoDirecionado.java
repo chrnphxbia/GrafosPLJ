@@ -3,7 +3,6 @@ package MatrizAdj.NaoDirecionado;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
 import MatrizAdj.FFilaCircular.*;;
 
 public class TGrafoNaoDirecionado {
@@ -159,7 +158,7 @@ public class TGrafoNaoDirecionado {
 
 	// Exercício 12
 	// Método que retorna a matriz do grafo complementar de um não direcionado
-	public int[][] getCompMatriz() {
+	public TGrafoNaoDirecionado getCompMatriz() {
 		TGrafoNaoDirecionado temp = new TGrafoNaoDirecionado(this.n);
 
 		for(int i = 0; i < this.n; i++) {
@@ -170,7 +169,7 @@ public class TGrafoNaoDirecionado {
 			}
 		}
 
-		return temp.adj;
+		return temp;
 	}
 
 	// Exercício 13
