@@ -77,6 +77,14 @@ public class TesteGrafoMatriz {
 		grafo05.insereA(3, 2);
 		grafo05.show();
 		System.out.println("\n> Exercício 10: Grafo 05 é Completo (Esperado: 1)? " + grafo05.verificarGrafoCompleto());
+
+		System.out.println("\n> Grafo 05b - Grafo Não Direcionado Incompleto");
+		TGrafoNaoDirecionado grafo05b = new TGrafoNaoDirecionado(4);
+		grafo05b.insereA(0, 1);
+		grafo05b.insereA(1, 2);
+		grafo05b.insereA(1, 3);
+		grafo05b.show();
+		System.out.println("\n> Exercício 10: Grafo 05 é Completo (Esperado: 0)? " + grafo05b.verificarGrafoCompleto());
 		
 		System.out.println("\n> Grafo 06 - Grafo Direcionado Completo");
 		TGrafoDirecionado grafo06 = new TGrafoDirecionado(3);
@@ -88,6 +96,14 @@ public class TesteGrafoMatriz {
 		grafo06.insereA(2, 1);
 		grafo06.show();
 		System.out.println("\n> Exercício 11: Grafo 06 é Completo (Esperado: 1)? " + grafo06.isCompleto());
+
+		System.out.println("\n> Grafo 06 - Grafo Direcionado Incompleto");
+		TGrafoDirecionado grafo06b = new TGrafoDirecionado(3);
+		grafo06b.insereA(0, 1);
+		grafo06b.insereA(0, 2);
+		grafo06b.insereA(1, 0);
+		grafo06b.show();
+		System.out.println("\n> Exercício 11: Grafo 06 é Completo (Esperado: 0)? " + grafo06b.isCompleto());
 
 		System.out.println("\n> Grafo 02: ");
 		grafo02.show();

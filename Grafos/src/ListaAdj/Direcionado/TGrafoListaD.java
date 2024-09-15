@@ -255,6 +255,41 @@ public class TGrafoListaD {
 		}
 	}
 
+
+	//Exericio 25 
+	//Remover os vértices de um grafo dirigido
+	public void removeVertice(int v){
+	n--;
+      
+		TNo novaLista[] = new TNo[n];
+		int proxIndice = 0;
+
+		//Tratando os elementos do vetor
+      		for(int i = 0;i < n;i++){ 
+          		if(i == v){//Pulando uma coluna
+              			proxIndice++;
+          		}
+          
+          	//Tratando os elementos da lista encadeada
+          	removeA(proxIndice,v);
+          	novaLista[i] = adj[proxIndice] ;
+          	proxIndice++;
+      		}
+         this.adj = novaLista;
+    }
+
+	//Ex 25 Helper
+	public void exibirGrafo(){
+		for(int i = 0; i < n;i++){
+			TNo aux = adj[i];
+			System.out.print("\nVertice [" + i + "] :" );
+			while(aux != null){
+				System.out.print(" -> [" + aux.w +"]");
+				aux  = aux.prox;
+			}
+		}
+	 }
+
 	// Exercício 26
 	// Verifica se o grafo é completo
 	public int isCompleto() {
