@@ -414,4 +414,37 @@ public class TGrafoDirecionado {
 
 		return sb.toString();
 	}
+
+	// ORDENAÇÃO TOPOLÓGICA
+    public void ordenacaoTopologica(){
+        int[] grauEntrada = new int[n];
+        FilaCircular fila = new FilaCircular(n);
+
+        // Inicializar os graus de entrada e enfileirar vértices com grau 0
+        for (int v = 0; v < n; v ++) {
+            grauEntrada[v] = inDegree(v);
+            if(grauEntrada[v] == 0) {
+                fila.enqueue(v);
+                grauEntrada[v] = -1;
+            }
+        }
+
+        // Processar a fila até que fique vazia
+        while (!fila.qIsEmpty()) {
+            int v = fila.dequeue();
+            System.out.print(v + " ");
+
+            // Atualizar o grau de entrada dos vértices adjacentes
+            for(int w = 0; w < n; w++){
+                if(this.adj[v][w] == 1){
+                    grauEntrada[w]--;
+                    if(grauEntrada[w] == 0){
+                        fila.enqueue(w);
+                        grauEntrada[w] = -1;
+                    }
+                }
+            }
+        }
+        System.out.println();
+    }
 }
