@@ -24,7 +24,7 @@ public class TesteGrafoLista {
 		grafo02.show();
 
 		System.out.println("\n> Exercício 17: Grafos 01 e 02 são iguais (Esperado: 0)? " + grafo01.isIgual(grafo02));
-		System.out.println("> Adicionando vértice (2, 0) ao grafo 02");
+		System.out.println("\n> Adicionando vértice (2, 0) ao grafo 02");
 		grafo02.insereA(2, 0);
 		grafo02.show();
 		System.out.println("\n> Exercício 17: Grafos 01 e 02 são iguais (Esperado: 1)? " + grafo01.isIgual(grafo02));
@@ -79,6 +79,8 @@ public class TesteGrafoLista {
 		System.out.println("\n> Exercício 21: Vértice 2 é Sorvedouro (Esperado: 1)? " + grafo06.isSorvedouro(2));
 		System.out.println("\n> Exercício 21: Vértice 0 é Sorvedouro (Esperado: 0)? " + grafo06.isSorvedouro(0));
 		
+		System.out.println("\n> Grafo 04:");
+		grafo04.show();
 		System.out.println("\n> Exercício 22: Grafo 04 é simétrico (Esperado: 0)? " + grafo04.isSimetric());
 		System.out.println("\n> Grafo 03:");
 		grafo03.show();
@@ -88,19 +90,21 @@ public class TesteGrafoLista {
 		TGrafoListaD grafo05 = new TGrafoListaD("exemplosGrafos/ListaAdj/grafo05.txt");
 		grafo05.show();
 		
+		// Testando remoção em grafo não direcionado
+		System.out.println("\n> Grafo 07 Não Direcionado: ");
+		TGrafoListaND grafo07 = new TGrafoListaND("exemplosGrafos/ListaAdj/exemplo.txt");
+		grafo07.show();
+		System.out.println("\n> Exercício 25: Removendo vértice 4 do Grafo 07: \n");
+		grafo07.removeV(4);
+		grafo07.show();
+
+		System.out.println("\n> Grafo 05: ");
+		grafo05.show();
 		System.out.println("\n> Exercício 26: Grafo 05 é completo (Esperado: 0)? " + grafo05.isCompleto());
 		System.out.println("\n> Grafo 03:");
 		grafo03.show();
 		System.out.println("\n> Exercício 26: Grafo 03 é completo (Esperado: 1)? " + grafo03.isCompleto());
 
-		// teste
-		System.out.println("\nTestes de remocao de vertice");
-		TGrafoListaND grafo07 = new TGrafoListaND("exemplosGrafos/ListaAdj/exemplo.txt");
-		grafo07.show();
-		System.out.println();
-		grafo07.removeV(4);
-		grafo07.show();
-
-		System.out.println("|| -------------------------- FIM DOS TESTES -------------------------- ||");
+		System.out.println("\n|| -------------------------- FIM DOS TESTES -------------------------- ||");
 	}
 }
