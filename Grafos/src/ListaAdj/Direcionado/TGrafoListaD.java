@@ -281,18 +281,6 @@ public class TGrafoListaD {
 		this.n--;
 	}
 
-	//Ex 25 Helper
-	public void exibirGrafo(){
-		for(int i = 0; i < n;i++){
-			TNo aux = adj[i];
-			System.out.print("\nVertice [" + i + "] :" );
-			while(aux != null){
-				System.out.print(" -> [" + aux.w +"]");
-				aux  = aux.prox;
-			}
-		}
-	 }
-
 	// Exercício 26
 	// Verifica se o grafo é completo
 	public int isCompleto() {

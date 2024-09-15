@@ -22,9 +22,12 @@ public class TesteGrafoMatriz {
 		"(Esperado: 2): " + grafo01.inDegree(1));
 		System.out.println("> Exercício 02: Grau de saída do vértice 1 " +
 		"(Esperado: 1): " + grafo01.outDegree(1));
-		System.out.println("> Exercício 03: Vértice 0 é fonte (Esperado: 1)? " + grafo01.isFonte(0));
-		System.out.println("> Exercício 04: Vértice 3 é sorvedouro (Esperado: 1)? " + grafo01.isSorvedouro(3));
-		System.out.println("> Exercício 05: O grafo é simétrico (Esperado: 0)? " + grafo01.isSimetrico());
+		System.out.println("> Exercício 03: Vértice 0 é fonte (Esperado: 1)? " + 
+		grafo01.isFonte(0));
+		System.out.println("> Exercício 04: Vértice 3 é sorvedouro (Esperado: 1)? " + 
+		grafo01.isSorvedouro(3));
+		System.out.println("> Exercício 05: O grafo é simétrico (Esperado: 0)? " + 
+		grafo01.isSimetrico());
         
         // Testando construtor por arquivo
         System.out.println("\n> Exercício 06: Grafo 02 - Grafo Direcionado construído a partir do arquivo leitura.txt");

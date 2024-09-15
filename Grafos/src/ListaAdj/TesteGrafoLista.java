@@ -61,7 +61,8 @@ public class TesteGrafoLista {
 		grafo03.insereA(4, 3);
 		grafo03.show();
 		grafo03.inverteLista();
-		System.out.println("\n> Exercício 19: Invertendo listas de adjacência do grafo 03: ");
+		System.out.println("\n> Exercício 19: Invertendo " + 
+		"listas de adjacência do grafo 03: ");
 		grafo03.show();
 		
 		TGrafoListaD grafo04 = new TGrafoListaD(3);

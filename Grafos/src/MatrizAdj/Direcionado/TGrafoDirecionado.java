@@ -220,13 +220,10 @@ public class TGrafoDirecionado {
 	public int getCategoriaConexidade() {
 		// Verifica se é fortemente conexo (C3)
 		if (f_conexo()) { return 3;}
-
 		// Verifica se o grafo é fracamente conexo (C2)
 		if (sf_conexo()) { return 2;}
-
  		// Verifica se o grafo é desconexo (C0)
 		if (desconexo()){ return 0;}
-
 		// Caso contrário, é unilateralmente conexo (C1)
 		return 1;
 	}
