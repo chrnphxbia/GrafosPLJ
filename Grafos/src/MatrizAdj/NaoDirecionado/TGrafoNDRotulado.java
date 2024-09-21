@@ -1,5 +1,10 @@
 package MatrizAdj.NaoDirecionado;
 
+import java.io.File;
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.io.FileNotFoundException;
+
 public class TGrafoNDRotulado {
     private	int n; // Número de vértices
 	private	int m; // Número de arestas
@@ -17,6 +22,41 @@ public class TGrafoNDRotulado {
                 this.adj[i][j] = Float.POSITIVE_INFINITY;	
             }
         }
+	}
+
+	public TGrafoNDRotulado(String arquivo) {
+		try {
+			int origem, destino;
+            Float peso;
+
+			Scanner scanner = new Scanner(new File(arquivo));
+			this.n = scanner.nextInt();
+			int linhas = scanner.nextInt();
+
+			this.adj = new Float[this.n][this.n];
+			
+			for(int i = 0; i < n; i++) {
+				for(int j = 0; j < n; j++) {
+					this.adj[i][j] = Float.POSITIVE_INFINITY;
+				}
+			}
+
+			for(int k = 0; k < linhas; k++) {
+				origem = scanner.nextInt();
+				destino = scanner.nextInt();
+                peso = Float.parseFloat(scanner.nextLine());
+				if(this.adj[origem][destino] == Float.POSITIVE_INFINITY) {
+					this.adj[origem][destino] = peso;
+					this.adj[destino][origem] = peso;
+					this.m++; // atualiza qtd arestas
+				}
+			}
+
+			scanner.close();
+
+		} catch (FileNotFoundException e) {
+			System.err.println("Arquivo não encontrado.");
+		}
 	}
 
     // Método que insere uma aresta no grafo não direcionado
@@ -54,5 +94,96 @@ public class TGrafoNDRotulado {
             }
 	    }
         System.out.println();
+	}
+
+	public ArrayList<Integer> getSucessores(int vertice) {
+		ArrayList<Integer> sucessores = new ArrayList<Integer>();
+
+		for(int i = 0; i < this.n; i++) {
+			if(this.adj[vertice][i] != Float.POSITIVE_INFINITY) {
+				sucessores.add(i);
+			}
+		}
+
+		return sucessores;
+	}
+
+	// metodo que determina r
+	public int getVerticeDistanciaMinima(float[] distancias, ArrayList<Integer> abertos) {
+		float min = distancias[abertos.getFirst()];
+		int verticemin = abertos.getFirst();
+
+		for(Integer vertice : abertos) {
+			if(distancias[vertice] < min) {
+				min = distancias[vertice];
+				verticemin = vertice;
+			}	
+		}
+
+		return verticemin;
+	}
+
+	public ArrayList<Integer> getVizinhosDisponiveis(ArrayList<Integer> abertos, ArrayList<Integer> sucessores) {
+		ArrayList<Integer> vizinhosDisponiveis = new ArrayList<Integer>();
+		
+		for(Integer vertice : sucessores) {
+			if(abertos.indexOf(vertice) != -1) { // se retorno != -1, entao vertice sucessor esta disponivel
+				vizinhosDisponiveis.add(vertice);
+			}
+		}
+		
+		return vizinhosDisponiveis;
+	}
+
+	public void intVetor(int[] vetor, String nome) {
+		System.out.print(nome + ": ");
+		for(int i = 0; i < this.n; i++) {
+			System.out.print(vetor[i] + " ");
+		}
+		System.out.println();
+	}
+
+	public void floatVetor(float[] vetor, String nome) {
+		System.out.print(nome + ": ");
+		for(int i = 0; i < this.n; i++) {
+			System.out.print(vetor[i] + " ");
+		}
+		System.out.println();
+	}
+
+	public void getDijkstra(int inicio) {
+		ArrayList<Integer> vizinhosDisponiveis = new ArrayList<Integer>();
+		ArrayList<Integer> abertos = new ArrayList<Integer>(); // abertos e fechados
+		float[] distancias = new float[this.n]; // d
+		int[] rotas = new int[this.n]; // rot
+		float concorrente;
+		int atual; // r
+
+		// Inicializando vetores
+		for(int i = 0; i < this.n; i++) {
+			rotas[i] = 0;
+			abertos.add(i); 
+			distancias[i] = Float.POSITIVE_INFINITY;
+		}
+		
+		distancias[inicio] = 0; // Vertice inicial tem distancia 0 de si mesmo
+		vizinhosDisponiveis.add(inicio);
+		
+		while (!abertos.isEmpty()) {
+			atual = getVerticeDistanciaMinima(distancias, abertos);
+			abertos.remove(abertos.indexOf(atual));
+			vizinhosDisponiveis = getVizinhosDisponiveis(abertos, getSucessores(atual));
+
+			for(Integer vizinho : vizinhosDisponiveis) {
+				concorrente = Math.min(distancias[vizinho], (distancias[atual] + this.adj[atual][vizinho]));
+				if(concorrente < distancias[vizinho]) {
+					distancias[vizinho] = concorrente;
+					rotas[vizinho] = atual;
+				}
+			}
+		}
+
+		floatVetor(distancias, "distancias");
+		intVetor(rotas, "rotas");
 	}
 }

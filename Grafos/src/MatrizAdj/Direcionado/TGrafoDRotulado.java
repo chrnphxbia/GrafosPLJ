@@ -1,8 +1,9 @@
 package MatrizAdj.Direcionado;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Scanner;
+import java.util.ArrayList;
+import java.io.FileNotFoundException;
 
 public class TGrafoDRotulado {
 	private	int n; // Número de vértices
@@ -195,5 +196,96 @@ public class TGrafoDRotulado {
 			}
 		}
 		return 1;
+	}
+
+	public ArrayList<Integer> getSucessores(int vertice) {
+		ArrayList<Integer> sucessores = new ArrayList<Integer>();
+
+		for(int i = 0; i < this.n; i++) {
+			if(this.adj[vertice][i] != Float.POSITIVE_INFINITY) {
+				sucessores.add(i);
+			}
+		}
+
+		return sucessores;
+	}
+
+	// metodo que determina r
+	public int getVerticeDistanciaMinima(float[] distancias, ArrayList<Integer> abertos) {
+		float min = distancias[abertos.getFirst()];
+		int verticemin = abertos.getFirst();
+
+		for(Integer vertice : abertos) {
+			if(distancias[vertice] < min) {
+				min = distancias[vertice];
+				verticemin = vertice;
+			}	
+		}
+
+		return verticemin;
+	}
+
+	public ArrayList<Integer> getVizinhosDisponiveis(ArrayList<Integer> abertos, ArrayList<Integer> sucessores) {
+		ArrayList<Integer> vizinhosDisponiveis = new ArrayList<Integer>();
+		
+		for(Integer vertice : sucessores) {
+			if(abertos.indexOf(vertice) != -1) { // se retorno != -1, entao vertice sucessor esta disponivel
+				vizinhosDisponiveis.add(vertice);
+			}
+		}
+		
+		return vizinhosDisponiveis;
+	}
+
+	public void intVetor(int[] vetor, String nome) {
+		System.out.print(nome + ": ");
+		for(int i = 0; i < this.n; i++) {
+			System.out.print(vetor[i] + " ");
+		}
+		System.out.println();
+	}
+
+	public void floatVetor(float[] vetor, String nome) {
+		System.out.print(nome + ": ");
+		for(int i = 0; i < this.n; i++) {
+			System.out.print(vetor[i] + " ");
+		}
+		System.out.println();
+	}
+
+	public void getDijkstra(int inicio) {
+		ArrayList<Integer> vizinhosDisponiveis = new ArrayList<Integer>();
+		ArrayList<Integer> abertos = new ArrayList<Integer>(); // abertos e fechados
+		float[] distancias = new float[this.n]; // d
+		int[] rotas = new int[this.n]; // rot
+		float concorrente;
+		int atual; // r
+
+		// Inicializando vetores
+		for(int i = 0; i < this.n; i++) {
+			rotas[i] = 0;
+			abertos.add(i); 
+			distancias[i] = Float.POSITIVE_INFINITY;
+		}
+		
+		distancias[inicio] = 0; // Vertice inicial tem distancia 0 de si mesmo
+		vizinhosDisponiveis.add(inicio);
+		
+		while (!abertos.isEmpty()) {
+			atual = getVerticeDistanciaMinima(distancias, abertos);
+			abertos.remove(abertos.indexOf(atual));
+			vizinhosDisponiveis = getVizinhosDisponiveis(abertos, getSucessores(atual));
+
+			for(Integer vizinho : vizinhosDisponiveis) {
+				concorrente = Math.min(distancias[vizinho], (distancias[atual] + this.adj[atual][vizinho]));
+				if(concorrente < distancias[vizinho]) {
+					distancias[vizinho] = concorrente;
+					rotas[vizinho] = atual;
+				}
+			}
+		}
+
+		floatVetor(distancias, "distancias");
+		intVetor(rotas, "rotas");
 	}
 }
