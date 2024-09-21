@@ -96,12 +96,28 @@ public class TGrafoNDRotulado {
         System.out.println();
 	}
 
+	public void printIntVetor(int[] vetor, String nome) {
+		System.out.print(nome + ": ");
+		for(int i = 0; i < this.n; i++) {
+			System.out.print(vetor[i] + " ");
+		}
+		System.out.println();
+	}
+
+	public void printFloatVetor(float[] vetor, String nome) {
+		System.out.print(nome + ": ");
+		for(int i = 0; i < this.n; i++) {
+			System.out.print(vetor[i] + " ");
+		}
+		System.out.println();
+	}
+
 	public ArrayList<Integer> getSucessores(int vertice) {
 		ArrayList<Integer> sucessores = new ArrayList<Integer>();
 
-		for(int i = 0; i < this.n; i++) {
-			if(this.adj[vertice][i] != Float.POSITIVE_INFINITY) {
-				sucessores.add(i);
+		for(int i = 0; i < this.n; i++) { // percorre linha do vertice
+			if(this.adj[vertice][i] != Float.POSITIVE_INFINITY) { // verifica se ha peso
+				sucessores.add(i); // adiciona sucessor
 			}
 		}
 
@@ -110,13 +126,13 @@ public class TGrafoNDRotulado {
 
 	// metodo que determina r
 	public int getVerticeDistanciaMinima(float[] distancias, ArrayList<Integer> abertos) {
-		float min = distancias[abertos.getFirst()];
-		int verticemin = abertos.getFirst();
+		float min = distancias[abertos.getFirst()]; // Menor distancia inicial
+		int verticemin = abertos.getFirst(); // Vertice minimo e o primeiro vertice nos abertos
 
-		for(Integer vertice : abertos) {
-			if(distancias[vertice] < min) {
-				min = distancias[vertice];
-				verticemin = vertice;
+		for(Integer vertice : abertos) { // Percorre conjunto de abertos
+			if(distancias[vertice] < min) { // Se distancia menor for encontrada
+				min = distancias[vertice]; // Atualiza menor distancia
+				verticemin = vertice; // Atualiza vertice da menor distancia
 			}	
 		}
 
@@ -127,63 +143,48 @@ public class TGrafoNDRotulado {
 		ArrayList<Integer> vizinhosDisponiveis = new ArrayList<Integer>();
 		
 		for(Integer vertice : sucessores) {
-			if(abertos.indexOf(vertice) != -1) { // se retorno != -1, entao vertice sucessor esta disponivel
-				vizinhosDisponiveis.add(vertice);
+			if(abertos.indexOf(vertice) != -1) { // Se retorno != -1,
+				vizinhosDisponiveis.add(vertice); // entao vizinho esta disponivel
 			}
 		}
 		
 		return vizinhosDisponiveis;
 	}
 
-	public void intVetor(int[] vetor, String nome) {
-		System.out.print(nome + ": ");
-		for(int i = 0; i < this.n; i++) {
-			System.out.print(vetor[i] + " ");
-		}
-		System.out.println();
-	}
-
-	public void floatVetor(float[] vetor, String nome) {
-		System.out.print(nome + ": ");
-		for(int i = 0; i < this.n; i++) {
-			System.out.print(vetor[i] + " ");
-		}
-		System.out.println();
-	}
-
 	public void getDijkstra(int inicio) {
-		ArrayList<Integer> vizinhosDisponiveis = new ArrayList<Integer>();
-		ArrayList<Integer> abertos = new ArrayList<Integer>(); // abertos e fechados
-		float[] distancias = new float[this.n]; // d
-		int[] rotas = new int[this.n]; // rot
-		float concorrente;
-		int atual; // r
+		ArrayList<Integer> vizinhosDisponiveis = new ArrayList<Integer>(); // S
+		ArrayList<Integer> abertos = new ArrayList<Integer>(); // Conjunto de vertices abertos (ainda nao visitados)
+		float[] distancias = new float[this.n]; // Vetor de distancias 
+		int[] rotas = new int[this.n]; // Vetor de rotas
+		float concorrente; // Distancia concorrente como distancia minima
+		int atual; // Vertice atualmente visitado, r
 
 		// Inicializando vetores
 		for(int i = 0; i < this.n; i++) {
-			rotas[i] = 0;
+			rotas[i] = 0; 
 			abertos.add(i); 
 			distancias[i] = Float.POSITIVE_INFINITY;
 		}
 		
 		distancias[inicio] = 0; // Vertice inicial tem distancia 0 de si mesmo
-		vizinhosDisponiveis.add(inicio);
+		vizinhosDisponiveis.add(inicio); // S e iniciado como inicio
 		
-		while (!abertos.isEmpty()) {
-			atual = getVerticeDistanciaMinima(distancias, abertos);
-			abertos.remove(abertos.indexOf(atual));
-			vizinhosDisponiveis = getVizinhosDisponiveis(abertos, getSucessores(atual));
+		while (!abertos.isEmpty()) { // Enquanto ha vertices nao visitados
+			atual = getVerticeDistanciaMinima(distancias, abertos); // Obtem r
+			abertos.remove(abertos.indexOf(atual)); // Remove r dos abertos
+			vizinhosDisponiveis = getVizinhosDisponiveis(abertos, getSucessores(atual)); // Obtem S
 
-			for(Integer vizinho : vizinhosDisponiveis) {
+			for(Integer vizinho : vizinhosDisponiveis) { // Percorre elementos de S
+				// p = min(d_i, (d_r + v_ri))
 				concorrente = Math.min(distancias[vizinho], (distancias[atual] + this.adj[atual][vizinho]));
-				if(concorrente < distancias[vizinho]) {
-					distancias[vizinho] = concorrente;
-					rotas[vizinho] = atual;
+				if(concorrente < distancias[vizinho]) { // Se menor distancia encontrada
+					distancias[vizinho] = concorrente; // Atualiza distancia ate vertice vizinho
+					rotas[vizinho] = atual; // Atualiza rota para vertice vizinho
 				}
 			}
 		}
 
-		floatVetor(distancias, "distancias");
-		intVetor(rotas, "rotas");
+		printFloatVetor(distancias, "Distâncias");
+		printIntVetor(rotas, "Rotas");
 	}
 }
