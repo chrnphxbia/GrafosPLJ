@@ -1,9 +1,22 @@
+/*  
+    INTEGRANTES DO PROJETO ARAGRAPH
+    Jônatas Garcia de Oliveira      10396490
+    Livia Alabarse dos Santos       10403046
+    Pedro Henrique Araujo Farias    10265432
+
+    Este arquivo apresenta a classe de testes utilizada durante desenvolvimento
+    para avaliação da corretude dos métodos implementados na classe WUGraph.
+
+    DATA            AUTOR       ATUALIZAÇÃO       
+    23/09/2024;     Pedro       Adicionada classe de Teste
+*/
+
 import graph.WUGraph;
 
 public class Test {
     public static void main(String[] args) throws Exception {
-        WUGraph grafo = new WUGraph("assets/temp.txt");
-        // grafo.show();
+        WUGraph grafo = new WUGraph("assets/grafo.txt");
+        grafo.show();
         grafo.writeToFile("grafoteste.txt");
         grafo.show();
         System.out.println();

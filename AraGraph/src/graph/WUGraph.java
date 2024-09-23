@@ -1,9 +1,24 @@
+/*  
+    INTEGRANTES DO PROJETO ARAGRAPH
+    Jônatas Garcia de Oliveira      10396490
+    Livia Alabarse dos Santos       10403046
+    Pedro Henrique Araujo Farias    10265432
+
+    Este arquivo apresenta a classe de implementação de um Grafo Não Direcionado
+	Rotulado (Weighted Undirected Graph), a partir da qual serão realizadas 
+	chamadas para processamento dos métodos da estrutura de dados.
+
+    DATA            AUTOR       ATUALIZAÇÃO       
+    23/09/2024;     Pedro       Corrigido DFS
+*/
+
 package graph;
 
 import java.io.File;
 import java.util.Scanner;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.io.FileNotFoundException;
 
 public class WUGraph {
@@ -11,6 +26,10 @@ public class WUGraph {
 	private	int m; // Número de arestas
 	private	Integer adj[][]; // Matriz de adjacência
 	private String rotulos[]; // Rótulos dos vértices
+	// Posteriormente, receberá um vetor do tipo Ave
+
+	// Método Construtor Vazio
+	public WUGraph() {} 
 
     // Método Construtor
     // Argumentos: Número de vértices do grafo
@@ -167,30 +186,31 @@ public class WUGraph {
 
 	// Método que retorna se grafo é conexo (0) ou desconexo (1)
 	public int getConexidade() {
-		int numVmarcados = this.depthFirstSearch(0).replaceAll("\\s","").length();
-		if(numVmarcados == this.n) return 0;
+		ArrayList<Integer> verticesVisitados = depthFirstSearch(0);
+		int numVisitados = verticesVisitados.size();
+		if(numVisitados == this.n) return 0;
 		return 1;
 	}
 
 	// Método que realiza busca em profundidade no grafo
 	// Argumentos: Vértice de origem
-	public String depthFirstSearch(int src) {
+	public ArrayList<Integer> depthFirstSearch(int src) {
 		boolean[] visited = new boolean[this.n];
-		StringBuilder sb = new StringBuilder();
-		dFSHelper(src, visited, sb);
-		return sb.toString();
+		ArrayList<Integer> vertices = new ArrayList<Integer>();
+		dFSHelper(src, visited, vertices);
+		return vertices;
 	}
 
 	// Método auxiliar para busca em profundidade no grafo 
-	// Argumentos: Vértice de origem, vetor de vértices visitados, String de caminho em profundidade
-	private void dFSHelper(int src, boolean[] visited, StringBuilder sb) {
+	// Argumentos: Vértice de origem, vetor de vértices visitados, vetor de vértices do percurso
+	private void dFSHelper(int src, boolean[] visited, ArrayList<Integer> vertices) {
 		if(visited[src]) return;
 		visited[src] = true;
-		sb.append(src).append(" ");
+		vertices.add(src);
 
 		for(int i = 0; i < this.n; i++) {
 			if(this.adj[src][i] != Integer.MAX_VALUE) {
-				dFSHelper(i, visited, sb);
+				dFSHelper(i, visited, vertices);
 			}
 		}
 
@@ -239,11 +259,10 @@ public class WUGraph {
 	// Método que guarda os dados do grafo de acordo com formato definido em grafo.txt
 	// Argumentos: Nome do arquivo onde serão gravados os dados (grafo.txt)
 	public void writeToFile(String fileName) {
-		String path = "assets/";
 		int origem, destino, peso;
 
 		try {
-			FileWriter writer = new FileWriter(path.concat(fileName));
+			FileWriter writer = new FileWriter(fileName);
 
 			writer.write("2\n"); // Escrevendo tipo do grafo
 			writer.write(this.n + "\n"); // Escrevendo número de vértices
@@ -261,6 +280,8 @@ public class WUGraph {
 				for(int j = 0; j < this.n; j++) {
 					if(i != j) aux[i][j] = 0; 
 					else aux[i][j] = 1; // Ignora-se laços
+					// Ignora arestas que não existem (inf)
+					if(this.adj[i][j] == Integer.MAX_VALUE) aux[i][j] = 1;
 				}
 			}
 
@@ -271,7 +292,8 @@ public class WUGraph {
 
 			for(int i = 0; i < this.n; i++) {
 				for(int j = 0; j < this.n; j++) {
-					if(aux[i][j] != 1) { // Se aresta ainda não foi gravada
+					// Se aresta ainda não foi gravada
+					if(aux[i][j] != 1) { 
 						origem = i; // Vértice de origem
 						destino = j; // Vértice de destino
 						peso = this.adj[origem][destino]; // Peso da aresta
@@ -287,7 +309,6 @@ public class WUGraph {
 			}
 
 			writer.close();
-			System.out.println("Dados gravados em grafo.");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
