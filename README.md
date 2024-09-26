@@ -15,4 +15,7 @@ Alcântara de Oliveira.
 |Pedro Henrique Araujo Farias|[chrnphxbia](https://github.com/chrnphxbia)|
 
 ## Estrutura dos diretórios
-
+|Diretório|Descrição|
+|---------|---------|
+|AraGraph|Implementação da aplicação de projeto de Teoria dos Grafos|
+|Grafos|Implementação baseada nos 26 exercícios propostos de Teoria dos Grafos|
