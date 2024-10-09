@@ -1,6 +1,7 @@
 package MatrizAdj.Direcionado;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 import MatrizAdj.PPilha.*;
@@ -219,33 +220,32 @@ public class TGrafoDirecionado {
 	// (3 – C3, 2 – C2, 1 – C1 ou 0 – c0).
 	public int getCategoriaConexidade() {
 		// Verifica se é fortemente conexo (C3)
-		if (f_conexo()) { return 3;}
+		if (f_conexo()) { return 3; }
 		// Verifica se o grafo é fracamente conexo (C2)
-		if (sf_conexo()) { return 2;}
+		if (sf_conexo()) { return 2; }
  		// Verifica se o grafo é desconexo (C0)
-		if (desconexo()){ return 0;}
+		if (desconexo()) { return 0; }
 		// Caso contrário, é unilateralmente conexo (C1)
 		return 1;
 	}
 
-	private boolean f_conexo(){
+	private boolean f_conexo() {
 		for (int v = 0; v < n; v++){
-			String percurso = depthFirstSearch(v); // Realiza o percurso em profundidade
-			String[] verticesVisitados = percurso.split(" ");
-			if (verticesVisitados.length != n) {
+			ArrayList<Integer> percurso = depthFirstSearch(v); // Realiza o percurso em profundidade
+			if (percurso.size() != n) {
 				return false; // Se nem todos os vértices foram visitados, não é fortemente conexo
 			}
 		}
 		return true; // Se todos os vértices foram visitados
 	}
 
-	private boolean sf_conexo(){
+	private boolean sf_conexo() {
 		for (int v = 0; v < n; v++){
 			for (int w = 0; w < n; w++){
 				if (v != w){
-					String percursoV = depthFirstSearch(v); // Percurso a partir de v
-					String percursoW = depthFirstSearch(w); // Percurso a partir de w
-					if (!percursoV.contains(String.valueOf(w)) && !percursoW.contains(String.valueOf(v))){
+					ArrayList<Integer> percursoV = depthFirstSearch(v); // Percurso a partir de v
+					ArrayList<Integer> percursoW = depthFirstSearch(w); // Percurso a partir de w
+					if (!percursoV.contains(w) && !percursoW.contains(v)){
 						return false; // Se não há conexão entre v e w, o grafo não é fracamente conexo
 					}
 				}
@@ -254,7 +254,7 @@ public class TGrafoDirecionado {
 		return true;
 	}
 
-	private boolean desconexo(){
+	private boolean desconexo() {
 		// Criar a matriz simétrica (não direcionada) do grafo
         	TGrafoDirecionado simetrico = new TGrafoDirecionado(n);
 
@@ -268,8 +268,8 @@ public class TGrafoDirecionado {
         	}
 
 		// Verificar a conectividade na matriz simétrica usando percurso em profundidade
-       		String percurso = simetrico.depthFirstSearch(0);
-        	return percurso.replaceAll("\\s","").length() != n; // Se não visitou todos os vértices, o grafo é desconexo
+       		ArrayList<Integer> percurso = simetrico.depthFirstSearch(0);
+        	return percurso.size() != n; // Se não visitou todos os vértices, o grafo é desconexo
 	}
 
 	// Exercício 15
@@ -368,24 +368,21 @@ public class TGrafoDirecionado {
 		return grafoRevertido;
 	}
 
-	public String depthFirstSearch(int src) {
+	public ArrayList<Integer> depthFirstSearch(int src) {
 		boolean[] visited = new boolean[this.n];
-		StringBuilder sb = new StringBuilder();
-		dFSHelper(src, visited, sb);
-		return sb.toString();
+		ArrayList<Integer> vertices = new ArrayList<Integer>();
+		dFSHelper(src, visited, vertices);
+		return vertices;
 	}
 
-	private void dFSHelper(int src, boolean[] visited, StringBuilder sb) {
-		if(visited[src]) {
-			return;
-		} else {
-			visited[src] = true;
-			sb.append(src).append(" ");
-		}
+	private void dFSHelper(int src, boolean[] visited, ArrayList<Integer> vertices) {
+		if(visited[src]) return;
+		visited[src] = true;
+		vertices.add(src);
 
 		for(int i = 0; i < this.n; i++) {
 			if(this.adj[src][i] == 1) {
-				dFSHelper(i, visited, sb);
+				dFSHelper(i, visited, vertices);
 			}
 		}
 
