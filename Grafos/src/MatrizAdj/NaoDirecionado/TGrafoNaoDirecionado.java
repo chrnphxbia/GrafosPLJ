@@ -1,9 +1,12 @@
 package MatrizAdj.NaoDirecionado;
 
 import java.io.File;
-import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.Scanner;
-import MatrizAdj.FFilaCircular.*;;
+
+import Coloracao.ClasseColoracao;
+import MatrizAdj.FFilaCircular.*;
+import java.io.FileNotFoundException;
 
 public class TGrafoNaoDirecionado {
 	private int n; // Número de vértices
@@ -225,6 +228,76 @@ public class TGrafoNaoDirecionado {
 					queue.enqueue(i);
 					visited[i] = true;
 				}
+			}
+		}
+	}
+
+	private ArrayList<Integer> getVizinhos(int vertice) {
+		ArrayList<Integer> vizinhos = new ArrayList<Integer>();
+
+		for(int i = 0; i < this.n; i++) {
+			if(this.adj[vertice][i] != 0) {
+				vizinhos.add(i);
+			}
+		}
+
+		return vizinhos;
+	}
+
+	private ArrayList<Integer> getIntersec(ArrayList<Integer> array1, ArrayList<Integer> array2) {
+		ArrayList<Integer> intersec = new ArrayList<Integer>();
+
+		for (Integer vertice : array1) {
+			if(array2.contains(vertice)) {
+				intersec.add(vertice);
+			}
+		}
+
+		return intersec;
+	}
+
+	public ClasseColoracao[] getColoracaoWelshPowell() {
+		int k = 0;
+		ArrayList<Integer> aux = new ArrayList<Integer>();
+		ArrayList<Integer> toBeRemoved = new ArrayList<Integer>();
+		ClasseColoracao[] classes = new ClasseColoracao[this.n];
+
+		for(int i = 0; i < this.n; i++) {
+			classes[i] = new ClasseColoracao();
+			aux.add(i);
+		}
+
+		while(!aux.isEmpty()) {
+			for (Integer vertice : aux) {
+				ArrayList<Integer> vizinhos = getVizinhos(vertice);
+				ArrayList<Integer> intersec = getIntersec(vizinhos, classes[k].getVertices());
+				
+				if(intersec.isEmpty()) {
+					classes[k].addVertice(vertice);
+					toBeRemoved.add(vertice);
+				}
+			}
+
+			aux.removeAll(toBeRemoved);
+			toBeRemoved.clear();
+			k++;
+		}
+
+		return classes;
+	}
+
+	public void showClassesColoracao() {
+		int numClasse = 0;
+		ClasseColoracao[] classesColoracao = getColoracaoWelshPowell();
+
+		System.out.println("Classes de coloração do Grafo: ");
+
+		for (ClasseColoracao classeColoracao : classesColoracao) {
+			if(!classeColoracao.getVertices().isEmpty()) {
+				System.out.println("Classe " + numClasse + ": " + 
+				classeColoracao.getVertices());
+
+				numClasse++;
 			}
 		}
 	}
