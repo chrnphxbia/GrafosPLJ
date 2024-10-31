@@ -1,0 +1,299 @@
+Phyllaemulor bracteatus
+Nyctibiiformes
+Nyctibiidae
+Phyllaemulor
+bracteatus
+
+Nyctibius grandis
+Nyctibiiformes
+Nyctibiidae
+Nyctibius
+grandis
+
+Nyctibius aethereus
+Nyctibiiformes
+Nyctibiidae
+Nyctibius
+aethereus
+
+Nyctibius griseus
+Nyctibiiformes
+Nyctibiidae
+Nyctibius
+griseus
+
+Nyctibius leucopterus
+Nyctibiiformes
+Nyctibiidae
+Nyctibius
+leucopterus
+
+Cypseloides senex
+Apodiformes
+Apodidae
+Cypseloides 
+senex
+
+Streptoprocne biscutata
+Apodiformes
+Apodidae
+Streptoprocne 
+biscutata
+
+Panyptila cayennensis
+Apodiformes
+Apodidae
+Panyptila 
+cayennensis
+
+Chaetura meridionalis
+Apodiformes
+Apodidae
+Chaetura 
+meridionalis
+
+Calliphlox amethystina
+Apodiformes
+Trochilidae
+Calliphlox 
+amethystina
+
+Stephanoxis loddigesii
+Apodiformes
+Trochilidae
+Stephanoxis 
+loddigesii
+
+Chionomesa lactea
+Apodiformes
+Trochilidae
+Chionomesa
+lactea
+
+Chlorestes notata
+Apodiformes
+Trochilidae
+Chlorestes
+notata
+
+Elliotomyia chionogaster
+Apodiformes
+Trochilidae
+Elliotomyia
+chionogaster
+
+Hylocharis chrysura
+Apodiformes
+Trochilidae
+Hylocharis
+chrysura
+
+Eupetomena macroura
+Apodiformes
+Trochilidae
+Eupetomena
+macroura
+
+Thalurania glaucopis
+Apodiformes
+Trochilidae
+Thalurania
+glaucopis
+
+Anthracothorax nigricollis
+Apodiformes
+Trochilidae
+Anthracothorax
+nigricollis
+
+Jacamerops aureus
+Galbuliformes
+Galbulidae
+Jacamerops
+aureus
+
+Jacamaralcyon tridactyla
+Galbuliformes
+Galbulidae
+Jacamaralcyon
+tridactyla
+
+Cyphos macrodactylus
+Galbuliformes
+Bucconidae
+Cyphos
+macrodactylus
+
+Galbula leucogastra
+Galbuliformes
+Galbulidae
+Galbula
+leucogastra
+
+Galbula cyanescens
+Galbuliformes
+Galbulidae
+Galbula
+cyanescens
+
+Nystalus maculatus
+Galbuliformes
+Bucconidae
+Nystalus
+maculatus
+
+Chelidoptera tenebrosa
+Galbuliformes
+Bucconidae
+Chelidoptera
+tenebrosa
+
+Guira guira
+Cuculiformes
+Cuculidae
+Guira
+guira
+
+Crotophaga major
+Cuculiformes
+Cuculidae
+Crotophaga
+major
+
+Crotophaga ani
+Cuculiformes
+Cuculidae
+Crotophaga
+ani
+
+Dromococcyx pavoninus
+Cuculiformes
+Cuculidae
+Dromococcyx
+pavoninus
+
+Dromococcyx phasianellus
+Cuculiformes
+Cuculidae
+Dromococcyx
+phasianellus
+
+Tapera naevia
+Cuculiformes
+Cuculidae
+Tapera
+naevia
+
+Neomorphus geoffroyi
+Cuculiformes
+Cuculidae
+Neomorphus
+geoffroyi
+
+Neomorphus squamiger
+Cuculiformes
+Cuculidae
+Neomorphus
+squamiger
+
+Neomorphus rufipennis
+Cuculiformes
+Cuculidae
+Neomorphus
+rufipennis
+
+Neomorphus pucheranii
+Cuculiformes
+Cuculidae
+Neomorphus
+pucheranii
+
+Coccycua minuta
+Cuculiformes
+Cuculidae
+Coccycua
+minuta
+
+Micrococcyx cinereus
+Cuculiformes
+Cuculidae
+Micrococcyx
+cinereus
+
+Piaya cayana
+Cuculiformes
+Cuculidae
+Piaya
+cayana
+
+Cuculus canorus
+Cuculiformes
+Cuculidae
+Cuculus
+canorus
+
+Pelecanus occidentalis
+Pelecaniformes
+Pelecanidae
+Pelecanus
+occidentalis
+
+Platalea ajaja
+Pelecaniformes
+Threskiornithidae
+Platalea
+ajaja
+
+Theristicus caudatus
+Pelecaniformes
+Threskiornithidae
+Theristicus
+caudatus
+
+Mesembrinibis cayennensis
+Pelecaniformes
+Threskiornithidae
+Mesembrinibis
+cayennensis
+
+Eudocimus ruber
+Pelecaniformes
+Threskiornithidae
+Eudocimus
+ruber
+
+Cochlearius cochlearius
+Pelecaniformes
+Ardeidae
+Cochlearius
+cochlearius
+
+Butorides striata
+Pelecaniformes
+Ardeidae
+Butorides
+striata
+
+Ardea purpurea
+Pelecaniformes
+Ardeidae
+Ardea
+purpurea
+
+Egretta gularis
+Pelecaniformes
+Ardeidae
+Egretta
+gularis
+
+Egretta caerulea
+Pelecaniformes
+Ardeidae
+Egretta
+caerulea
+
+Egretta thula
+Pelecaniformes
+Ardeidae
+Egretta
+thula

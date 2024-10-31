@@ -10,10 +10,12 @@
 
     DATA            AUTOR       ATUALIZAÇÃO       
     23/09/2024;     Pedro       Corrigido DFS
+	30/10/2024;		Pedro		Atualizando estrutura e adicionando funções
 */
 
 package graph;
 
+import aves.Ave;
 import java.io.File;
 import java.util.Scanner;
 import java.io.FileWriter;
@@ -25,8 +27,7 @@ public class WUGraph {
     private	int n; // Número de vértices
 	private	int m; // Número de arestas
 	private	Integer adj[][]; // Matriz de adjacência
-	private String rotulos[]; // Rótulos dos vértices
-	// Posteriormente, receberá um vetor do tipo Ave
+	private Ave aves[]; // Aves adicionadas ao grafo
 
 	// Método Construtor Vazio
 	public WUGraph() {} 
@@ -57,7 +58,7 @@ public class WUGraph {
 			scanner.nextLine(); // Lê primeira linha com tipo de grafo
 			this.n = scanner.nextInt(); // Lê segunda linha com número de vértices
 			this.adj = new Integer[this.n][this.n]; // Cria matriz com n vértices
-			this.rotulos = new String[this.n]; // Cria vetor de rótulos das aves
+			this.aves = new Ave[this.n]; // Cria vetor de aves
 
 			for(int i = 0; i < this.n; i++) {
 				for(int j = 0; j < this.n; j++) { // Inicializa matriz com INF
@@ -68,7 +69,8 @@ public class WUGraph {
 			for(int i = 0; i < this.n; i++) {
 				vertice = scanner.nextInt(); // Lê vértice
 				rotuloAtual = scanner.nextLine().stripLeading(); // Lê rótulo
-				this.rotulos[vertice] = rotuloAtual; // Atribui rótulo na posição do vértice
+				Ave aveAtual = new Ave(rotuloAtual); // Cria objeto Ave com base no taxon (rotulo) lido
+				this.aves[vertice] = aveAtual; // Atribui ave na posição do vértice
 			}
 
 			arestas = scanner.nextInt(); // Lê número de arestas
@@ -92,13 +94,13 @@ public class WUGraph {
 	public int getVertices() { return this.n; }
 	public int getArestas() { return this.m; }
 	public Integer[][] getMatrizAdj() { return this.adj; }
-	public String[] getRotulos() { return this.rotulos; }
+	public Ave[] getAves() { return this.aves; }
 
 	// Método que insere vértice no grafo
 	// Argumentos: Rótulo do vértice a ser adicionado
 	public void insereV(String rotulo) {
 		Integer[][] novaMatriz = new Integer[this.n + 1][this.n + 1];
-		String[] novoVetor = new String[this.n + 1];
+		Ave[] novoVetorAves = new Ave[this.n + 1];
 
 		for(int i = 0; i < this.n; i++) {
 			for(int j = 0; j < this.n; j++) {
@@ -107,14 +109,15 @@ public class WUGraph {
 			}
 
 			novaMatriz[this.n][i] = Integer.MAX_VALUE;
-			novoVetor[i] = this.rotulos[i];
+			novoVetorAves[i] = this.aves[i];
 		}
 
 		novaMatriz[this.n][this.n] = Integer.MAX_VALUE;
 
 		this.adj = novaMatriz;
-		novoVetor[this.n] = rotulo;
-		this.rotulos = novoVetor;
+		Ave novaAve = new Ave(rotulo);
+		novoVetorAves[this.n] = novaAve;
+		this.aves = novoVetorAves;
 		this.n++;
 	}
 
@@ -138,7 +141,7 @@ public class WUGraph {
 		}
 
 		int row, column;
-		String[] novoVetor = new String[this.n - 1];
+		Ave[] novoVetor = new Ave[this.n - 1];
 		Integer novaMatriz[][] = new Integer[this.n-1][this.n-1];
 
 		for(int i = 0; i < this.n - 1; i++) {
@@ -151,13 +154,13 @@ public class WUGraph {
 				novaMatriz[i][j] = this.adj[row][column];
 			}
 
-			novoVetor[i] = this.rotulos[row];
+			novoVetor[i] = this.aves[row];
 		}
 	
 		this.m = this.m - getDegree(vertice);
 		this.n--;
 		this.adj = novaMatriz;
-		this.rotulos = novoVetor;
+		this.aves = novoVetor;
 	}
 
     // Método que remove uma aresta do grafo não direcionado
@@ -269,7 +272,7 @@ public class WUGraph {
 
 			for(int i = 0; i < this.n; i++) {
 				writer.write(i + " "); // Escrevendo número do vértice
-				writer.write(this.rotulos[i] + "\n"); // Escrevendo rótulo do vértice
+				writer.write(this.aves[i].getTaxon() + "\n"); // Escrevendo taxon da ave
 			}
 
 			writer.write(this.m + "\n"); // Escrevendo número de arestas
@@ -312,5 +315,205 @@ public class WUGraph {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+
+	public void showAves() {
+		for(int i = 0; i < this.n; i++) {
+			System.out.println("Vértice " + i + ": " + this.aves[i].getTaxon());
+		}
+	}
+
+	public void showInfoAve(int vertice) {
+		if(vertice < 0 || vertice >= this.n) {
+			System.out.println("Vértice não encontrado no grafo");
+			return;
+		}
+
+		System.out.println("Taxon: " + this.aves[vertice].getTaxon());
+		System.out.println("Ordem: " + this.aves[vertice].getOrdem());
+		System.out.println("Familia: " + this.aves[vertice].getFamilia());
+		System.out.println("Genero: " + this.aves[vertice].getGenero());
+		System.out.println("Especie: " + this.aves[vertice].getEspecie());
+	}
+
+	public void showRelacoesDoVertice(int vertice) {
+		if(vertice < 0 || vertice >= this.n) {
+			System.out.println("Vértice não encontrado no grafo");
+			return;
+		}
+
+		String relacoes[] = {"Classe", "Ordem", "Família", "Gênero", "Espécie"};
+
+		for(int i = 0; i < this.n; i++) {
+			if(vertice != i) {
+				System.out.print(this.aves[vertice].getTaxon() + " --- ");
+				System.out.print(relacoes[this.adj[vertice][i] - 1]);
+				System.out.println(" --- " + this.aves[i].getTaxon());
+			}
+		}
+	}
+
+	private ArrayList<String> getAllOrdens() {
+		String ordem;
+		ArrayList<String> ordens = new ArrayList<String>();
+
+		for(int i = 0; i < this.n; i++) {
+			ordem = this.aves[i].getOrdem();
+
+			if(!ordens.contains(ordem)) {
+				ordens.add(ordem);
+			}
+		}
+
+		return ordens;
+	}
+
+	private ArrayList<String> getAllFamilias() {
+		String familia;
+		ArrayList<String> familias = new ArrayList<String>();
+
+		for(int i = 0; i < this.n; i++) {
+			familia = this.aves[i].getFamilia();
+
+			if(!familias.contains(familia)) {
+				familias.add(familia);
+			}
+		}
+
+		return familias;
+	}
+
+	private ArrayList<String> getAllGeneros() {
+		String genero;
+		ArrayList<String> generos = new ArrayList<String>();
+
+		for(int i = 0; i < this.n; i++) {
+			genero = this.aves[i].getGenero();
+
+			if(!generos.contains(genero)) {
+				generos.add(genero);
+			}
+		}
+
+		return generos;
+	}
+
+	public void showOrganizacoesTaxonomicas() {
+		ArrayList<String> ordens = getAllOrdens();
+		ArrayList<String> generos = getAllGeneros();
+		ArrayList<String> familias = getAllFamilias();
+
+		System.out.println("CLASSES:\nAves");
+
+		System.out.println("\nORDENS:");
+		for (String ordem : ordens) {
+			System.out.println(ordem);
+		}
+
+		System.out.println("\nFAMÍLIAS:");
+		for (String familia : familias) {
+			System.out.println(familia);
+		}
+
+		System.out.println("\nGÊNEROS:");
+		for (String genero : generos) {
+			System.out.println(genero);
+		}
+
+		System.out.println("\nESPÉCIES (TAXON):");
+		for(int i = 0; i < this.n; i++) {
+			System.out.println(this.aves[i].getTaxon());
+		}
+	}
+
+	public void writeRelatorio() {
+		ArrayList<String> ordens = getAllOrdens();
+		ArrayList<String> generos = getAllGeneros();
+		ArrayList<String> familias = getAllFamilias();
+		String relacoes[] = {"Classe", "Ordem", "Família", "Gênero", "Espécie"};
+
+		try {
+			FileWriter writer = new FileWriter("assets/RelatorioTaxonomico.txt");
+			writer.write("CLASSES:\nAves\n");
+
+			writer.write("\nORDENS:\n");
+			for (String ordem : ordens) {
+				writer.write(ordem + "\n");
+			}
+
+			writer.write("\nFAMÍLIAS:\n");
+			for (String familia : familias) {
+				writer.write(familia + "\n");
+			}
+			
+			writer.write("\nGÊNEROS:\n");
+			for (String genero : generos) {
+				writer.write(genero + "\n");
+			}
+
+			writer.write("\nESPÉCIES (TAXON):\n");
+			for(int i = 0; i < this.n; i++) {
+				writer.write(this.aves[i].getTaxon() + "\n");
+			}
+
+			writer.write("\nINFORMAÇÕES COMPLETAS DAS ESPÉCIES NO GRAFO:\n");
+			for(int i = 0; i < this.n; i++) {
+				writer.write(this.aves[i].getTaxon() + "\n");
+				writer.write("ORDEM: " + this.aves[i].getOrdem() + "\n");
+				writer.write("FAMÍLIA: " + this.aves[i].getFamilia() + "\n");
+				writer.write("GÊNERO: " + this.aves[i].getGenero() + "\n");
+				writer.write("ESPÉCIE: " + this.aves[i].getEspecie() + "\n\n");
+			}
+
+			writer.write("RELAÇÕES TAXONÔMICAS NO GRAFO:\n");
+			for(int i = 0; i < this.n; i++) {
+				for(int j = 0; j < this.n; j++) {
+					if(i != j) {
+						writer.write(this.aves[i].getTaxon() + " --- ");
+						writer.write(relacoes[this.adj[i][j] - 1]);
+						writer.write(" --- " + this.aves[j].getTaxon() + "\n");
+					}
+				}
+				writer.write("\n");
+			}
+
+			writer.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void showAllDegrees() {
+		for(int i = 0; i < this.n; i++) {
+			System.out.println("Grau do Vértice " + i + ": " + getDegree(i));
+		}
+	}
+
+	public boolean hasEulerianPath() {
+		int numGrausImpares = 0, i = 0;
+
+		while(i < this.n) {
+			if(getDegree(i) % 2 == 1) {
+				numGrausImpares++;
+			}
+			i++;
+		}
+
+		if(numGrausImpares >= 2) return false;
+		return true;
+	}
+
+	public boolean isAnEulerianGraph() {
+		if(getConexidade() != 0) { 
+			return false; 
+		}
+
+		for(int i = 0; i < this.n; i++) {
+			if(getDegree(i) % 2 == 1) {
+				return false;
+			}
+		}
+
+		return true;
 	}
 }

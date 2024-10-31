@@ -1,0 +1,2916 @@
+CLASSES:
+Aves
+
+ORDENS:
+Nyctibiiformes
+Apodiformes
+Galbuliformes
+Cuculiformes
+Pelecaniformes
+
+FAMÍLIAS:
+Nyctibiidae
+Apodidae
+Trochilidae
+Galbulidae
+Bucconidae
+Cuculidae
+Pelecanidae
+Threskiornithidae
+Ardeidae
+
+GÊNEROS:
+Phyllaemulor
+Nyctibius
+Cypseloides 
+Streptoprocne 
+Panyptila 
+Chaetura 
+Calliphlox 
+Stephanoxis 
+Chionomesa
+Chlorestes
+Elliotomyia
+Hylocharis
+Eupetomena
+Thalurania
+Anthracothorax
+Jacamerops
+Jacamaralcyon
+Cyphos
+Galbula
+Nystalus
+Chelidoptera
+Guira
+Crotophaga
+Dromococcyx
+Tapera
+Neomorphus
+Coccycua
+Micrococcyx
+Piaya
+Cuculus
+Pelecanus
+Platalea
+Theristicus
+Mesembrinibis
+Eudocimus
+Cochlearius
+Butorides
+Ardea
+Egretta
+
+ESPÉCIES (TAXON):
+Phyllaemulor bracteatus
+Nyctibius grandis
+Nyctibius aethereus
+Nyctibius griseus
+Nyctibius leucopterus
+Cypseloides senex
+Streptoprocne biscutata
+Panyptila cayennensis
+Chaetura meridionalis
+Calliphlox amethystina
+Stephanoxis loddigesii
+Chionomesa lactea
+Chlorestes notata
+Elliotomyia chionogaster
+Hylocharis chrysura
+Eupetomena macroura
+Thalurania glaucopis
+Anthracothorax nigricollis
+Jacamerops aureus
+Jacamaralcyon tridactyla
+Cyphos macrodactylus
+Galbula leucogastra
+Galbula cyanescens
+Nystalus maculatus
+Chelidoptera tenebrosa
+Guira guira
+Crotophaga major
+Crotophaga ani
+Dromococcyx pavoninus
+Dromococcyx phasianellus
+Tapera naevia
+Neomorphus geoffroyi
+Neomorphus squamiger
+Neomorphus rufipennis
+Neomorphus pucheranii
+Coccycua minuta
+Micrococcyx cinereus
+Piaya cayana
+Cuculus canorus
+Pelecanus occidentalis
+Platalea ajaja
+Theristicus caudatus
+Mesembrinibis cayennensis
+Eudocimus ruber
+Cochlearius cochlearius
+Butorides striata
+Ardea purpurea
+Egretta gularis
+Egretta caerulea
+Egretta thula
+
+INFORMAÇÕES COMPLETAS DAS ESPÉCIES NO GRAFO:
+Phyllaemulor bracteatus
+ORDEM: Nyctibiiformes
+FAMÍLIA: Nyctibiidae
+GÊNERO: Phyllaemulor
+ESPÉCIE: bracteatus
+
+Nyctibius grandis
+ORDEM: Nyctibiiformes
+FAMÍLIA: Nyctibiidae
+GÊNERO: Nyctibius
+ESPÉCIE: grandis
+
+Nyctibius aethereus
+ORDEM: Nyctibiiformes
+FAMÍLIA: Nyctibiidae
+GÊNERO: Nyctibius
+ESPÉCIE: aethereus
+
+Nyctibius griseus
+ORDEM: Nyctibiiformes
+FAMÍLIA: Nyctibiidae
+GÊNERO: Nyctibius
+ESPÉCIE: griseus
+
+Nyctibius leucopterus
+ORDEM: Nyctibiiformes
+FAMÍLIA: Nyctibiidae
+GÊNERO: Nyctibius
+ESPÉCIE: leucopterus
+
+Cypseloides senex
+ORDEM: Apodiformes
+FAMÍLIA: Apodidae
+GÊNERO: Cypseloides 
+ESPÉCIE: senex
+
+Streptoprocne biscutata
+ORDEM: Apodiformes
+FAMÍLIA: Apodidae
+GÊNERO: Streptoprocne 
+ESPÉCIE: biscutata
+
+Panyptila cayennensis
+ORDEM: Apodiformes
+FAMÍLIA: Apodidae
+GÊNERO: Panyptila 
+ESPÉCIE: cayennensis
+
+Chaetura meridionalis
+ORDEM: Apodiformes
+FAMÍLIA: Apodidae
+GÊNERO: Chaetura 
+ESPÉCIE: meridionalis
+
+Calliphlox amethystina
+ORDEM: Apodiformes
+FAMÍLIA: Trochilidae
+GÊNERO: Calliphlox 
+ESPÉCIE: amethystina
+
+Stephanoxis loddigesii
+ORDEM: Apodiformes
+FAMÍLIA: Trochilidae
+GÊNERO: Stephanoxis 
+ESPÉCIE: loddigesii
+
+Chionomesa lactea
+ORDEM: Apodiformes
+FAMÍLIA: Trochilidae
+GÊNERO: Chionomesa
+ESPÉCIE: lactea
+
+Chlorestes notata
+ORDEM: Apodiformes
+FAMÍLIA: Trochilidae
+GÊNERO: Chlorestes
+ESPÉCIE: notata
+
+Elliotomyia chionogaster
+ORDEM: Apodiformes
+FAMÍLIA: Trochilidae
+GÊNERO: Elliotomyia
+ESPÉCIE: chionogaster
+
+Hylocharis chrysura
+ORDEM: Apodiformes
+FAMÍLIA: Trochilidae
+GÊNERO: Hylocharis
+ESPÉCIE: chrysura
+
+Eupetomena macroura
+ORDEM: Apodiformes
+FAMÍLIA: Trochilidae
+GÊNERO: Eupetomena
+ESPÉCIE: macroura
+
+Thalurania glaucopis
+ORDEM: Apodiformes
+FAMÍLIA: Trochilidae
+GÊNERO: Thalurania
+ESPÉCIE: glaucopis
+
+Anthracothorax nigricollis
+ORDEM: Apodiformes
+FAMÍLIA: Trochilidae
+GÊNERO: Anthracothorax
+ESPÉCIE: nigricollis
+
+Jacamerops aureus
+ORDEM: Galbuliformes
+FAMÍLIA: Galbulidae
+GÊNERO: Jacamerops
+ESPÉCIE: aureus
+
+Jacamaralcyon tridactyla
+ORDEM: Galbuliformes
+FAMÍLIA: Galbulidae
+GÊNERO: Jacamaralcyon
+ESPÉCIE: tridactyla
+
+Cyphos macrodactylus
+ORDEM: Galbuliformes
+FAMÍLIA: Bucconidae
+GÊNERO: Cyphos
+ESPÉCIE: macrodactylus
+
+Galbula leucogastra
+ORDEM: Galbuliformes
+FAMÍLIA: Galbulidae
+GÊNERO: Galbula
+ESPÉCIE: leucogastra
+
+Galbula cyanescens
+ORDEM: Galbuliformes
+FAMÍLIA: Galbulidae
+GÊNERO: Galbula
+ESPÉCIE: cyanescens
+
+Nystalus maculatus
+ORDEM: Galbuliformes
+FAMÍLIA: Bucconidae
+GÊNERO: Nystalus
+ESPÉCIE: maculatus
+
+Chelidoptera tenebrosa
+ORDEM: Galbuliformes
+FAMÍLIA: Bucconidae
+GÊNERO: Chelidoptera
+ESPÉCIE: tenebrosa
+
+Guira guira
+ORDEM: Cuculiformes
+FAMÍLIA: Cuculidae
+GÊNERO: Guira
+ESPÉCIE: guira
+
+Crotophaga major
+ORDEM: Cuculiformes
+FAMÍLIA: Cuculidae
+GÊNERO: Crotophaga
+ESPÉCIE: major
+
+Crotophaga ani
+ORDEM: Cuculiformes
+FAMÍLIA: Cuculidae
+GÊNERO: Crotophaga
+ESPÉCIE: ani
+
+Dromococcyx pavoninus
+ORDEM: Cuculiformes
+FAMÍLIA: Cuculidae
+GÊNERO: Dromococcyx
+ESPÉCIE: pavoninus
+
+Dromococcyx phasianellus
+ORDEM: Cuculiformes
+FAMÍLIA: Cuculidae
+GÊNERO: Dromococcyx
+ESPÉCIE: phasianellus
+
+Tapera naevia
+ORDEM: Cuculiformes
+FAMÍLIA: Cuculidae
+GÊNERO: Tapera
+ESPÉCIE: naevia
+
+Neomorphus geoffroyi
+ORDEM: Cuculiformes
+FAMÍLIA: Cuculidae
+GÊNERO: Neomorphus
+ESPÉCIE: geoffroyi
+
+Neomorphus squamiger
+ORDEM: Cuculiformes
+FAMÍLIA: Cuculidae
+GÊNERO: Neomorphus
+ESPÉCIE: squamiger
+
+Neomorphus rufipennis
+ORDEM: Cuculiformes
+FAMÍLIA: Cuculidae
+GÊNERO: Neomorphus
+ESPÉCIE: rufipennis
+
+Neomorphus pucheranii
+ORDEM: Cuculiformes
+FAMÍLIA: Cuculidae
+GÊNERO: Neomorphus
+ESPÉCIE: pucheranii
+
+Coccycua minuta
+ORDEM: Cuculiformes
+FAMÍLIA: Cuculidae
+GÊNERO: Coccycua
+ESPÉCIE: minuta
+
+Micrococcyx cinereus
+ORDEM: Cuculiformes
+FAMÍLIA: Cuculidae
+GÊNERO: Micrococcyx
+ESPÉCIE: cinereus
+
+Piaya cayana
+ORDEM: Cuculiformes
+FAMÍLIA: Cuculidae
+GÊNERO: Piaya
+ESPÉCIE: cayana
+
+Cuculus canorus
+ORDEM: Cuculiformes
+FAMÍLIA: Cuculidae
+GÊNERO: Cuculus
+ESPÉCIE: canorus
+
+Pelecanus occidentalis
+ORDEM: Pelecaniformes
+FAMÍLIA: Pelecanidae
+GÊNERO: Pelecanus
+ESPÉCIE: occidentalis
+
+Platalea ajaja
+ORDEM: Pelecaniformes
+FAMÍLIA: Threskiornithidae
+GÊNERO: Platalea
+ESPÉCIE: ajaja
+
+Theristicus caudatus
+ORDEM: Pelecaniformes
+FAMÍLIA: Threskiornithidae
+GÊNERO: Theristicus
+ESPÉCIE: caudatus
+
+Mesembrinibis cayennensis
+ORDEM: Pelecaniformes
+FAMÍLIA: Threskiornithidae
+GÊNERO: Mesembrinibis
+ESPÉCIE: cayennensis
+
+Eudocimus ruber
+ORDEM: Pelecaniformes
+FAMÍLIA: Threskiornithidae
+GÊNERO: Eudocimus
+ESPÉCIE: ruber
+
+Cochlearius cochlearius
+ORDEM: Pelecaniformes
+FAMÍLIA: Ardeidae
+GÊNERO: Cochlearius
+ESPÉCIE: cochlearius
+
+Butorides striata
+ORDEM: Pelecaniformes
+FAMÍLIA: Ardeidae
+GÊNERO: Butorides
+ESPÉCIE: striata
+
+Ardea purpurea
+ORDEM: Pelecaniformes
+FAMÍLIA: Ardeidae
+GÊNERO: Ardea
+ESPÉCIE: purpurea
+
+Egretta gularis
+ORDEM: Pelecaniformes
+FAMÍLIA: Ardeidae
+GÊNERO: Egretta
+ESPÉCIE: gularis
+
+Egretta caerulea
+ORDEM: Pelecaniformes
+FAMÍLIA: Ardeidae
+GÊNERO: Egretta
+ESPÉCIE: caerulea
+
+Egretta thula
+ORDEM: Pelecaniformes
+FAMÍLIA: Ardeidae
+GÊNERO: Egretta
+ESPÉCIE: thula
+
+RELAÇÕES TAXONÔMICAS NO GRAFO:
+Phyllaemulor bracteatus --- Família --- Nyctibius grandis
+Phyllaemulor bracteatus --- Família --- Nyctibius aethereus
+Phyllaemulor bracteatus --- Família --- Nyctibius griseus
+Phyllaemulor bracteatus --- Família --- Nyctibius leucopterus
+Phyllaemulor bracteatus --- Classe --- Cypseloides senex
+Phyllaemulor bracteatus --- Classe --- Streptoprocne biscutata
+Phyllaemulor bracteatus --- Classe --- Panyptila cayennensis
+Phyllaemulor bracteatus --- Classe --- Chaetura meridionalis
+Phyllaemulor bracteatus --- Classe --- Calliphlox amethystina
+Phyllaemulor bracteatus --- Classe --- Stephanoxis loddigesii
+Phyllaemulor bracteatus --- Classe --- Chionomesa lactea
+Phyllaemulor bracteatus --- Classe --- Chlorestes notata
+Phyllaemulor bracteatus --- Classe --- Elliotomyia chionogaster
+Phyllaemulor bracteatus --- Classe --- Hylocharis chrysura
+Phyllaemulor bracteatus --- Classe --- Eupetomena macroura
+Phyllaemulor bracteatus --- Classe --- Thalurania glaucopis
+Phyllaemulor bracteatus --- Classe --- Anthracothorax nigricollis
+Phyllaemulor bracteatus --- Classe --- Jacamerops aureus
+Phyllaemulor bracteatus --- Classe --- Jacamaralcyon tridactyla
+Phyllaemulor bracteatus --- Classe --- Cyphos macrodactylus
+Phyllaemulor bracteatus --- Classe --- Galbula leucogastra
+Phyllaemulor bracteatus --- Classe --- Galbula cyanescens
+Phyllaemulor bracteatus --- Classe --- Nystalus maculatus
+Phyllaemulor bracteatus --- Classe --- Chelidoptera tenebrosa
+Phyllaemulor bracteatus --- Classe --- Guira guira
+Phyllaemulor bracteatus --- Classe --- Crotophaga major
+Phyllaemulor bracteatus --- Classe --- Crotophaga ani
+Phyllaemulor bracteatus --- Classe --- Dromococcyx pavoninus
+Phyllaemulor bracteatus --- Classe --- Dromococcyx phasianellus
+Phyllaemulor bracteatus --- Classe --- Tapera naevia
+Phyllaemulor bracteatus --- Classe --- Neomorphus geoffroyi
+Phyllaemulor bracteatus --- Classe --- Neomorphus squamiger
+Phyllaemulor bracteatus --- Classe --- Neomorphus rufipennis
+Phyllaemulor bracteatus --- Classe --- Neomorphus pucheranii
+Phyllaemulor bracteatus --- Classe --- Coccycua minuta
+Phyllaemulor bracteatus --- Classe --- Micrococcyx cinereus
+Phyllaemulor bracteatus --- Classe --- Piaya cayana
+Phyllaemulor bracteatus --- Classe --- Cuculus canorus
+Phyllaemulor bracteatus --- Classe --- Pelecanus occidentalis
+Phyllaemulor bracteatus --- Classe --- Platalea ajaja
+Phyllaemulor bracteatus --- Classe --- Theristicus caudatus
+Phyllaemulor bracteatus --- Classe --- Mesembrinibis cayennensis
+Phyllaemulor bracteatus --- Classe --- Eudocimus ruber
+Phyllaemulor bracteatus --- Classe --- Cochlearius cochlearius
+Phyllaemulor bracteatus --- Classe --- Butorides striata
+Phyllaemulor bracteatus --- Classe --- Ardea purpurea
+Phyllaemulor bracteatus --- Classe --- Egretta gularis
+Phyllaemulor bracteatus --- Classe --- Egretta caerulea
+Phyllaemulor bracteatus --- Classe --- Egretta thula
+
+Nyctibius grandis --- Família --- Phyllaemulor bracteatus
+Nyctibius grandis --- Gênero --- Nyctibius aethereus
+Nyctibius grandis --- Gênero --- Nyctibius griseus
+Nyctibius grandis --- Gênero --- Nyctibius leucopterus
+Nyctibius grandis --- Classe --- Cypseloides senex
+Nyctibius grandis --- Classe --- Streptoprocne biscutata
+Nyctibius grandis --- Classe --- Panyptila cayennensis
+Nyctibius grandis --- Classe --- Chaetura meridionalis
+Nyctibius grandis --- Classe --- Calliphlox amethystina
+Nyctibius grandis --- Classe --- Stephanoxis loddigesii
+Nyctibius grandis --- Classe --- Chionomesa lactea
+Nyctibius grandis --- Classe --- Chlorestes notata
+Nyctibius grandis --- Classe --- Elliotomyia chionogaster
+Nyctibius grandis --- Classe --- Hylocharis chrysura
+Nyctibius grandis --- Classe --- Eupetomena macroura
+Nyctibius grandis --- Classe --- Thalurania glaucopis
+Nyctibius grandis --- Classe --- Anthracothorax nigricollis
+Nyctibius grandis --- Classe --- Jacamerops aureus
+Nyctibius grandis --- Classe --- Jacamaralcyon tridactyla
+Nyctibius grandis --- Classe --- Cyphos macrodactylus
+Nyctibius grandis --- Classe --- Galbula leucogastra
+Nyctibius grandis --- Classe --- Galbula cyanescens
+Nyctibius grandis --- Classe --- Nystalus maculatus
+Nyctibius grandis --- Classe --- Chelidoptera tenebrosa
+Nyctibius grandis --- Classe --- Guira guira
+Nyctibius grandis --- Classe --- Crotophaga major
+Nyctibius grandis --- Classe --- Crotophaga ani
+Nyctibius grandis --- Classe --- Dromococcyx pavoninus
+Nyctibius grandis --- Classe --- Dromococcyx phasianellus
+Nyctibius grandis --- Classe --- Tapera naevia
+Nyctibius grandis --- Classe --- Neomorphus geoffroyi
+Nyctibius grandis --- Classe --- Neomorphus squamiger
+Nyctibius grandis --- Classe --- Neomorphus rufipennis
+Nyctibius grandis --- Classe --- Neomorphus pucheranii
+Nyctibius grandis --- Classe --- Coccycua minuta
+Nyctibius grandis --- Classe --- Micrococcyx cinereus
+Nyctibius grandis --- Classe --- Piaya cayana
+Nyctibius grandis --- Classe --- Cuculus canorus
+Nyctibius grandis --- Classe --- Pelecanus occidentalis
+Nyctibius grandis --- Classe --- Platalea ajaja
+Nyctibius grandis --- Classe --- Theristicus caudatus
+Nyctibius grandis --- Classe --- Mesembrinibis cayennensis
+Nyctibius grandis --- Classe --- Eudocimus ruber
+Nyctibius grandis --- Classe --- Cochlearius cochlearius
+Nyctibius grandis --- Classe --- Butorides striata
+Nyctibius grandis --- Classe --- Ardea purpurea
+Nyctibius grandis --- Classe --- Egretta gularis
+Nyctibius grandis --- Classe --- Egretta caerulea
+Nyctibius grandis --- Classe --- Egretta thula
+
+Nyctibius aethereus --- Família --- Phyllaemulor bracteatus
+Nyctibius aethereus --- Gênero --- Nyctibius grandis
+Nyctibius aethereus --- Gênero --- Nyctibius griseus
+Nyctibius aethereus --- Gênero --- Nyctibius leucopterus
+Nyctibius aethereus --- Classe --- Cypseloides senex
+Nyctibius aethereus --- Classe --- Streptoprocne biscutata
+Nyctibius aethereus --- Classe --- Panyptila cayennensis
+Nyctibius aethereus --- Classe --- Chaetura meridionalis
+Nyctibius aethereus --- Classe --- Calliphlox amethystina
+Nyctibius aethereus --- Classe --- Stephanoxis loddigesii
+Nyctibius aethereus --- Classe --- Chionomesa lactea
+Nyctibius aethereus --- Classe --- Chlorestes notata
+Nyctibius aethereus --- Classe --- Elliotomyia chionogaster
+Nyctibius aethereus --- Classe --- Hylocharis chrysura
+Nyctibius aethereus --- Classe --- Eupetomena macroura
+Nyctibius aethereus --- Classe --- Thalurania glaucopis
+Nyctibius aethereus --- Classe --- Anthracothorax nigricollis
+Nyctibius aethereus --- Classe --- Jacamerops aureus
+Nyctibius aethereus --- Classe --- Jacamaralcyon tridactyla
+Nyctibius aethereus --- Classe --- Cyphos macrodactylus
+Nyctibius aethereus --- Classe --- Galbula leucogastra
+Nyctibius aethereus --- Classe --- Galbula cyanescens
+Nyctibius aethereus --- Classe --- Nystalus maculatus
+Nyctibius aethereus --- Classe --- Chelidoptera tenebrosa
+Nyctibius aethereus --- Classe --- Guira guira
+Nyctibius aethereus --- Classe --- Crotophaga major
+Nyctibius aethereus --- Classe --- Crotophaga ani
+Nyctibius aethereus --- Classe --- Dromococcyx pavoninus
+Nyctibius aethereus --- Classe --- Dromococcyx phasianellus
+Nyctibius aethereus --- Classe --- Tapera naevia
+Nyctibius aethereus --- Classe --- Neomorphus geoffroyi
+Nyctibius aethereus --- Classe --- Neomorphus squamiger
+Nyctibius aethereus --- Classe --- Neomorphus rufipennis
+Nyctibius aethereus --- Classe --- Neomorphus pucheranii
+Nyctibius aethereus --- Classe --- Coccycua minuta
+Nyctibius aethereus --- Classe --- Micrococcyx cinereus
+Nyctibius aethereus --- Classe --- Piaya cayana
+Nyctibius aethereus --- Classe --- Cuculus canorus
+Nyctibius aethereus --- Classe --- Pelecanus occidentalis
+Nyctibius aethereus --- Classe --- Platalea ajaja
+Nyctibius aethereus --- Classe --- Theristicus caudatus
+Nyctibius aethereus --- Classe --- Mesembrinibis cayennensis
+Nyctibius aethereus --- Classe --- Eudocimus ruber
+Nyctibius aethereus --- Classe --- Cochlearius cochlearius
+Nyctibius aethereus --- Classe --- Butorides striata
+Nyctibius aethereus --- Classe --- Ardea purpurea
+Nyctibius aethereus --- Classe --- Egretta gularis
+Nyctibius aethereus --- Classe --- Egretta caerulea
+Nyctibius aethereus --- Classe --- Egretta thula
+
+Nyctibius griseus --- Família --- Phyllaemulor bracteatus
+Nyctibius griseus --- Gênero --- Nyctibius grandis
+Nyctibius griseus --- Gênero --- Nyctibius aethereus
+Nyctibius griseus --- Gênero --- Nyctibius leucopterus
+Nyctibius griseus --- Classe --- Cypseloides senex
+Nyctibius griseus --- Classe --- Streptoprocne biscutata
+Nyctibius griseus --- Classe --- Panyptila cayennensis
+Nyctibius griseus --- Classe --- Chaetura meridionalis
+Nyctibius griseus --- Classe --- Calliphlox amethystina
+Nyctibius griseus --- Classe --- Stephanoxis loddigesii
+Nyctibius griseus --- Classe --- Chionomesa lactea
+Nyctibius griseus --- Classe --- Chlorestes notata
+Nyctibius griseus --- Classe --- Elliotomyia chionogaster
+Nyctibius griseus --- Classe --- Hylocharis chrysura
+Nyctibius griseus --- Classe --- Eupetomena macroura
+Nyctibius griseus --- Classe --- Thalurania glaucopis
+Nyctibius griseus --- Classe --- Anthracothorax nigricollis
+Nyctibius griseus --- Classe --- Jacamerops aureus
+Nyctibius griseus --- Classe --- Jacamaralcyon tridactyla
+Nyctibius griseus --- Classe --- Cyphos macrodactylus
+Nyctibius griseus --- Classe --- Galbula leucogastra
+Nyctibius griseus --- Classe --- Galbula cyanescens
+Nyctibius griseus --- Classe --- Nystalus maculatus
+Nyctibius griseus --- Classe --- Chelidoptera tenebrosa
+Nyctibius griseus --- Classe --- Guira guira
+Nyctibius griseus --- Classe --- Crotophaga major
+Nyctibius griseus --- Classe --- Crotophaga ani
+Nyctibius griseus --- Classe --- Dromococcyx pavoninus
+Nyctibius griseus --- Classe --- Dromococcyx phasianellus
+Nyctibius griseus --- Classe --- Tapera naevia
+Nyctibius griseus --- Classe --- Neomorphus geoffroyi
+Nyctibius griseus --- Classe --- Neomorphus squamiger
+Nyctibius griseus --- Classe --- Neomorphus rufipennis
+Nyctibius griseus --- Classe --- Neomorphus pucheranii
+Nyctibius griseus --- Classe --- Coccycua minuta
+Nyctibius griseus --- Classe --- Micrococcyx cinereus
+Nyctibius griseus --- Classe --- Piaya cayana
+Nyctibius griseus --- Classe --- Cuculus canorus
+Nyctibius griseus --- Classe --- Pelecanus occidentalis
+Nyctibius griseus --- Classe --- Platalea ajaja
+Nyctibius griseus --- Classe --- Theristicus caudatus
+Nyctibius griseus --- Classe --- Mesembrinibis cayennensis
+Nyctibius griseus --- Classe --- Eudocimus ruber
+Nyctibius griseus --- Classe --- Cochlearius cochlearius
+Nyctibius griseus --- Classe --- Butorides striata
+Nyctibius griseus --- Classe --- Ardea purpurea
+Nyctibius griseus --- Classe --- Egretta gularis
+Nyctibius griseus --- Classe --- Egretta caerulea
+Nyctibius griseus --- Classe --- Egretta thula
+
+Nyctibius leucopterus --- Família --- Phyllaemulor bracteatus
+Nyctibius leucopterus --- Gênero --- Nyctibius grandis
+Nyctibius leucopterus --- Gênero --- Nyctibius aethereus
+Nyctibius leucopterus --- Gênero --- Nyctibius griseus
+Nyctibius leucopterus --- Classe --- Cypseloides senex
+Nyctibius leucopterus --- Classe --- Streptoprocne biscutata
+Nyctibius leucopterus --- Classe --- Panyptila cayennensis
+Nyctibius leucopterus --- Classe --- Chaetura meridionalis
+Nyctibius leucopterus --- Classe --- Calliphlox amethystina
+Nyctibius leucopterus --- Classe --- Stephanoxis loddigesii
+Nyctibius leucopterus --- Classe --- Chionomesa lactea
+Nyctibius leucopterus --- Classe --- Chlorestes notata
+Nyctibius leucopterus --- Classe --- Elliotomyia chionogaster
+Nyctibius leucopterus --- Classe --- Hylocharis chrysura
+Nyctibius leucopterus --- Classe --- Eupetomena macroura
+Nyctibius leucopterus --- Classe --- Thalurania glaucopis
+Nyctibius leucopterus --- Classe --- Anthracothorax nigricollis
+Nyctibius leucopterus --- Classe --- Jacamerops aureus
+Nyctibius leucopterus --- Classe --- Jacamaralcyon tridactyla
+Nyctibius leucopterus --- Classe --- Cyphos macrodactylus
+Nyctibius leucopterus --- Classe --- Galbula leucogastra
+Nyctibius leucopterus --- Classe --- Galbula cyanescens
+Nyctibius leucopterus --- Classe --- Nystalus maculatus
+Nyctibius leucopterus --- Classe --- Chelidoptera tenebrosa
+Nyctibius leucopterus --- Classe --- Guira guira
+Nyctibius leucopterus --- Classe --- Crotophaga major
+Nyctibius leucopterus --- Classe --- Crotophaga ani
+Nyctibius leucopterus --- Classe --- Dromococcyx pavoninus
+Nyctibius leucopterus --- Classe --- Dromococcyx phasianellus
+Nyctibius leucopterus --- Classe --- Tapera naevia
+Nyctibius leucopterus --- Classe --- Neomorphus geoffroyi
+Nyctibius leucopterus --- Classe --- Neomorphus squamiger
+Nyctibius leucopterus --- Classe --- Neomorphus rufipennis
+Nyctibius leucopterus --- Classe --- Neomorphus pucheranii
+Nyctibius leucopterus --- Classe --- Coccycua minuta
+Nyctibius leucopterus --- Classe --- Micrococcyx cinereus
+Nyctibius leucopterus --- Classe --- Piaya cayana
+Nyctibius leucopterus --- Classe --- Cuculus canorus
+Nyctibius leucopterus --- Classe --- Pelecanus occidentalis
+Nyctibius leucopterus --- Classe --- Platalea ajaja
+Nyctibius leucopterus --- Classe --- Theristicus caudatus
+Nyctibius leucopterus --- Classe --- Mesembrinibis cayennensis
+Nyctibius leucopterus --- Classe --- Eudocimus ruber
+Nyctibius leucopterus --- Classe --- Cochlearius cochlearius
+Nyctibius leucopterus --- Classe --- Butorides striata
+Nyctibius leucopterus --- Classe --- Ardea purpurea
+Nyctibius leucopterus --- Classe --- Egretta gularis
+Nyctibius leucopterus --- Classe --- Egretta caerulea
+Nyctibius leucopterus --- Classe --- Egretta thula
+
+Cypseloides senex --- Classe --- Phyllaemulor bracteatus
+Cypseloides senex --- Classe --- Nyctibius grandis
+Cypseloides senex --- Classe --- Nyctibius aethereus
+Cypseloides senex --- Classe --- Nyctibius griseus
+Cypseloides senex --- Classe --- Nyctibius leucopterus
+Cypseloides senex --- Família --- Streptoprocne biscutata
+Cypseloides senex --- Família --- Panyptila cayennensis
+Cypseloides senex --- Família --- Chaetura meridionalis
+Cypseloides senex --- Ordem --- Calliphlox amethystina
+Cypseloides senex --- Ordem --- Stephanoxis loddigesii
+Cypseloides senex --- Ordem --- Chionomesa lactea
+Cypseloides senex --- Ordem --- Chlorestes notata
+Cypseloides senex --- Ordem --- Elliotomyia chionogaster
+Cypseloides senex --- Ordem --- Hylocharis chrysura
+Cypseloides senex --- Ordem --- Eupetomena macroura
+Cypseloides senex --- Ordem --- Thalurania glaucopis
+Cypseloides senex --- Ordem --- Anthracothorax nigricollis
+Cypseloides senex --- Classe --- Jacamerops aureus
+Cypseloides senex --- Classe --- Jacamaralcyon tridactyla
+Cypseloides senex --- Classe --- Cyphos macrodactylus
+Cypseloides senex --- Classe --- Galbula leucogastra
+Cypseloides senex --- Classe --- Galbula cyanescens
+Cypseloides senex --- Classe --- Nystalus maculatus
+Cypseloides senex --- Classe --- Chelidoptera tenebrosa
+Cypseloides senex --- Classe --- Guira guira
+Cypseloides senex --- Classe --- Crotophaga major
+Cypseloides senex --- Classe --- Crotophaga ani
+Cypseloides senex --- Classe --- Dromococcyx pavoninus
+Cypseloides senex --- Classe --- Dromococcyx phasianellus
+Cypseloides senex --- Classe --- Tapera naevia
+Cypseloides senex --- Classe --- Neomorphus geoffroyi
+Cypseloides senex --- Classe --- Neomorphus squamiger
+Cypseloides senex --- Classe --- Neomorphus rufipennis
+Cypseloides senex --- Classe --- Neomorphus pucheranii
+Cypseloides senex --- Classe --- Coccycua minuta
+Cypseloides senex --- Classe --- Micrococcyx cinereus
+Cypseloides senex --- Classe --- Piaya cayana
+Cypseloides senex --- Classe --- Cuculus canorus
+Cypseloides senex --- Classe --- Pelecanus occidentalis
+Cypseloides senex --- Classe --- Platalea ajaja
+Cypseloides senex --- Classe --- Theristicus caudatus
+Cypseloides senex --- Classe --- Mesembrinibis cayennensis
+Cypseloides senex --- Classe --- Eudocimus ruber
+Cypseloides senex --- Classe --- Cochlearius cochlearius
+Cypseloides senex --- Classe --- Butorides striata
+Cypseloides senex --- Classe --- Ardea purpurea
+Cypseloides senex --- Classe --- Egretta gularis
+Cypseloides senex --- Classe --- Egretta caerulea
+Cypseloides senex --- Classe --- Egretta thula
+
+Streptoprocne biscutata --- Classe --- Phyllaemulor bracteatus
+Streptoprocne biscutata --- Classe --- Nyctibius grandis
+Streptoprocne biscutata --- Classe --- Nyctibius aethereus
+Streptoprocne biscutata --- Classe --- Nyctibius griseus
+Streptoprocne biscutata --- Classe --- Nyctibius leucopterus
+Streptoprocne biscutata --- Família --- Cypseloides senex
+Streptoprocne biscutata --- Família --- Panyptila cayennensis
+Streptoprocne biscutata --- Família --- Chaetura meridionalis
+Streptoprocne biscutata --- Ordem --- Calliphlox amethystina
+Streptoprocne biscutata --- Ordem --- Stephanoxis loddigesii
+Streptoprocne biscutata --- Ordem --- Chionomesa lactea
+Streptoprocne biscutata --- Ordem --- Chlorestes notata
+Streptoprocne biscutata --- Ordem --- Elliotomyia chionogaster
+Streptoprocne biscutata --- Ordem --- Hylocharis chrysura
+Streptoprocne biscutata --- Ordem --- Eupetomena macroura
+Streptoprocne biscutata --- Ordem --- Thalurania glaucopis
+Streptoprocne biscutata --- Ordem --- Anthracothorax nigricollis
+Streptoprocne biscutata --- Classe --- Jacamerops aureus
+Streptoprocne biscutata --- Classe --- Jacamaralcyon tridactyla
+Streptoprocne biscutata --- Classe --- Cyphos macrodactylus
+Streptoprocne biscutata --- Classe --- Galbula leucogastra
+Streptoprocne biscutata --- Classe --- Galbula cyanescens
+Streptoprocne biscutata --- Classe --- Nystalus maculatus
+Streptoprocne biscutata --- Classe --- Chelidoptera tenebrosa
+Streptoprocne biscutata --- Classe --- Guira guira
+Streptoprocne biscutata --- Classe --- Crotophaga major
+Streptoprocne biscutata --- Classe --- Crotophaga ani
+Streptoprocne biscutata --- Classe --- Dromococcyx pavoninus
+Streptoprocne biscutata --- Classe --- Dromococcyx phasianellus
+Streptoprocne biscutata --- Classe --- Tapera naevia
+Streptoprocne biscutata --- Classe --- Neomorphus geoffroyi
+Streptoprocne biscutata --- Classe --- Neomorphus squamiger
+Streptoprocne biscutata --- Classe --- Neomorphus rufipennis
+Streptoprocne biscutata --- Classe --- Neomorphus pucheranii
+Streptoprocne biscutata --- Classe --- Coccycua minuta
+Streptoprocne biscutata --- Classe --- Micrococcyx cinereus
+Streptoprocne biscutata --- Classe --- Piaya cayana
+Streptoprocne biscutata --- Classe --- Cuculus canorus
+Streptoprocne biscutata --- Classe --- Pelecanus occidentalis
+Streptoprocne biscutata --- Classe --- Platalea ajaja
+Streptoprocne biscutata --- Classe --- Theristicus caudatus
+Streptoprocne biscutata --- Classe --- Mesembrinibis cayennensis
+Streptoprocne biscutata --- Classe --- Eudocimus ruber
+Streptoprocne biscutata --- Classe --- Cochlearius cochlearius
+Streptoprocne biscutata --- Classe --- Butorides striata
+Streptoprocne biscutata --- Classe --- Ardea purpurea
+Streptoprocne biscutata --- Classe --- Egretta gularis
+Streptoprocne biscutata --- Classe --- Egretta caerulea
+Streptoprocne biscutata --- Classe --- Egretta thula
+
+Panyptila cayennensis --- Classe --- Phyllaemulor bracteatus
+Panyptila cayennensis --- Classe --- Nyctibius grandis
+Panyptila cayennensis --- Classe --- Nyctibius aethereus
+Panyptila cayennensis --- Classe --- Nyctibius griseus
+Panyptila cayennensis --- Classe --- Nyctibius leucopterus
+Panyptila cayennensis --- Família --- Cypseloides senex
+Panyptila cayennensis --- Família --- Streptoprocne biscutata
+Panyptila cayennensis --- Família --- Chaetura meridionalis
+Panyptila cayennensis --- Ordem --- Calliphlox amethystina
+Panyptila cayennensis --- Ordem --- Stephanoxis loddigesii
+Panyptila cayennensis --- Ordem --- Chionomesa lactea
+Panyptila cayennensis --- Ordem --- Chlorestes notata
+Panyptila cayennensis --- Ordem --- Elliotomyia chionogaster
+Panyptila cayennensis --- Ordem --- Hylocharis chrysura
+Panyptila cayennensis --- Ordem --- Eupetomena macroura
+Panyptila cayennensis --- Ordem --- Thalurania glaucopis
+Panyptila cayennensis --- Ordem --- Anthracothorax nigricollis
+Panyptila cayennensis --- Classe --- Jacamerops aureus
+Panyptila cayennensis --- Classe --- Jacamaralcyon tridactyla
+Panyptila cayennensis --- Classe --- Cyphos macrodactylus
+Panyptila cayennensis --- Classe --- Galbula leucogastra
+Panyptila cayennensis --- Classe --- Galbula cyanescens
+Panyptila cayennensis --- Classe --- Nystalus maculatus
+Panyptila cayennensis --- Classe --- Chelidoptera tenebrosa
+Panyptila cayennensis --- Classe --- Guira guira
+Panyptila cayennensis --- Classe --- Crotophaga major
+Panyptila cayennensis --- Classe --- Crotophaga ani
+Panyptila cayennensis --- Classe --- Dromococcyx pavoninus
+Panyptila cayennensis --- Classe --- Dromococcyx phasianellus
+Panyptila cayennensis --- Classe --- Tapera naevia
+Panyptila cayennensis --- Classe --- Neomorphus geoffroyi
+Panyptila cayennensis --- Classe --- Neomorphus squamiger
+Panyptila cayennensis --- Classe --- Neomorphus rufipennis
+Panyptila cayennensis --- Classe --- Neomorphus pucheranii
+Panyptila cayennensis --- Classe --- Coccycua minuta
+Panyptila cayennensis --- Classe --- Micrococcyx cinereus
+Panyptila cayennensis --- Classe --- Piaya cayana
+Panyptila cayennensis --- Classe --- Cuculus canorus
+Panyptila cayennensis --- Classe --- Pelecanus occidentalis
+Panyptila cayennensis --- Classe --- Platalea ajaja
+Panyptila cayennensis --- Classe --- Theristicus caudatus
+Panyptila cayennensis --- Espécie --- Mesembrinibis cayennensis
+Panyptila cayennensis --- Classe --- Eudocimus ruber
+Panyptila cayennensis --- Classe --- Cochlearius cochlearius
+Panyptila cayennensis --- Classe --- Butorides striata
+Panyptila cayennensis --- Classe --- Ardea purpurea
+Panyptila cayennensis --- Classe --- Egretta gularis
+Panyptila cayennensis --- Classe --- Egretta caerulea
+Panyptila cayennensis --- Classe --- Egretta thula
+
+Chaetura meridionalis --- Classe --- Phyllaemulor bracteatus
+Chaetura meridionalis --- Classe --- Nyctibius grandis
+Chaetura meridionalis --- Classe --- Nyctibius aethereus
+Chaetura meridionalis --- Classe --- Nyctibius griseus
+Chaetura meridionalis --- Classe --- Nyctibius leucopterus
+Chaetura meridionalis --- Família --- Cypseloides senex
+Chaetura meridionalis --- Família --- Streptoprocne biscutata
+Chaetura meridionalis --- Família --- Panyptila cayennensis
+Chaetura meridionalis --- Ordem --- Calliphlox amethystina
+Chaetura meridionalis --- Ordem --- Stephanoxis loddigesii
+Chaetura meridionalis --- Ordem --- Chionomesa lactea
+Chaetura meridionalis --- Ordem --- Chlorestes notata
+Chaetura meridionalis --- Ordem --- Elliotomyia chionogaster
+Chaetura meridionalis --- Ordem --- Hylocharis chrysura
+Chaetura meridionalis --- Ordem --- Eupetomena macroura
+Chaetura meridionalis --- Ordem --- Thalurania glaucopis
+Chaetura meridionalis --- Ordem --- Anthracothorax nigricollis
+Chaetura meridionalis --- Classe --- Jacamerops aureus
+Chaetura meridionalis --- Classe --- Jacamaralcyon tridactyla
+Chaetura meridionalis --- Classe --- Cyphos macrodactylus
+Chaetura meridionalis --- Classe --- Galbula leucogastra
+Chaetura meridionalis --- Classe --- Galbula cyanescens
+Chaetura meridionalis --- Classe --- Nystalus maculatus
+Chaetura meridionalis --- Classe --- Chelidoptera tenebrosa
+Chaetura meridionalis --- Classe --- Guira guira
+Chaetura meridionalis --- Classe --- Crotophaga major
+Chaetura meridionalis --- Classe --- Crotophaga ani
+Chaetura meridionalis --- Classe --- Dromococcyx pavoninus
+Chaetura meridionalis --- Classe --- Dromococcyx phasianellus
+Chaetura meridionalis --- Classe --- Tapera naevia
+Chaetura meridionalis --- Classe --- Neomorphus geoffroyi
+Chaetura meridionalis --- Classe --- Neomorphus squamiger
+Chaetura meridionalis --- Classe --- Neomorphus rufipennis
+Chaetura meridionalis --- Classe --- Neomorphus pucheranii
+Chaetura meridionalis --- Classe --- Coccycua minuta
+Chaetura meridionalis --- Classe --- Micrococcyx cinereus
+Chaetura meridionalis --- Classe --- Piaya cayana
+Chaetura meridionalis --- Classe --- Cuculus canorus
+Chaetura meridionalis --- Classe --- Pelecanus occidentalis
+Chaetura meridionalis --- Classe --- Platalea ajaja
+Chaetura meridionalis --- Classe --- Theristicus caudatus
+Chaetura meridionalis --- Classe --- Mesembrinibis cayennensis
+Chaetura meridionalis --- Classe --- Eudocimus ruber
+Chaetura meridionalis --- Classe --- Cochlearius cochlearius
+Chaetura meridionalis --- Classe --- Butorides striata
+Chaetura meridionalis --- Classe --- Ardea purpurea
+Chaetura meridionalis --- Classe --- Egretta gularis
+Chaetura meridionalis --- Classe --- Egretta caerulea
+Chaetura meridionalis --- Classe --- Egretta thula
+
+Calliphlox amethystina --- Classe --- Phyllaemulor bracteatus
+Calliphlox amethystina --- Classe --- Nyctibius grandis
+Calliphlox amethystina --- Classe --- Nyctibius aethereus
+Calliphlox amethystina --- Classe --- Nyctibius griseus
+Calliphlox amethystina --- Classe --- Nyctibius leucopterus
+Calliphlox amethystina --- Ordem --- Cypseloides senex
+Calliphlox amethystina --- Ordem --- Streptoprocne biscutata
+Calliphlox amethystina --- Ordem --- Panyptila cayennensis
+Calliphlox amethystina --- Ordem --- Chaetura meridionalis
+Calliphlox amethystina --- Família --- Stephanoxis loddigesii
+Calliphlox amethystina --- Família --- Chionomesa lactea
+Calliphlox amethystina --- Família --- Chlorestes notata
+Calliphlox amethystina --- Família --- Elliotomyia chionogaster
+Calliphlox amethystina --- Família --- Hylocharis chrysura
+Calliphlox amethystina --- Família --- Eupetomena macroura
+Calliphlox amethystina --- Família --- Thalurania glaucopis
+Calliphlox amethystina --- Família --- Anthracothorax nigricollis
+Calliphlox amethystina --- Classe --- Jacamerops aureus
+Calliphlox amethystina --- Classe --- Jacamaralcyon tridactyla
+Calliphlox amethystina --- Classe --- Cyphos macrodactylus
+Calliphlox amethystina --- Classe --- Galbula leucogastra
+Calliphlox amethystina --- Classe --- Galbula cyanescens
+Calliphlox amethystina --- Classe --- Nystalus maculatus
+Calliphlox amethystina --- Classe --- Chelidoptera tenebrosa
+Calliphlox amethystina --- Classe --- Guira guira
+Calliphlox amethystina --- Classe --- Crotophaga major
+Calliphlox amethystina --- Classe --- Crotophaga ani
+Calliphlox amethystina --- Classe --- Dromococcyx pavoninus
+Calliphlox amethystina --- Classe --- Dromococcyx phasianellus
+Calliphlox amethystina --- Classe --- Tapera naevia
+Calliphlox amethystina --- Classe --- Neomorphus geoffroyi
+Calliphlox amethystina --- Classe --- Neomorphus squamiger
+Calliphlox amethystina --- Classe --- Neomorphus rufipennis
+Calliphlox amethystina --- Classe --- Neomorphus pucheranii
+Calliphlox amethystina --- Classe --- Coccycua minuta
+Calliphlox amethystina --- Classe --- Micrococcyx cinereus
+Calliphlox amethystina --- Classe --- Piaya cayana
+Calliphlox amethystina --- Classe --- Cuculus canorus
+Calliphlox amethystina --- Classe --- Pelecanus occidentalis
+Calliphlox amethystina --- Classe --- Platalea ajaja
+Calliphlox amethystina --- Classe --- Theristicus caudatus
+Calliphlox amethystina --- Classe --- Mesembrinibis cayennensis
+Calliphlox amethystina --- Classe --- Eudocimus ruber
+Calliphlox amethystina --- Classe --- Cochlearius cochlearius
+Calliphlox amethystina --- Classe --- Butorides striata
+Calliphlox amethystina --- Classe --- Ardea purpurea
+Calliphlox amethystina --- Classe --- Egretta gularis
+Calliphlox amethystina --- Classe --- Egretta caerulea
+Calliphlox amethystina --- Classe --- Egretta thula
+
+Stephanoxis loddigesii --- Classe --- Phyllaemulor bracteatus
+Stephanoxis loddigesii --- Classe --- Nyctibius grandis
+Stephanoxis loddigesii --- Classe --- Nyctibius aethereus
+Stephanoxis loddigesii --- Classe --- Nyctibius griseus
+Stephanoxis loddigesii --- Classe --- Nyctibius leucopterus
+Stephanoxis loddigesii --- Ordem --- Cypseloides senex
+Stephanoxis loddigesii --- Ordem --- Streptoprocne biscutata
+Stephanoxis loddigesii --- Ordem --- Panyptila cayennensis
+Stephanoxis loddigesii --- Ordem --- Chaetura meridionalis
+Stephanoxis loddigesii --- Família --- Calliphlox amethystina
+Stephanoxis loddigesii --- Família --- Chionomesa lactea
+Stephanoxis loddigesii --- Família --- Chlorestes notata
+Stephanoxis loddigesii --- Família --- Elliotomyia chionogaster
+Stephanoxis loddigesii --- Família --- Hylocharis chrysura
+Stephanoxis loddigesii --- Família --- Eupetomena macroura
+Stephanoxis loddigesii --- Família --- Thalurania glaucopis
+Stephanoxis loddigesii --- Família --- Anthracothorax nigricollis
+Stephanoxis loddigesii --- Classe --- Jacamerops aureus
+Stephanoxis loddigesii --- Classe --- Jacamaralcyon tridactyla
+Stephanoxis loddigesii --- Classe --- Cyphos macrodactylus
+Stephanoxis loddigesii --- Classe --- Galbula leucogastra
+Stephanoxis loddigesii --- Classe --- Galbula cyanescens
+Stephanoxis loddigesii --- Classe --- Nystalus maculatus
+Stephanoxis loddigesii --- Classe --- Chelidoptera tenebrosa
+Stephanoxis loddigesii --- Classe --- Guira guira
+Stephanoxis loddigesii --- Classe --- Crotophaga major
+Stephanoxis loddigesii --- Classe --- Crotophaga ani
+Stephanoxis loddigesii --- Classe --- Dromococcyx pavoninus
+Stephanoxis loddigesii --- Classe --- Dromococcyx phasianellus
+Stephanoxis loddigesii --- Classe --- Tapera naevia
+Stephanoxis loddigesii --- Classe --- Neomorphus geoffroyi
+Stephanoxis loddigesii --- Classe --- Neomorphus squamiger
+Stephanoxis loddigesii --- Classe --- Neomorphus rufipennis
+Stephanoxis loddigesii --- Classe --- Neomorphus pucheranii
+Stephanoxis loddigesii --- Classe --- Coccycua minuta
+Stephanoxis loddigesii --- Classe --- Micrococcyx cinereus
+Stephanoxis loddigesii --- Classe --- Piaya cayana
+Stephanoxis loddigesii --- Classe --- Cuculus canorus
+Stephanoxis loddigesii --- Classe --- Pelecanus occidentalis
+Stephanoxis loddigesii --- Classe --- Platalea ajaja
+Stephanoxis loddigesii --- Classe --- Theristicus caudatus
+Stephanoxis loddigesii --- Classe --- Mesembrinibis cayennensis
+Stephanoxis loddigesii --- Classe --- Eudocimus ruber
+Stephanoxis loddigesii --- Classe --- Cochlearius cochlearius
+Stephanoxis loddigesii --- Classe --- Butorides striata
+Stephanoxis loddigesii --- Classe --- Ardea purpurea
+Stephanoxis loddigesii --- Classe --- Egretta gularis
+Stephanoxis loddigesii --- Classe --- Egretta caerulea
+Stephanoxis loddigesii --- Classe --- Egretta thula
+
+Chionomesa lactea --- Classe --- Phyllaemulor bracteatus
+Chionomesa lactea --- Classe --- Nyctibius grandis
+Chionomesa lactea --- Classe --- Nyctibius aethereus
+Chionomesa lactea --- Classe --- Nyctibius griseus
+Chionomesa lactea --- Classe --- Nyctibius leucopterus
+Chionomesa lactea --- Ordem --- Cypseloides senex
+Chionomesa lactea --- Ordem --- Streptoprocne biscutata
+Chionomesa lactea --- Ordem --- Panyptila cayennensis
+Chionomesa lactea --- Ordem --- Chaetura meridionalis
+Chionomesa lactea --- Família --- Calliphlox amethystina
+Chionomesa lactea --- Família --- Stephanoxis loddigesii
+Chionomesa lactea --- Família --- Chlorestes notata
+Chionomesa lactea --- Família --- Elliotomyia chionogaster
+Chionomesa lactea --- Família --- Hylocharis chrysura
+Chionomesa lactea --- Família --- Eupetomena macroura
+Chionomesa lactea --- Família --- Thalurania glaucopis
+Chionomesa lactea --- Família --- Anthracothorax nigricollis
+Chionomesa lactea --- Classe --- Jacamerops aureus
+Chionomesa lactea --- Classe --- Jacamaralcyon tridactyla
+Chionomesa lactea --- Classe --- Cyphos macrodactylus
+Chionomesa lactea --- Classe --- Galbula leucogastra
+Chionomesa lactea --- Classe --- Galbula cyanescens
+Chionomesa lactea --- Classe --- Nystalus maculatus
+Chionomesa lactea --- Classe --- Chelidoptera tenebrosa
+Chionomesa lactea --- Classe --- Guira guira
+Chionomesa lactea --- Classe --- Crotophaga major
+Chionomesa lactea --- Classe --- Crotophaga ani
+Chionomesa lactea --- Classe --- Dromococcyx pavoninus
+Chionomesa lactea --- Classe --- Dromococcyx phasianellus
+Chionomesa lactea --- Classe --- Tapera naevia
+Chionomesa lactea --- Classe --- Neomorphus geoffroyi
+Chionomesa lactea --- Classe --- Neomorphus squamiger
+Chionomesa lactea --- Classe --- Neomorphus rufipennis
+Chionomesa lactea --- Classe --- Neomorphus pucheranii
+Chionomesa lactea --- Classe --- Coccycua minuta
+Chionomesa lactea --- Classe --- Micrococcyx cinereus
+Chionomesa lactea --- Classe --- Piaya cayana
+Chionomesa lactea --- Classe --- Cuculus canorus
+Chionomesa lactea --- Classe --- Pelecanus occidentalis
+Chionomesa lactea --- Classe --- Platalea ajaja
+Chionomesa lactea --- Classe --- Theristicus caudatus
+Chionomesa lactea --- Classe --- Mesembrinibis cayennensis
+Chionomesa lactea --- Classe --- Eudocimus ruber
+Chionomesa lactea --- Classe --- Cochlearius cochlearius
+Chionomesa lactea --- Classe --- Butorides striata
+Chionomesa lactea --- Classe --- Ardea purpurea
+Chionomesa lactea --- Classe --- Egretta gularis
+Chionomesa lactea --- Classe --- Egretta caerulea
+Chionomesa lactea --- Classe --- Egretta thula
+
+Chlorestes notata --- Classe --- Phyllaemulor bracteatus
+Chlorestes notata --- Classe --- Nyctibius grandis
+Chlorestes notata --- Classe --- Nyctibius aethereus
+Chlorestes notata --- Classe --- Nyctibius griseus
+Chlorestes notata --- Classe --- Nyctibius leucopterus
+Chlorestes notata --- Ordem --- Cypseloides senex
+Chlorestes notata --- Ordem --- Streptoprocne biscutata
+Chlorestes notata --- Ordem --- Panyptila cayennensis
+Chlorestes notata --- Ordem --- Chaetura meridionalis
+Chlorestes notata --- Família --- Calliphlox amethystina
+Chlorestes notata --- Família --- Stephanoxis loddigesii
+Chlorestes notata --- Família --- Chionomesa lactea
+Chlorestes notata --- Família --- Elliotomyia chionogaster
+Chlorestes notata --- Família --- Hylocharis chrysura
+Chlorestes notata --- Família --- Eupetomena macroura
+Chlorestes notata --- Família --- Thalurania glaucopis
+Chlorestes notata --- Família --- Anthracothorax nigricollis
+Chlorestes notata --- Classe --- Jacamerops aureus
+Chlorestes notata --- Classe --- Jacamaralcyon tridactyla
+Chlorestes notata --- Classe --- Cyphos macrodactylus
+Chlorestes notata --- Classe --- Galbula leucogastra
+Chlorestes notata --- Classe --- Galbula cyanescens
+Chlorestes notata --- Classe --- Nystalus maculatus
+Chlorestes notata --- Classe --- Chelidoptera tenebrosa
+Chlorestes notata --- Classe --- Guira guira
+Chlorestes notata --- Classe --- Crotophaga major
+Chlorestes notata --- Classe --- Crotophaga ani
+Chlorestes notata --- Classe --- Dromococcyx pavoninus
+Chlorestes notata --- Classe --- Dromococcyx phasianellus
+Chlorestes notata --- Classe --- Tapera naevia
+Chlorestes notata --- Classe --- Neomorphus geoffroyi
+Chlorestes notata --- Classe --- Neomorphus squamiger
+Chlorestes notata --- Classe --- Neomorphus rufipennis
+Chlorestes notata --- Classe --- Neomorphus pucheranii
+Chlorestes notata --- Classe --- Coccycua minuta
+Chlorestes notata --- Classe --- Micrococcyx cinereus
+Chlorestes notata --- Classe --- Piaya cayana
+Chlorestes notata --- Classe --- Cuculus canorus
+Chlorestes notata --- Classe --- Pelecanus occidentalis
+Chlorestes notata --- Classe --- Platalea ajaja
+Chlorestes notata --- Classe --- Theristicus caudatus
+Chlorestes notata --- Classe --- Mesembrinibis cayennensis
+Chlorestes notata --- Classe --- Eudocimus ruber
+Chlorestes notata --- Classe --- Cochlearius cochlearius
+Chlorestes notata --- Classe --- Butorides striata
+Chlorestes notata --- Classe --- Ardea purpurea
+Chlorestes notata --- Classe --- Egretta gularis
+Chlorestes notata --- Classe --- Egretta caerulea
+Chlorestes notata --- Classe --- Egretta thula
+
+Elliotomyia chionogaster --- Classe --- Phyllaemulor bracteatus
+Elliotomyia chionogaster --- Classe --- Nyctibius grandis
+Elliotomyia chionogaster --- Classe --- Nyctibius aethereus
+Elliotomyia chionogaster --- Classe --- Nyctibius griseus
+Elliotomyia chionogaster --- Classe --- Nyctibius leucopterus
+Elliotomyia chionogaster --- Ordem --- Cypseloides senex
+Elliotomyia chionogaster --- Ordem --- Streptoprocne biscutata
+Elliotomyia chionogaster --- Ordem --- Panyptila cayennensis
+Elliotomyia chionogaster --- Ordem --- Chaetura meridionalis
+Elliotomyia chionogaster --- Família --- Calliphlox amethystina
+Elliotomyia chionogaster --- Família --- Stephanoxis loddigesii
+Elliotomyia chionogaster --- Família --- Chionomesa lactea
+Elliotomyia chionogaster --- Família --- Chlorestes notata
+Elliotomyia chionogaster --- Família --- Hylocharis chrysura
+Elliotomyia chionogaster --- Família --- Eupetomena macroura
+Elliotomyia chionogaster --- Família --- Thalurania glaucopis
+Elliotomyia chionogaster --- Família --- Anthracothorax nigricollis
+Elliotomyia chionogaster --- Classe --- Jacamerops aureus
+Elliotomyia chionogaster --- Classe --- Jacamaralcyon tridactyla
+Elliotomyia chionogaster --- Classe --- Cyphos macrodactylus
+Elliotomyia chionogaster --- Classe --- Galbula leucogastra
+Elliotomyia chionogaster --- Classe --- Galbula cyanescens
+Elliotomyia chionogaster --- Classe --- Nystalus maculatus
+Elliotomyia chionogaster --- Classe --- Chelidoptera tenebrosa
+Elliotomyia chionogaster --- Classe --- Guira guira
+Elliotomyia chionogaster --- Classe --- Crotophaga major
+Elliotomyia chionogaster --- Classe --- Crotophaga ani
+Elliotomyia chionogaster --- Classe --- Dromococcyx pavoninus
+Elliotomyia chionogaster --- Classe --- Dromococcyx phasianellus
+Elliotomyia chionogaster --- Classe --- Tapera naevia
+Elliotomyia chionogaster --- Classe --- Neomorphus geoffroyi
+Elliotomyia chionogaster --- Classe --- Neomorphus squamiger
+Elliotomyia chionogaster --- Classe --- Neomorphus rufipennis
+Elliotomyia chionogaster --- Classe --- Neomorphus pucheranii
+Elliotomyia chionogaster --- Classe --- Coccycua minuta
+Elliotomyia chionogaster --- Classe --- Micrococcyx cinereus
+Elliotomyia chionogaster --- Classe --- Piaya cayana
+Elliotomyia chionogaster --- Classe --- Cuculus canorus
+Elliotomyia chionogaster --- Classe --- Pelecanus occidentalis
+Elliotomyia chionogaster --- Classe --- Platalea ajaja
+Elliotomyia chionogaster --- Classe --- Theristicus caudatus
+Elliotomyia chionogaster --- Classe --- Mesembrinibis cayennensis
+Elliotomyia chionogaster --- Classe --- Eudocimus ruber
+Elliotomyia chionogaster --- Classe --- Cochlearius cochlearius
+Elliotomyia chionogaster --- Classe --- Butorides striata
+Elliotomyia chionogaster --- Classe --- Ardea purpurea
+Elliotomyia chionogaster --- Classe --- Egretta gularis
+Elliotomyia chionogaster --- Classe --- Egretta caerulea
+Elliotomyia chionogaster --- Classe --- Egretta thula
+
+Hylocharis chrysura --- Classe --- Phyllaemulor bracteatus
+Hylocharis chrysura --- Classe --- Nyctibius grandis
+Hylocharis chrysura --- Classe --- Nyctibius aethereus
+Hylocharis chrysura --- Classe --- Nyctibius griseus
+Hylocharis chrysura --- Classe --- Nyctibius leucopterus
+Hylocharis chrysura --- Ordem --- Cypseloides senex
+Hylocharis chrysura --- Ordem --- Streptoprocne biscutata
+Hylocharis chrysura --- Ordem --- Panyptila cayennensis
+Hylocharis chrysura --- Ordem --- Chaetura meridionalis
+Hylocharis chrysura --- Família --- Calliphlox amethystina
+Hylocharis chrysura --- Família --- Stephanoxis loddigesii
+Hylocharis chrysura --- Família --- Chionomesa lactea
+Hylocharis chrysura --- Família --- Chlorestes notata
+Hylocharis chrysura --- Família --- Elliotomyia chionogaster
+Hylocharis chrysura --- Família --- Eupetomena macroura
+Hylocharis chrysura --- Família --- Thalurania glaucopis
+Hylocharis chrysura --- Família --- Anthracothorax nigricollis
+Hylocharis chrysura --- Classe --- Jacamerops aureus
+Hylocharis chrysura --- Classe --- Jacamaralcyon tridactyla
+Hylocharis chrysura --- Classe --- Cyphos macrodactylus
+Hylocharis chrysura --- Classe --- Galbula leucogastra
+Hylocharis chrysura --- Classe --- Galbula cyanescens
+Hylocharis chrysura --- Classe --- Nystalus maculatus
+Hylocharis chrysura --- Classe --- Chelidoptera tenebrosa
+Hylocharis chrysura --- Classe --- Guira guira
+Hylocharis chrysura --- Classe --- Crotophaga major
+Hylocharis chrysura --- Classe --- Crotophaga ani
+Hylocharis chrysura --- Classe --- Dromococcyx pavoninus
+Hylocharis chrysura --- Classe --- Dromococcyx phasianellus
+Hylocharis chrysura --- Classe --- Tapera naevia
+Hylocharis chrysura --- Classe --- Neomorphus geoffroyi
+Hylocharis chrysura --- Classe --- Neomorphus squamiger
+Hylocharis chrysura --- Classe --- Neomorphus rufipennis
+Hylocharis chrysura --- Classe --- Neomorphus pucheranii
+Hylocharis chrysura --- Classe --- Coccycua minuta
+Hylocharis chrysura --- Classe --- Micrococcyx cinereus
+Hylocharis chrysura --- Classe --- Piaya cayana
+Hylocharis chrysura --- Classe --- Cuculus canorus
+Hylocharis chrysura --- Classe --- Pelecanus occidentalis
+Hylocharis chrysura --- Classe --- Platalea ajaja
+Hylocharis chrysura --- Classe --- Theristicus caudatus
+Hylocharis chrysura --- Classe --- Mesembrinibis cayennensis
+Hylocharis chrysura --- Classe --- Eudocimus ruber
+Hylocharis chrysura --- Classe --- Cochlearius cochlearius
+Hylocharis chrysura --- Classe --- Butorides striata
+Hylocharis chrysura --- Classe --- Ardea purpurea
+Hylocharis chrysura --- Classe --- Egretta gularis
+Hylocharis chrysura --- Classe --- Egretta caerulea
+Hylocharis chrysura --- Classe --- Egretta thula
+
+Eupetomena macroura --- Classe --- Phyllaemulor bracteatus
+Eupetomena macroura --- Classe --- Nyctibius grandis
+Eupetomena macroura --- Classe --- Nyctibius aethereus
+Eupetomena macroura --- Classe --- Nyctibius griseus
+Eupetomena macroura --- Classe --- Nyctibius leucopterus
+Eupetomena macroura --- Ordem --- Cypseloides senex
+Eupetomena macroura --- Ordem --- Streptoprocne biscutata
+Eupetomena macroura --- Ordem --- Panyptila cayennensis
+Eupetomena macroura --- Ordem --- Chaetura meridionalis
+Eupetomena macroura --- Família --- Calliphlox amethystina
+Eupetomena macroura --- Família --- Stephanoxis loddigesii
+Eupetomena macroura --- Família --- Chionomesa lactea
+Eupetomena macroura --- Família --- Chlorestes notata
+Eupetomena macroura --- Família --- Elliotomyia chionogaster
+Eupetomena macroura --- Família --- Hylocharis chrysura
+Eupetomena macroura --- Família --- Thalurania glaucopis
+Eupetomena macroura --- Família --- Anthracothorax nigricollis
+Eupetomena macroura --- Classe --- Jacamerops aureus
+Eupetomena macroura --- Classe --- Jacamaralcyon tridactyla
+Eupetomena macroura --- Classe --- Cyphos macrodactylus
+Eupetomena macroura --- Classe --- Galbula leucogastra
+Eupetomena macroura --- Classe --- Galbula cyanescens
+Eupetomena macroura --- Classe --- Nystalus maculatus
+Eupetomena macroura --- Classe --- Chelidoptera tenebrosa
+Eupetomena macroura --- Classe --- Guira guira
+Eupetomena macroura --- Classe --- Crotophaga major
+Eupetomena macroura --- Classe --- Crotophaga ani
+Eupetomena macroura --- Classe --- Dromococcyx pavoninus
+Eupetomena macroura --- Classe --- Dromococcyx phasianellus
+Eupetomena macroura --- Classe --- Tapera naevia
+Eupetomena macroura --- Classe --- Neomorphus geoffroyi
+Eupetomena macroura --- Classe --- Neomorphus squamiger
+Eupetomena macroura --- Classe --- Neomorphus rufipennis
+Eupetomena macroura --- Classe --- Neomorphus pucheranii
+Eupetomena macroura --- Classe --- Coccycua minuta
+Eupetomena macroura --- Classe --- Micrococcyx cinereus
+Eupetomena macroura --- Classe --- Piaya cayana
+Eupetomena macroura --- Classe --- Cuculus canorus
+Eupetomena macroura --- Classe --- Pelecanus occidentalis
+Eupetomena macroura --- Classe --- Platalea ajaja
+Eupetomena macroura --- Classe --- Theristicus caudatus
+Eupetomena macroura --- Classe --- Mesembrinibis cayennensis
+Eupetomena macroura --- Classe --- Eudocimus ruber
+Eupetomena macroura --- Classe --- Cochlearius cochlearius
+Eupetomena macroura --- Classe --- Butorides striata
+Eupetomena macroura --- Classe --- Ardea purpurea
+Eupetomena macroura --- Classe --- Egretta gularis
+Eupetomena macroura --- Classe --- Egretta caerulea
+Eupetomena macroura --- Classe --- Egretta thula
+
+Thalurania glaucopis --- Classe --- Phyllaemulor bracteatus
+Thalurania glaucopis --- Classe --- Nyctibius grandis
+Thalurania glaucopis --- Classe --- Nyctibius aethereus
+Thalurania glaucopis --- Classe --- Nyctibius griseus
+Thalurania glaucopis --- Classe --- Nyctibius leucopterus
+Thalurania glaucopis --- Ordem --- Cypseloides senex
+Thalurania glaucopis --- Ordem --- Streptoprocne biscutata
+Thalurania glaucopis --- Ordem --- Panyptila cayennensis
+Thalurania glaucopis --- Ordem --- Chaetura meridionalis
+Thalurania glaucopis --- Família --- Calliphlox amethystina
+Thalurania glaucopis --- Família --- Stephanoxis loddigesii
+Thalurania glaucopis --- Família --- Chionomesa lactea
+Thalurania glaucopis --- Família --- Chlorestes notata
+Thalurania glaucopis --- Família --- Elliotomyia chionogaster
+Thalurania glaucopis --- Família --- Hylocharis chrysura
+Thalurania glaucopis --- Família --- Eupetomena macroura
+Thalurania glaucopis --- Família --- Anthracothorax nigricollis
+Thalurania glaucopis --- Classe --- Jacamerops aureus
+Thalurania glaucopis --- Classe --- Jacamaralcyon tridactyla
+Thalurania glaucopis --- Classe --- Cyphos macrodactylus
+Thalurania glaucopis --- Classe --- Galbula leucogastra
+Thalurania glaucopis --- Classe --- Galbula cyanescens
+Thalurania glaucopis --- Classe --- Nystalus maculatus
+Thalurania glaucopis --- Classe --- Chelidoptera tenebrosa
+Thalurania glaucopis --- Classe --- Guira guira
+Thalurania glaucopis --- Classe --- Crotophaga major
+Thalurania glaucopis --- Classe --- Crotophaga ani
+Thalurania glaucopis --- Classe --- Dromococcyx pavoninus
+Thalurania glaucopis --- Classe --- Dromococcyx phasianellus
+Thalurania glaucopis --- Classe --- Tapera naevia
+Thalurania glaucopis --- Classe --- Neomorphus geoffroyi
+Thalurania glaucopis --- Classe --- Neomorphus squamiger
+Thalurania glaucopis --- Classe --- Neomorphus rufipennis
+Thalurania glaucopis --- Classe --- Neomorphus pucheranii
+Thalurania glaucopis --- Classe --- Coccycua minuta
+Thalurania glaucopis --- Classe --- Micrococcyx cinereus
+Thalurania glaucopis --- Classe --- Piaya cayana
+Thalurania glaucopis --- Classe --- Cuculus canorus
+Thalurania glaucopis --- Classe --- Pelecanus occidentalis
+Thalurania glaucopis --- Classe --- Platalea ajaja
+Thalurania glaucopis --- Classe --- Theristicus caudatus
+Thalurania glaucopis --- Classe --- Mesembrinibis cayennensis
+Thalurania glaucopis --- Classe --- Eudocimus ruber
+Thalurania glaucopis --- Classe --- Cochlearius cochlearius
+Thalurania glaucopis --- Classe --- Butorides striata
+Thalurania glaucopis --- Classe --- Ardea purpurea
+Thalurania glaucopis --- Classe --- Egretta gularis
+Thalurania glaucopis --- Classe --- Egretta caerulea
+Thalurania glaucopis --- Classe --- Egretta thula
+
+Anthracothorax nigricollis --- Classe --- Phyllaemulor bracteatus
+Anthracothorax nigricollis --- Classe --- Nyctibius grandis
+Anthracothorax nigricollis --- Classe --- Nyctibius aethereus
+Anthracothorax nigricollis --- Classe --- Nyctibius griseus
+Anthracothorax nigricollis --- Classe --- Nyctibius leucopterus
+Anthracothorax nigricollis --- Ordem --- Cypseloides senex
+Anthracothorax nigricollis --- Ordem --- Streptoprocne biscutata
+Anthracothorax nigricollis --- Ordem --- Panyptila cayennensis
+Anthracothorax nigricollis --- Ordem --- Chaetura meridionalis
+Anthracothorax nigricollis --- Família --- Calliphlox amethystina
+Anthracothorax nigricollis --- Família --- Stephanoxis loddigesii
+Anthracothorax nigricollis --- Família --- Chionomesa lactea
+Anthracothorax nigricollis --- Família --- Chlorestes notata
+Anthracothorax nigricollis --- Família --- Elliotomyia chionogaster
+Anthracothorax nigricollis --- Família --- Hylocharis chrysura
+Anthracothorax nigricollis --- Família --- Eupetomena macroura
+Anthracothorax nigricollis --- Família --- Thalurania glaucopis
+Anthracothorax nigricollis --- Classe --- Jacamerops aureus
+Anthracothorax nigricollis --- Classe --- Jacamaralcyon tridactyla
+Anthracothorax nigricollis --- Classe --- Cyphos macrodactylus
+Anthracothorax nigricollis --- Classe --- Galbula leucogastra
+Anthracothorax nigricollis --- Classe --- Galbula cyanescens
+Anthracothorax nigricollis --- Classe --- Nystalus maculatus
+Anthracothorax nigricollis --- Classe --- Chelidoptera tenebrosa
+Anthracothorax nigricollis --- Classe --- Guira guira
+Anthracothorax nigricollis --- Classe --- Crotophaga major
+Anthracothorax nigricollis --- Classe --- Crotophaga ani
+Anthracothorax nigricollis --- Classe --- Dromococcyx pavoninus
+Anthracothorax nigricollis --- Classe --- Dromococcyx phasianellus
+Anthracothorax nigricollis --- Classe --- Tapera naevia
+Anthracothorax nigricollis --- Classe --- Neomorphus geoffroyi
+Anthracothorax nigricollis --- Classe --- Neomorphus squamiger
+Anthracothorax nigricollis --- Classe --- Neomorphus rufipennis
+Anthracothorax nigricollis --- Classe --- Neomorphus pucheranii
+Anthracothorax nigricollis --- Classe --- Coccycua minuta
+Anthracothorax nigricollis --- Classe --- Micrococcyx cinereus
+Anthracothorax nigricollis --- Classe --- Piaya cayana
+Anthracothorax nigricollis --- Classe --- Cuculus canorus
+Anthracothorax nigricollis --- Classe --- Pelecanus occidentalis
+Anthracothorax nigricollis --- Classe --- Platalea ajaja
+Anthracothorax nigricollis --- Classe --- Theristicus caudatus
+Anthracothorax nigricollis --- Classe --- Mesembrinibis cayennensis
+Anthracothorax nigricollis --- Classe --- Eudocimus ruber
+Anthracothorax nigricollis --- Classe --- Cochlearius cochlearius
+Anthracothorax nigricollis --- Classe --- Butorides striata
+Anthracothorax nigricollis --- Classe --- Ardea purpurea
+Anthracothorax nigricollis --- Classe --- Egretta gularis
+Anthracothorax nigricollis --- Classe --- Egretta caerulea
+Anthracothorax nigricollis --- Classe --- Egretta thula
+
+Jacamerops aureus --- Classe --- Phyllaemulor bracteatus
+Jacamerops aureus --- Classe --- Nyctibius grandis
+Jacamerops aureus --- Classe --- Nyctibius aethereus
+Jacamerops aureus --- Classe --- Nyctibius griseus
+Jacamerops aureus --- Classe --- Nyctibius leucopterus
+Jacamerops aureus --- Classe --- Cypseloides senex
+Jacamerops aureus --- Classe --- Streptoprocne biscutata
+Jacamerops aureus --- Classe --- Panyptila cayennensis
+Jacamerops aureus --- Classe --- Chaetura meridionalis
+Jacamerops aureus --- Classe --- Calliphlox amethystina
+Jacamerops aureus --- Classe --- Stephanoxis loddigesii
+Jacamerops aureus --- Classe --- Chionomesa lactea
+Jacamerops aureus --- Classe --- Chlorestes notata
+Jacamerops aureus --- Classe --- Elliotomyia chionogaster
+Jacamerops aureus --- Classe --- Hylocharis chrysura
+Jacamerops aureus --- Classe --- Eupetomena macroura
+Jacamerops aureus --- Classe --- Thalurania glaucopis
+Jacamerops aureus --- Classe --- Anthracothorax nigricollis
+Jacamerops aureus --- Família --- Jacamaralcyon tridactyla
+Jacamerops aureus --- Ordem --- Cyphos macrodactylus
+Jacamerops aureus --- Família --- Galbula leucogastra
+Jacamerops aureus --- Família --- Galbula cyanescens
+Jacamerops aureus --- Ordem --- Nystalus maculatus
+Jacamerops aureus --- Ordem --- Chelidoptera tenebrosa
+Jacamerops aureus --- Classe --- Guira guira
+Jacamerops aureus --- Classe --- Crotophaga major
+Jacamerops aureus --- Classe --- Crotophaga ani
+Jacamerops aureus --- Classe --- Dromococcyx pavoninus
+Jacamerops aureus --- Classe --- Dromococcyx phasianellus
+Jacamerops aureus --- Classe --- Tapera naevia
+Jacamerops aureus --- Classe --- Neomorphus geoffroyi
+Jacamerops aureus --- Classe --- Neomorphus squamiger
+Jacamerops aureus --- Classe --- Neomorphus rufipennis
+Jacamerops aureus --- Classe --- Neomorphus pucheranii
+Jacamerops aureus --- Classe --- Coccycua minuta
+Jacamerops aureus --- Classe --- Micrococcyx cinereus
+Jacamerops aureus --- Classe --- Piaya cayana
+Jacamerops aureus --- Classe --- Cuculus canorus
+Jacamerops aureus --- Classe --- Pelecanus occidentalis
+Jacamerops aureus --- Classe --- Platalea ajaja
+Jacamerops aureus --- Classe --- Theristicus caudatus
+Jacamerops aureus --- Classe --- Mesembrinibis cayennensis
+Jacamerops aureus --- Classe --- Eudocimus ruber
+Jacamerops aureus --- Classe --- Cochlearius cochlearius
+Jacamerops aureus --- Classe --- Butorides striata
+Jacamerops aureus --- Classe --- Ardea purpurea
+Jacamerops aureus --- Classe --- Egretta gularis
+Jacamerops aureus --- Classe --- Egretta caerulea
+Jacamerops aureus --- Classe --- Egretta thula
+
+Jacamaralcyon tridactyla --- Classe --- Phyllaemulor bracteatus
+Jacamaralcyon tridactyla --- Classe --- Nyctibius grandis
+Jacamaralcyon tridactyla --- Classe --- Nyctibius aethereus
+Jacamaralcyon tridactyla --- Classe --- Nyctibius griseus
+Jacamaralcyon tridactyla --- Classe --- Nyctibius leucopterus
+Jacamaralcyon tridactyla --- Classe --- Cypseloides senex
+Jacamaralcyon tridactyla --- Classe --- Streptoprocne biscutata
+Jacamaralcyon tridactyla --- Classe --- Panyptila cayennensis
+Jacamaralcyon tridactyla --- Classe --- Chaetura meridionalis
+Jacamaralcyon tridactyla --- Classe --- Calliphlox amethystina
+Jacamaralcyon tridactyla --- Classe --- Stephanoxis loddigesii
+Jacamaralcyon tridactyla --- Classe --- Chionomesa lactea
+Jacamaralcyon tridactyla --- Classe --- Chlorestes notata
+Jacamaralcyon tridactyla --- Classe --- Elliotomyia chionogaster
+Jacamaralcyon tridactyla --- Classe --- Hylocharis chrysura
+Jacamaralcyon tridactyla --- Classe --- Eupetomena macroura
+Jacamaralcyon tridactyla --- Classe --- Thalurania glaucopis
+Jacamaralcyon tridactyla --- Classe --- Anthracothorax nigricollis
+Jacamaralcyon tridactyla --- Família --- Jacamerops aureus
+Jacamaralcyon tridactyla --- Ordem --- Cyphos macrodactylus
+Jacamaralcyon tridactyla --- Família --- Galbula leucogastra
+Jacamaralcyon tridactyla --- Família --- Galbula cyanescens
+Jacamaralcyon tridactyla --- Ordem --- Nystalus maculatus
+Jacamaralcyon tridactyla --- Ordem --- Chelidoptera tenebrosa
+Jacamaralcyon tridactyla --- Classe --- Guira guira
+Jacamaralcyon tridactyla --- Classe --- Crotophaga major
+Jacamaralcyon tridactyla --- Classe --- Crotophaga ani
+Jacamaralcyon tridactyla --- Classe --- Dromococcyx pavoninus
+Jacamaralcyon tridactyla --- Classe --- Dromococcyx phasianellus
+Jacamaralcyon tridactyla --- Classe --- Tapera naevia
+Jacamaralcyon tridactyla --- Classe --- Neomorphus geoffroyi
+Jacamaralcyon tridactyla --- Classe --- Neomorphus squamiger
+Jacamaralcyon tridactyla --- Classe --- Neomorphus rufipennis
+Jacamaralcyon tridactyla --- Classe --- Neomorphus pucheranii
+Jacamaralcyon tridactyla --- Classe --- Coccycua minuta
+Jacamaralcyon tridactyla --- Classe --- Micrococcyx cinereus
+Jacamaralcyon tridactyla --- Classe --- Piaya cayana
+Jacamaralcyon tridactyla --- Classe --- Cuculus canorus
+Jacamaralcyon tridactyla --- Classe --- Pelecanus occidentalis
+Jacamaralcyon tridactyla --- Classe --- Platalea ajaja
+Jacamaralcyon tridactyla --- Classe --- Theristicus caudatus
+Jacamaralcyon tridactyla --- Classe --- Mesembrinibis cayennensis
+Jacamaralcyon tridactyla --- Classe --- Eudocimus ruber
+Jacamaralcyon tridactyla --- Classe --- Cochlearius cochlearius
+Jacamaralcyon tridactyla --- Classe --- Butorides striata
+Jacamaralcyon tridactyla --- Classe --- Ardea purpurea
+Jacamaralcyon tridactyla --- Classe --- Egretta gularis
+Jacamaralcyon tridactyla --- Classe --- Egretta caerulea
+Jacamaralcyon tridactyla --- Classe --- Egretta thula
+
+Cyphos macrodactylus --- Classe --- Phyllaemulor bracteatus
+Cyphos macrodactylus --- Classe --- Nyctibius grandis
+Cyphos macrodactylus --- Classe --- Nyctibius aethereus
+Cyphos macrodactylus --- Classe --- Nyctibius griseus
+Cyphos macrodactylus --- Classe --- Nyctibius leucopterus
+Cyphos macrodactylus --- Classe --- Cypseloides senex
+Cyphos macrodactylus --- Classe --- Streptoprocne biscutata
+Cyphos macrodactylus --- Classe --- Panyptila cayennensis
+Cyphos macrodactylus --- Classe --- Chaetura meridionalis
+Cyphos macrodactylus --- Classe --- Calliphlox amethystina
+Cyphos macrodactylus --- Classe --- Stephanoxis loddigesii
+Cyphos macrodactylus --- Classe --- Chionomesa lactea
+Cyphos macrodactylus --- Classe --- Chlorestes notata
+Cyphos macrodactylus --- Classe --- Elliotomyia chionogaster
+Cyphos macrodactylus --- Classe --- Hylocharis chrysura
+Cyphos macrodactylus --- Classe --- Eupetomena macroura
+Cyphos macrodactylus --- Classe --- Thalurania glaucopis
+Cyphos macrodactylus --- Classe --- Anthracothorax nigricollis
+Cyphos macrodactylus --- Ordem --- Jacamerops aureus
+Cyphos macrodactylus --- Ordem --- Jacamaralcyon tridactyla
+Cyphos macrodactylus --- Ordem --- Galbula leucogastra
+Cyphos macrodactylus --- Ordem --- Galbula cyanescens
+Cyphos macrodactylus --- Família --- Nystalus maculatus
+Cyphos macrodactylus --- Família --- Chelidoptera tenebrosa
+Cyphos macrodactylus --- Classe --- Guira guira
+Cyphos macrodactylus --- Classe --- Crotophaga major
+Cyphos macrodactylus --- Classe --- Crotophaga ani
+Cyphos macrodactylus --- Classe --- Dromococcyx pavoninus
+Cyphos macrodactylus --- Classe --- Dromococcyx phasianellus
+Cyphos macrodactylus --- Classe --- Tapera naevia
+Cyphos macrodactylus --- Classe --- Neomorphus geoffroyi
+Cyphos macrodactylus --- Classe --- Neomorphus squamiger
+Cyphos macrodactylus --- Classe --- Neomorphus rufipennis
+Cyphos macrodactylus --- Classe --- Neomorphus pucheranii
+Cyphos macrodactylus --- Classe --- Coccycua minuta
+Cyphos macrodactylus --- Classe --- Micrococcyx cinereus
+Cyphos macrodactylus --- Classe --- Piaya cayana
+Cyphos macrodactylus --- Classe --- Cuculus canorus
+Cyphos macrodactylus --- Classe --- Pelecanus occidentalis
+Cyphos macrodactylus --- Classe --- Platalea ajaja
+Cyphos macrodactylus --- Classe --- Theristicus caudatus
+Cyphos macrodactylus --- Classe --- Mesembrinibis cayennensis
+Cyphos macrodactylus --- Classe --- Eudocimus ruber
+Cyphos macrodactylus --- Classe --- Cochlearius cochlearius
+Cyphos macrodactylus --- Classe --- Butorides striata
+Cyphos macrodactylus --- Classe --- Ardea purpurea
+Cyphos macrodactylus --- Classe --- Egretta gularis
+Cyphos macrodactylus --- Classe --- Egretta caerulea
+Cyphos macrodactylus --- Classe --- Egretta thula
+
+Galbula leucogastra --- Classe --- Phyllaemulor bracteatus
+Galbula leucogastra --- Classe --- Nyctibius grandis
+Galbula leucogastra --- Classe --- Nyctibius aethereus
+Galbula leucogastra --- Classe --- Nyctibius griseus
+Galbula leucogastra --- Classe --- Nyctibius leucopterus
+Galbula leucogastra --- Classe --- Cypseloides senex
+Galbula leucogastra --- Classe --- Streptoprocne biscutata
+Galbula leucogastra --- Classe --- Panyptila cayennensis
+Galbula leucogastra --- Classe --- Chaetura meridionalis
+Galbula leucogastra --- Classe --- Calliphlox amethystina
+Galbula leucogastra --- Classe --- Stephanoxis loddigesii
+Galbula leucogastra --- Classe --- Chionomesa lactea
+Galbula leucogastra --- Classe --- Chlorestes notata
+Galbula leucogastra --- Classe --- Elliotomyia chionogaster
+Galbula leucogastra --- Classe --- Hylocharis chrysura
+Galbula leucogastra --- Classe --- Eupetomena macroura
+Galbula leucogastra --- Classe --- Thalurania glaucopis
+Galbula leucogastra --- Classe --- Anthracothorax nigricollis
+Galbula leucogastra --- Família --- Jacamerops aureus
+Galbula leucogastra --- Família --- Jacamaralcyon tridactyla
+Galbula leucogastra --- Ordem --- Cyphos macrodactylus
+Galbula leucogastra --- Gênero --- Galbula cyanescens
+Galbula leucogastra --- Ordem --- Nystalus maculatus
+Galbula leucogastra --- Ordem --- Chelidoptera tenebrosa
+Galbula leucogastra --- Classe --- Guira guira
+Galbula leucogastra --- Classe --- Crotophaga major
+Galbula leucogastra --- Classe --- Crotophaga ani
+Galbula leucogastra --- Classe --- Dromococcyx pavoninus
+Galbula leucogastra --- Classe --- Dromococcyx phasianellus
+Galbula leucogastra --- Classe --- Tapera naevia
+Galbula leucogastra --- Classe --- Neomorphus geoffroyi
+Galbula leucogastra --- Classe --- Neomorphus squamiger
+Galbula leucogastra --- Classe --- Neomorphus rufipennis
+Galbula leucogastra --- Classe --- Neomorphus pucheranii
+Galbula leucogastra --- Classe --- Coccycua minuta
+Galbula leucogastra --- Classe --- Micrococcyx cinereus
+Galbula leucogastra --- Classe --- Piaya cayana
+Galbula leucogastra --- Classe --- Cuculus canorus
+Galbula leucogastra --- Classe --- Pelecanus occidentalis
+Galbula leucogastra --- Classe --- Platalea ajaja
+Galbula leucogastra --- Classe --- Theristicus caudatus
+Galbula leucogastra --- Classe --- Mesembrinibis cayennensis
+Galbula leucogastra --- Classe --- Eudocimus ruber
+Galbula leucogastra --- Classe --- Cochlearius cochlearius
+Galbula leucogastra --- Classe --- Butorides striata
+Galbula leucogastra --- Classe --- Ardea purpurea
+Galbula leucogastra --- Classe --- Egretta gularis
+Galbula leucogastra --- Classe --- Egretta caerulea
+Galbula leucogastra --- Classe --- Egretta thula
+
+Galbula cyanescens --- Classe --- Phyllaemulor bracteatus
+Galbula cyanescens --- Classe --- Nyctibius grandis
+Galbula cyanescens --- Classe --- Nyctibius aethereus
+Galbula cyanescens --- Classe --- Nyctibius griseus
+Galbula cyanescens --- Classe --- Nyctibius leucopterus
+Galbula cyanescens --- Classe --- Cypseloides senex
+Galbula cyanescens --- Classe --- Streptoprocne biscutata
+Galbula cyanescens --- Classe --- Panyptila cayennensis
+Galbula cyanescens --- Classe --- Chaetura meridionalis
+Galbula cyanescens --- Classe --- Calliphlox amethystina
+Galbula cyanescens --- Classe --- Stephanoxis loddigesii
+Galbula cyanescens --- Classe --- Chionomesa lactea
+Galbula cyanescens --- Classe --- Chlorestes notata
+Galbula cyanescens --- Classe --- Elliotomyia chionogaster
+Galbula cyanescens --- Classe --- Hylocharis chrysura
+Galbula cyanescens --- Classe --- Eupetomena macroura
+Galbula cyanescens --- Classe --- Thalurania glaucopis
+Galbula cyanescens --- Classe --- Anthracothorax nigricollis
+Galbula cyanescens --- Família --- Jacamerops aureus
+Galbula cyanescens --- Família --- Jacamaralcyon tridactyla
+Galbula cyanescens --- Ordem --- Cyphos macrodactylus
+Galbula cyanescens --- Gênero --- Galbula leucogastra
+Galbula cyanescens --- Ordem --- Nystalus maculatus
+Galbula cyanescens --- Ordem --- Chelidoptera tenebrosa
+Galbula cyanescens --- Classe --- Guira guira
+Galbula cyanescens --- Classe --- Crotophaga major
+Galbula cyanescens --- Classe --- Crotophaga ani
+Galbula cyanescens --- Classe --- Dromococcyx pavoninus
+Galbula cyanescens --- Classe --- Dromococcyx phasianellus
+Galbula cyanescens --- Classe --- Tapera naevia
+Galbula cyanescens --- Classe --- Neomorphus geoffroyi
+Galbula cyanescens --- Classe --- Neomorphus squamiger
+Galbula cyanescens --- Classe --- Neomorphus rufipennis
+Galbula cyanescens --- Classe --- Neomorphus pucheranii
+Galbula cyanescens --- Classe --- Coccycua minuta
+Galbula cyanescens --- Classe --- Micrococcyx cinereus
+Galbula cyanescens --- Classe --- Piaya cayana
+Galbula cyanescens --- Classe --- Cuculus canorus
+Galbula cyanescens --- Classe --- Pelecanus occidentalis
+Galbula cyanescens --- Classe --- Platalea ajaja
+Galbula cyanescens --- Classe --- Theristicus caudatus
+Galbula cyanescens --- Classe --- Mesembrinibis cayennensis
+Galbula cyanescens --- Classe --- Eudocimus ruber
+Galbula cyanescens --- Classe --- Cochlearius cochlearius
+Galbula cyanescens --- Classe --- Butorides striata
+Galbula cyanescens --- Classe --- Ardea purpurea
+Galbula cyanescens --- Classe --- Egretta gularis
+Galbula cyanescens --- Classe --- Egretta caerulea
+Galbula cyanescens --- Classe --- Egretta thula
+
+Nystalus maculatus --- Classe --- Phyllaemulor bracteatus
+Nystalus maculatus --- Classe --- Nyctibius grandis
+Nystalus maculatus --- Classe --- Nyctibius aethereus
+Nystalus maculatus --- Classe --- Nyctibius griseus
+Nystalus maculatus --- Classe --- Nyctibius leucopterus
+Nystalus maculatus --- Classe --- Cypseloides senex
+Nystalus maculatus --- Classe --- Streptoprocne biscutata
+Nystalus maculatus --- Classe --- Panyptila cayennensis
+Nystalus maculatus --- Classe --- Chaetura meridionalis
+Nystalus maculatus --- Classe --- Calliphlox amethystina
+Nystalus maculatus --- Classe --- Stephanoxis loddigesii
+Nystalus maculatus --- Classe --- Chionomesa lactea
+Nystalus maculatus --- Classe --- Chlorestes notata
+Nystalus maculatus --- Classe --- Elliotomyia chionogaster
+Nystalus maculatus --- Classe --- Hylocharis chrysura
+Nystalus maculatus --- Classe --- Eupetomena macroura
+Nystalus maculatus --- Classe --- Thalurania glaucopis
+Nystalus maculatus --- Classe --- Anthracothorax nigricollis
+Nystalus maculatus --- Ordem --- Jacamerops aureus
+Nystalus maculatus --- Ordem --- Jacamaralcyon tridactyla
+Nystalus maculatus --- Família --- Cyphos macrodactylus
+Nystalus maculatus --- Ordem --- Galbula leucogastra
+Nystalus maculatus --- Ordem --- Galbula cyanescens
+Nystalus maculatus --- Família --- Chelidoptera tenebrosa
+Nystalus maculatus --- Classe --- Guira guira
+Nystalus maculatus --- Classe --- Crotophaga major
+Nystalus maculatus --- Classe --- Crotophaga ani
+Nystalus maculatus --- Classe --- Dromococcyx pavoninus
+Nystalus maculatus --- Classe --- Dromococcyx phasianellus
+Nystalus maculatus --- Classe --- Tapera naevia
+Nystalus maculatus --- Classe --- Neomorphus geoffroyi
+Nystalus maculatus --- Classe --- Neomorphus squamiger
+Nystalus maculatus --- Classe --- Neomorphus rufipennis
+Nystalus maculatus --- Classe --- Neomorphus pucheranii
+Nystalus maculatus --- Classe --- Coccycua minuta
+Nystalus maculatus --- Classe --- Micrococcyx cinereus
+Nystalus maculatus --- Classe --- Piaya cayana
+Nystalus maculatus --- Classe --- Cuculus canorus
+Nystalus maculatus --- Classe --- Pelecanus occidentalis
+Nystalus maculatus --- Classe --- Platalea ajaja
+Nystalus maculatus --- Classe --- Theristicus caudatus
+Nystalus maculatus --- Classe --- Mesembrinibis cayennensis
+Nystalus maculatus --- Classe --- Eudocimus ruber
+Nystalus maculatus --- Classe --- Cochlearius cochlearius
+Nystalus maculatus --- Classe --- Butorides striata
+Nystalus maculatus --- Classe --- Ardea purpurea
+Nystalus maculatus --- Classe --- Egretta gularis
+Nystalus maculatus --- Classe --- Egretta caerulea
+Nystalus maculatus --- Classe --- Egretta thula
+
+Chelidoptera tenebrosa --- Classe --- Phyllaemulor bracteatus
+Chelidoptera tenebrosa --- Classe --- Nyctibius grandis
+Chelidoptera tenebrosa --- Classe --- Nyctibius aethereus
+Chelidoptera tenebrosa --- Classe --- Nyctibius griseus
+Chelidoptera tenebrosa --- Classe --- Nyctibius leucopterus
+Chelidoptera tenebrosa --- Classe --- Cypseloides senex
+Chelidoptera tenebrosa --- Classe --- Streptoprocne biscutata
+Chelidoptera tenebrosa --- Classe --- Panyptila cayennensis
+Chelidoptera tenebrosa --- Classe --- Chaetura meridionalis
+Chelidoptera tenebrosa --- Classe --- Calliphlox amethystina
+Chelidoptera tenebrosa --- Classe --- Stephanoxis loddigesii
+Chelidoptera tenebrosa --- Classe --- Chionomesa lactea
+Chelidoptera tenebrosa --- Classe --- Chlorestes notata
+Chelidoptera tenebrosa --- Classe --- Elliotomyia chionogaster
+Chelidoptera tenebrosa --- Classe --- Hylocharis chrysura
+Chelidoptera tenebrosa --- Classe --- Eupetomena macroura
+Chelidoptera tenebrosa --- Classe --- Thalurania glaucopis
+Chelidoptera tenebrosa --- Classe --- Anthracothorax nigricollis
+Chelidoptera tenebrosa --- Ordem --- Jacamerops aureus
+Chelidoptera tenebrosa --- Ordem --- Jacamaralcyon tridactyla
+Chelidoptera tenebrosa --- Família --- Cyphos macrodactylus
+Chelidoptera tenebrosa --- Ordem --- Galbula leucogastra
+Chelidoptera tenebrosa --- Ordem --- Galbula cyanescens
+Chelidoptera tenebrosa --- Família --- Nystalus maculatus
+Chelidoptera tenebrosa --- Classe --- Guira guira
+Chelidoptera tenebrosa --- Classe --- Crotophaga major
+Chelidoptera tenebrosa --- Classe --- Crotophaga ani
+Chelidoptera tenebrosa --- Classe --- Dromococcyx pavoninus
+Chelidoptera tenebrosa --- Classe --- Dromococcyx phasianellus
+Chelidoptera tenebrosa --- Classe --- Tapera naevia
+Chelidoptera tenebrosa --- Classe --- Neomorphus geoffroyi
+Chelidoptera tenebrosa --- Classe --- Neomorphus squamiger
+Chelidoptera tenebrosa --- Classe --- Neomorphus rufipennis
+Chelidoptera tenebrosa --- Classe --- Neomorphus pucheranii
+Chelidoptera tenebrosa --- Classe --- Coccycua minuta
+Chelidoptera tenebrosa --- Classe --- Micrococcyx cinereus
+Chelidoptera tenebrosa --- Classe --- Piaya cayana
+Chelidoptera tenebrosa --- Classe --- Cuculus canorus
+Chelidoptera tenebrosa --- Classe --- Pelecanus occidentalis
+Chelidoptera tenebrosa --- Classe --- Platalea ajaja
+Chelidoptera tenebrosa --- Classe --- Theristicus caudatus
+Chelidoptera tenebrosa --- Classe --- Mesembrinibis cayennensis
+Chelidoptera tenebrosa --- Classe --- Eudocimus ruber
+Chelidoptera tenebrosa --- Classe --- Cochlearius cochlearius
+Chelidoptera tenebrosa --- Classe --- Butorides striata
+Chelidoptera tenebrosa --- Classe --- Ardea purpurea
+Chelidoptera tenebrosa --- Classe --- Egretta gularis
+Chelidoptera tenebrosa --- Classe --- Egretta caerulea
+Chelidoptera tenebrosa --- Classe --- Egretta thula
+
+Guira guira --- Classe --- Phyllaemulor bracteatus
+Guira guira --- Classe --- Nyctibius grandis
+Guira guira --- Classe --- Nyctibius aethereus
+Guira guira --- Classe --- Nyctibius griseus
+Guira guira --- Classe --- Nyctibius leucopterus
+Guira guira --- Classe --- Cypseloides senex
+Guira guira --- Classe --- Streptoprocne biscutata
+Guira guira --- Classe --- Panyptila cayennensis
+Guira guira --- Classe --- Chaetura meridionalis
+Guira guira --- Classe --- Calliphlox amethystina
+Guira guira --- Classe --- Stephanoxis loddigesii
+Guira guira --- Classe --- Chionomesa lactea
+Guira guira --- Classe --- Chlorestes notata
+Guira guira --- Classe --- Elliotomyia chionogaster
+Guira guira --- Classe --- Hylocharis chrysura
+Guira guira --- Classe --- Eupetomena macroura
+Guira guira --- Classe --- Thalurania glaucopis
+Guira guira --- Classe --- Anthracothorax nigricollis
+Guira guira --- Classe --- Jacamerops aureus
+Guira guira --- Classe --- Jacamaralcyon tridactyla
+Guira guira --- Classe --- Cyphos macrodactylus
+Guira guira --- Classe --- Galbula leucogastra
+Guira guira --- Classe --- Galbula cyanescens
+Guira guira --- Classe --- Nystalus maculatus
+Guira guira --- Classe --- Chelidoptera tenebrosa
+Guira guira --- Família --- Crotophaga major
+Guira guira --- Família --- Crotophaga ani
+Guira guira --- Família --- Dromococcyx pavoninus
+Guira guira --- Família --- Dromococcyx phasianellus
+Guira guira --- Família --- Tapera naevia
+Guira guira --- Família --- Neomorphus geoffroyi
+Guira guira --- Família --- Neomorphus squamiger
+Guira guira --- Família --- Neomorphus rufipennis
+Guira guira --- Família --- Neomorphus pucheranii
+Guira guira --- Família --- Coccycua minuta
+Guira guira --- Família --- Micrococcyx cinereus
+Guira guira --- Família --- Piaya cayana
+Guira guira --- Família --- Cuculus canorus
+Guira guira --- Classe --- Pelecanus occidentalis
+Guira guira --- Classe --- Platalea ajaja
+Guira guira --- Classe --- Theristicus caudatus
+Guira guira --- Classe --- Mesembrinibis cayennensis
+Guira guira --- Classe --- Eudocimus ruber
+Guira guira --- Classe --- Cochlearius cochlearius
+Guira guira --- Classe --- Butorides striata
+Guira guira --- Classe --- Ardea purpurea
+Guira guira --- Classe --- Egretta gularis
+Guira guira --- Classe --- Egretta caerulea
+Guira guira --- Classe --- Egretta thula
+
+Crotophaga major --- Classe --- Phyllaemulor bracteatus
+Crotophaga major --- Classe --- Nyctibius grandis
+Crotophaga major --- Classe --- Nyctibius aethereus
+Crotophaga major --- Classe --- Nyctibius griseus
+Crotophaga major --- Classe --- Nyctibius leucopterus
+Crotophaga major --- Classe --- Cypseloides senex
+Crotophaga major --- Classe --- Streptoprocne biscutata
+Crotophaga major --- Classe --- Panyptila cayennensis
+Crotophaga major --- Classe --- Chaetura meridionalis
+Crotophaga major --- Classe --- Calliphlox amethystina
+Crotophaga major --- Classe --- Stephanoxis loddigesii
+Crotophaga major --- Classe --- Chionomesa lactea
+Crotophaga major --- Classe --- Chlorestes notata
+Crotophaga major --- Classe --- Elliotomyia chionogaster
+Crotophaga major --- Classe --- Hylocharis chrysura
+Crotophaga major --- Classe --- Eupetomena macroura
+Crotophaga major --- Classe --- Thalurania glaucopis
+Crotophaga major --- Classe --- Anthracothorax nigricollis
+Crotophaga major --- Classe --- Jacamerops aureus
+Crotophaga major --- Classe --- Jacamaralcyon tridactyla
+Crotophaga major --- Classe --- Cyphos macrodactylus
+Crotophaga major --- Classe --- Galbula leucogastra
+Crotophaga major --- Classe --- Galbula cyanescens
+Crotophaga major --- Classe --- Nystalus maculatus
+Crotophaga major --- Classe --- Chelidoptera tenebrosa
+Crotophaga major --- Família --- Guira guira
+Crotophaga major --- Gênero --- Crotophaga ani
+Crotophaga major --- Família --- Dromococcyx pavoninus
+Crotophaga major --- Família --- Dromococcyx phasianellus
+Crotophaga major --- Família --- Tapera naevia
+Crotophaga major --- Família --- Neomorphus geoffroyi
+Crotophaga major --- Família --- Neomorphus squamiger
+Crotophaga major --- Família --- Neomorphus rufipennis
+Crotophaga major --- Família --- Neomorphus pucheranii
+Crotophaga major --- Família --- Coccycua minuta
+Crotophaga major --- Família --- Micrococcyx cinereus
+Crotophaga major --- Família --- Piaya cayana
+Crotophaga major --- Família --- Cuculus canorus
+Crotophaga major --- Classe --- Pelecanus occidentalis
+Crotophaga major --- Classe --- Platalea ajaja
+Crotophaga major --- Classe --- Theristicus caudatus
+Crotophaga major --- Classe --- Mesembrinibis cayennensis
+Crotophaga major --- Classe --- Eudocimus ruber
+Crotophaga major --- Classe --- Cochlearius cochlearius
+Crotophaga major --- Classe --- Butorides striata
+Crotophaga major --- Classe --- Ardea purpurea
+Crotophaga major --- Classe --- Egretta gularis
+Crotophaga major --- Classe --- Egretta caerulea
+Crotophaga major --- Classe --- Egretta thula
+
+Crotophaga ani --- Classe --- Phyllaemulor bracteatus
+Crotophaga ani --- Classe --- Nyctibius grandis
+Crotophaga ani --- Classe --- Nyctibius aethereus
+Crotophaga ani --- Classe --- Nyctibius griseus
+Crotophaga ani --- Classe --- Nyctibius leucopterus
+Crotophaga ani --- Classe --- Cypseloides senex
+Crotophaga ani --- Classe --- Streptoprocne biscutata
+Crotophaga ani --- Classe --- Panyptila cayennensis
+Crotophaga ani --- Classe --- Chaetura meridionalis
+Crotophaga ani --- Classe --- Calliphlox amethystina
+Crotophaga ani --- Classe --- Stephanoxis loddigesii
+Crotophaga ani --- Classe --- Chionomesa lactea
+Crotophaga ani --- Classe --- Chlorestes notata
+Crotophaga ani --- Classe --- Elliotomyia chionogaster
+Crotophaga ani --- Classe --- Hylocharis chrysura
+Crotophaga ani --- Classe --- Eupetomena macroura
+Crotophaga ani --- Classe --- Thalurania glaucopis
+Crotophaga ani --- Classe --- Anthracothorax nigricollis
+Crotophaga ani --- Classe --- Jacamerops aureus
+Crotophaga ani --- Classe --- Jacamaralcyon tridactyla
+Crotophaga ani --- Classe --- Cyphos macrodactylus
+Crotophaga ani --- Classe --- Galbula leucogastra
+Crotophaga ani --- Classe --- Galbula cyanescens
+Crotophaga ani --- Classe --- Nystalus maculatus
+Crotophaga ani --- Classe --- Chelidoptera tenebrosa
+Crotophaga ani --- Família --- Guira guira
+Crotophaga ani --- Gênero --- Crotophaga major
+Crotophaga ani --- Família --- Dromococcyx pavoninus
+Crotophaga ani --- Família --- Dromococcyx phasianellus
+Crotophaga ani --- Família --- Tapera naevia
+Crotophaga ani --- Família --- Neomorphus geoffroyi
+Crotophaga ani --- Família --- Neomorphus squamiger
+Crotophaga ani --- Família --- Neomorphus rufipennis
+Crotophaga ani --- Família --- Neomorphus pucheranii
+Crotophaga ani --- Família --- Coccycua minuta
+Crotophaga ani --- Família --- Micrococcyx cinereus
+Crotophaga ani --- Família --- Piaya cayana
+Crotophaga ani --- Família --- Cuculus canorus
+Crotophaga ani --- Classe --- Pelecanus occidentalis
+Crotophaga ani --- Classe --- Platalea ajaja
+Crotophaga ani --- Classe --- Theristicus caudatus
+Crotophaga ani --- Classe --- Mesembrinibis cayennensis
+Crotophaga ani --- Classe --- Eudocimus ruber
+Crotophaga ani --- Classe --- Cochlearius cochlearius
+Crotophaga ani --- Classe --- Butorides striata
+Crotophaga ani --- Classe --- Ardea purpurea
+Crotophaga ani --- Classe --- Egretta gularis
+Crotophaga ani --- Classe --- Egretta caerulea
+Crotophaga ani --- Classe --- Egretta thula
+
+Dromococcyx pavoninus --- Classe --- Phyllaemulor bracteatus
+Dromococcyx pavoninus --- Classe --- Nyctibius grandis
+Dromococcyx pavoninus --- Classe --- Nyctibius aethereus
+Dromococcyx pavoninus --- Classe --- Nyctibius griseus
+Dromococcyx pavoninus --- Classe --- Nyctibius leucopterus
+Dromococcyx pavoninus --- Classe --- Cypseloides senex
+Dromococcyx pavoninus --- Classe --- Streptoprocne biscutata
+Dromococcyx pavoninus --- Classe --- Panyptila cayennensis
+Dromococcyx pavoninus --- Classe --- Chaetura meridionalis
+Dromococcyx pavoninus --- Classe --- Calliphlox amethystina
+Dromococcyx pavoninus --- Classe --- Stephanoxis loddigesii
+Dromococcyx pavoninus --- Classe --- Chionomesa lactea
+Dromococcyx pavoninus --- Classe --- Chlorestes notata
+Dromococcyx pavoninus --- Classe --- Elliotomyia chionogaster
+Dromococcyx pavoninus --- Classe --- Hylocharis chrysura
+Dromococcyx pavoninus --- Classe --- Eupetomena macroura
+Dromococcyx pavoninus --- Classe --- Thalurania glaucopis
+Dromococcyx pavoninus --- Classe --- Anthracothorax nigricollis
+Dromococcyx pavoninus --- Classe --- Jacamerops aureus
+Dromococcyx pavoninus --- Classe --- Jacamaralcyon tridactyla
+Dromococcyx pavoninus --- Classe --- Cyphos macrodactylus
+Dromococcyx pavoninus --- Classe --- Galbula leucogastra
+Dromococcyx pavoninus --- Classe --- Galbula cyanescens
+Dromococcyx pavoninus --- Classe --- Nystalus maculatus
+Dromococcyx pavoninus --- Classe --- Chelidoptera tenebrosa
+Dromococcyx pavoninus --- Família --- Guira guira
+Dromococcyx pavoninus --- Família --- Crotophaga major
+Dromococcyx pavoninus --- Família --- Crotophaga ani
+Dromococcyx pavoninus --- Gênero --- Dromococcyx phasianellus
+Dromococcyx pavoninus --- Família --- Tapera naevia
+Dromococcyx pavoninus --- Família --- Neomorphus geoffroyi
+Dromococcyx pavoninus --- Família --- Neomorphus squamiger
+Dromococcyx pavoninus --- Família --- Neomorphus rufipennis
+Dromococcyx pavoninus --- Família --- Neomorphus pucheranii
+Dromococcyx pavoninus --- Família --- Coccycua minuta
+Dromococcyx pavoninus --- Família --- Micrococcyx cinereus
+Dromococcyx pavoninus --- Família --- Piaya cayana
+Dromococcyx pavoninus --- Família --- Cuculus canorus
+Dromococcyx pavoninus --- Classe --- Pelecanus occidentalis
+Dromococcyx pavoninus --- Classe --- Platalea ajaja
+Dromococcyx pavoninus --- Classe --- Theristicus caudatus
+Dromococcyx pavoninus --- Classe --- Mesembrinibis cayennensis
+Dromococcyx pavoninus --- Classe --- Eudocimus ruber
+Dromococcyx pavoninus --- Classe --- Cochlearius cochlearius
+Dromococcyx pavoninus --- Classe --- Butorides striata
+Dromococcyx pavoninus --- Classe --- Ardea purpurea
+Dromococcyx pavoninus --- Classe --- Egretta gularis
+Dromococcyx pavoninus --- Classe --- Egretta caerulea
+Dromococcyx pavoninus --- Classe --- Egretta thula
+
+Dromococcyx phasianellus --- Classe --- Phyllaemulor bracteatus
+Dromococcyx phasianellus --- Classe --- Nyctibius grandis
+Dromococcyx phasianellus --- Classe --- Nyctibius aethereus
+Dromococcyx phasianellus --- Classe --- Nyctibius griseus
+Dromococcyx phasianellus --- Classe --- Nyctibius leucopterus
+Dromococcyx phasianellus --- Classe --- Cypseloides senex
+Dromococcyx phasianellus --- Classe --- Streptoprocne biscutata
+Dromococcyx phasianellus --- Classe --- Panyptila cayennensis
+Dromococcyx phasianellus --- Classe --- Chaetura meridionalis
+Dromococcyx phasianellus --- Classe --- Calliphlox amethystina
+Dromococcyx phasianellus --- Classe --- Stephanoxis loddigesii
+Dromococcyx phasianellus --- Classe --- Chionomesa lactea
+Dromococcyx phasianellus --- Classe --- Chlorestes notata
+Dromococcyx phasianellus --- Classe --- Elliotomyia chionogaster
+Dromococcyx phasianellus --- Classe --- Hylocharis chrysura
+Dromococcyx phasianellus --- Classe --- Eupetomena macroura
+Dromococcyx phasianellus --- Classe --- Thalurania glaucopis
+Dromococcyx phasianellus --- Classe --- Anthracothorax nigricollis
+Dromococcyx phasianellus --- Classe --- Jacamerops aureus
+Dromococcyx phasianellus --- Classe --- Jacamaralcyon tridactyla
+Dromococcyx phasianellus --- Classe --- Cyphos macrodactylus
+Dromococcyx phasianellus --- Classe --- Galbula leucogastra
+Dromococcyx phasianellus --- Classe --- Galbula cyanescens
+Dromococcyx phasianellus --- Classe --- Nystalus maculatus
+Dromococcyx phasianellus --- Classe --- Chelidoptera tenebrosa
+Dromococcyx phasianellus --- Família --- Guira guira
+Dromococcyx phasianellus --- Família --- Crotophaga major
+Dromococcyx phasianellus --- Família --- Crotophaga ani
+Dromococcyx phasianellus --- Gênero --- Dromococcyx pavoninus
+Dromococcyx phasianellus --- Família --- Tapera naevia
+Dromococcyx phasianellus --- Família --- Neomorphus geoffroyi
+Dromococcyx phasianellus --- Família --- Neomorphus squamiger
+Dromococcyx phasianellus --- Família --- Neomorphus rufipennis
+Dromococcyx phasianellus --- Família --- Neomorphus pucheranii
+Dromococcyx phasianellus --- Família --- Coccycua minuta
+Dromococcyx phasianellus --- Família --- Micrococcyx cinereus
+Dromococcyx phasianellus --- Família --- Piaya cayana
+Dromococcyx phasianellus --- Família --- Cuculus canorus
+Dromococcyx phasianellus --- Classe --- Pelecanus occidentalis
+Dromococcyx phasianellus --- Classe --- Platalea ajaja
+Dromococcyx phasianellus --- Classe --- Theristicus caudatus
+Dromococcyx phasianellus --- Classe --- Mesembrinibis cayennensis
+Dromococcyx phasianellus --- Classe --- Eudocimus ruber
+Dromococcyx phasianellus --- Classe --- Cochlearius cochlearius
+Dromococcyx phasianellus --- Classe --- Butorides striata
+Dromococcyx phasianellus --- Classe --- Ardea purpurea
+Dromococcyx phasianellus --- Classe --- Egretta gularis
+Dromococcyx phasianellus --- Classe --- Egretta caerulea
+Dromococcyx phasianellus --- Classe --- Egretta thula
+
+Tapera naevia --- Classe --- Phyllaemulor bracteatus
+Tapera naevia --- Classe --- Nyctibius grandis
+Tapera naevia --- Classe --- Nyctibius aethereus
+Tapera naevia --- Classe --- Nyctibius griseus
+Tapera naevia --- Classe --- Nyctibius leucopterus
+Tapera naevia --- Classe --- Cypseloides senex
+Tapera naevia --- Classe --- Streptoprocne biscutata
+Tapera naevia --- Classe --- Panyptila cayennensis
+Tapera naevia --- Classe --- Chaetura meridionalis
+Tapera naevia --- Classe --- Calliphlox amethystina
+Tapera naevia --- Classe --- Stephanoxis loddigesii
+Tapera naevia --- Classe --- Chionomesa lactea
+Tapera naevia --- Classe --- Chlorestes notata
+Tapera naevia --- Classe --- Elliotomyia chionogaster
+Tapera naevia --- Classe --- Hylocharis chrysura
+Tapera naevia --- Classe --- Eupetomena macroura
+Tapera naevia --- Classe --- Thalurania glaucopis
+Tapera naevia --- Classe --- Anthracothorax nigricollis
+Tapera naevia --- Classe --- Jacamerops aureus
+Tapera naevia --- Classe --- Jacamaralcyon tridactyla
+Tapera naevia --- Classe --- Cyphos macrodactylus
+Tapera naevia --- Classe --- Galbula leucogastra
+Tapera naevia --- Classe --- Galbula cyanescens
+Tapera naevia --- Classe --- Nystalus maculatus
+Tapera naevia --- Classe --- Chelidoptera tenebrosa
+Tapera naevia --- Família --- Guira guira
+Tapera naevia --- Família --- Crotophaga major
+Tapera naevia --- Família --- Crotophaga ani
+Tapera naevia --- Família --- Dromococcyx pavoninus
+Tapera naevia --- Família --- Dromococcyx phasianellus
+Tapera naevia --- Família --- Neomorphus geoffroyi
+Tapera naevia --- Família --- Neomorphus squamiger
+Tapera naevia --- Família --- Neomorphus rufipennis
+Tapera naevia --- Família --- Neomorphus pucheranii
+Tapera naevia --- Família --- Coccycua minuta
+Tapera naevia --- Família --- Micrococcyx cinereus
+Tapera naevia --- Família --- Piaya cayana
+Tapera naevia --- Família --- Cuculus canorus
+Tapera naevia --- Classe --- Pelecanus occidentalis
+Tapera naevia --- Classe --- Platalea ajaja
+Tapera naevia --- Classe --- Theristicus caudatus
+Tapera naevia --- Classe --- Mesembrinibis cayennensis
+Tapera naevia --- Classe --- Eudocimus ruber
+Tapera naevia --- Classe --- Cochlearius cochlearius
+Tapera naevia --- Classe --- Butorides striata
+Tapera naevia --- Classe --- Ardea purpurea
+Tapera naevia --- Classe --- Egretta gularis
+Tapera naevia --- Classe --- Egretta caerulea
+Tapera naevia --- Classe --- Egretta thula
+
+Neomorphus geoffroyi --- Classe --- Phyllaemulor bracteatus
+Neomorphus geoffroyi --- Classe --- Nyctibius grandis
+Neomorphus geoffroyi --- Classe --- Nyctibius aethereus
+Neomorphus geoffroyi --- Classe --- Nyctibius griseus
+Neomorphus geoffroyi --- Classe --- Nyctibius leucopterus
+Neomorphus geoffroyi --- Classe --- Cypseloides senex
+Neomorphus geoffroyi --- Classe --- Streptoprocne biscutata
+Neomorphus geoffroyi --- Classe --- Panyptila cayennensis
+Neomorphus geoffroyi --- Classe --- Chaetura meridionalis
+Neomorphus geoffroyi --- Classe --- Calliphlox amethystina
+Neomorphus geoffroyi --- Classe --- Stephanoxis loddigesii
+Neomorphus geoffroyi --- Classe --- Chionomesa lactea
+Neomorphus geoffroyi --- Classe --- Chlorestes notata
+Neomorphus geoffroyi --- Classe --- Elliotomyia chionogaster
+Neomorphus geoffroyi --- Classe --- Hylocharis chrysura
+Neomorphus geoffroyi --- Classe --- Eupetomena macroura
+Neomorphus geoffroyi --- Classe --- Thalurania glaucopis
+Neomorphus geoffroyi --- Classe --- Anthracothorax nigricollis
+Neomorphus geoffroyi --- Classe --- Jacamerops aureus
+Neomorphus geoffroyi --- Classe --- Jacamaralcyon tridactyla
+Neomorphus geoffroyi --- Classe --- Cyphos macrodactylus
+Neomorphus geoffroyi --- Classe --- Galbula leucogastra
+Neomorphus geoffroyi --- Classe --- Galbula cyanescens
+Neomorphus geoffroyi --- Classe --- Nystalus maculatus
+Neomorphus geoffroyi --- Classe --- Chelidoptera tenebrosa
+Neomorphus geoffroyi --- Família --- Guira guira
+Neomorphus geoffroyi --- Família --- Crotophaga major
+Neomorphus geoffroyi --- Família --- Crotophaga ani
+Neomorphus geoffroyi --- Família --- Dromococcyx pavoninus
+Neomorphus geoffroyi --- Família --- Dromococcyx phasianellus
+Neomorphus geoffroyi --- Família --- Tapera naevia
+Neomorphus geoffroyi --- Gênero --- Neomorphus squamiger
+Neomorphus geoffroyi --- Gênero --- Neomorphus rufipennis
+Neomorphus geoffroyi --- Gênero --- Neomorphus pucheranii
+Neomorphus geoffroyi --- Família --- Coccycua minuta
+Neomorphus geoffroyi --- Família --- Micrococcyx cinereus
+Neomorphus geoffroyi --- Família --- Piaya cayana
+Neomorphus geoffroyi --- Família --- Cuculus canorus
+Neomorphus geoffroyi --- Classe --- Pelecanus occidentalis
+Neomorphus geoffroyi --- Classe --- Platalea ajaja
+Neomorphus geoffroyi --- Classe --- Theristicus caudatus
+Neomorphus geoffroyi --- Classe --- Mesembrinibis cayennensis
+Neomorphus geoffroyi --- Classe --- Eudocimus ruber
+Neomorphus geoffroyi --- Classe --- Cochlearius cochlearius
+Neomorphus geoffroyi --- Classe --- Butorides striata
+Neomorphus geoffroyi --- Classe --- Ardea purpurea
+Neomorphus geoffroyi --- Classe --- Egretta gularis
+Neomorphus geoffroyi --- Classe --- Egretta caerulea
+Neomorphus geoffroyi --- Classe --- Egretta thula
+
+Neomorphus squamiger --- Classe --- Phyllaemulor bracteatus
+Neomorphus squamiger --- Classe --- Nyctibius grandis
+Neomorphus squamiger --- Classe --- Nyctibius aethereus
+Neomorphus squamiger --- Classe --- Nyctibius griseus
+Neomorphus squamiger --- Classe --- Nyctibius leucopterus
+Neomorphus squamiger --- Classe --- Cypseloides senex
+Neomorphus squamiger --- Classe --- Streptoprocne biscutata
+Neomorphus squamiger --- Classe --- Panyptila cayennensis
+Neomorphus squamiger --- Classe --- Chaetura meridionalis
+Neomorphus squamiger --- Classe --- Calliphlox amethystina
+Neomorphus squamiger --- Classe --- Stephanoxis loddigesii
+Neomorphus squamiger --- Classe --- Chionomesa lactea
+Neomorphus squamiger --- Classe --- Chlorestes notata
+Neomorphus squamiger --- Classe --- Elliotomyia chionogaster
+Neomorphus squamiger --- Classe --- Hylocharis chrysura
+Neomorphus squamiger --- Classe --- Eupetomena macroura
+Neomorphus squamiger --- Classe --- Thalurania glaucopis
+Neomorphus squamiger --- Classe --- Anthracothorax nigricollis
+Neomorphus squamiger --- Classe --- Jacamerops aureus
+Neomorphus squamiger --- Classe --- Jacamaralcyon tridactyla
+Neomorphus squamiger --- Classe --- Cyphos macrodactylus
+Neomorphus squamiger --- Classe --- Galbula leucogastra
+Neomorphus squamiger --- Classe --- Galbula cyanescens
+Neomorphus squamiger --- Classe --- Nystalus maculatus
+Neomorphus squamiger --- Classe --- Chelidoptera tenebrosa
+Neomorphus squamiger --- Família --- Guira guira
+Neomorphus squamiger --- Família --- Crotophaga major
+Neomorphus squamiger --- Família --- Crotophaga ani
+Neomorphus squamiger --- Família --- Dromococcyx pavoninus
+Neomorphus squamiger --- Família --- Dromococcyx phasianellus
+Neomorphus squamiger --- Família --- Tapera naevia
+Neomorphus squamiger --- Gênero --- Neomorphus geoffroyi
+Neomorphus squamiger --- Gênero --- Neomorphus rufipennis
+Neomorphus squamiger --- Gênero --- Neomorphus pucheranii
+Neomorphus squamiger --- Família --- Coccycua minuta
+Neomorphus squamiger --- Família --- Micrococcyx cinereus
+Neomorphus squamiger --- Família --- Piaya cayana
+Neomorphus squamiger --- Família --- Cuculus canorus
+Neomorphus squamiger --- Classe --- Pelecanus occidentalis
+Neomorphus squamiger --- Classe --- Platalea ajaja
+Neomorphus squamiger --- Classe --- Theristicus caudatus
+Neomorphus squamiger --- Classe --- Mesembrinibis cayennensis
+Neomorphus squamiger --- Classe --- Eudocimus ruber
+Neomorphus squamiger --- Classe --- Cochlearius cochlearius
+Neomorphus squamiger --- Classe --- Butorides striata
+Neomorphus squamiger --- Classe --- Ardea purpurea
+Neomorphus squamiger --- Classe --- Egretta gularis
+Neomorphus squamiger --- Classe --- Egretta caerulea
+Neomorphus squamiger --- Classe --- Egretta thula
+
+Neomorphus rufipennis --- Classe --- Phyllaemulor bracteatus
+Neomorphus rufipennis --- Classe --- Nyctibius grandis
+Neomorphus rufipennis --- Classe --- Nyctibius aethereus
+Neomorphus rufipennis --- Classe --- Nyctibius griseus
+Neomorphus rufipennis --- Classe --- Nyctibius leucopterus
+Neomorphus rufipennis --- Classe --- Cypseloides senex
+Neomorphus rufipennis --- Classe --- Streptoprocne biscutata
+Neomorphus rufipennis --- Classe --- Panyptila cayennensis
+Neomorphus rufipennis --- Classe --- Chaetura meridionalis
+Neomorphus rufipennis --- Classe --- Calliphlox amethystina
+Neomorphus rufipennis --- Classe --- Stephanoxis loddigesii
+Neomorphus rufipennis --- Classe --- Chionomesa lactea
+Neomorphus rufipennis --- Classe --- Chlorestes notata
+Neomorphus rufipennis --- Classe --- Elliotomyia chionogaster
+Neomorphus rufipennis --- Classe --- Hylocharis chrysura
+Neomorphus rufipennis --- Classe --- Eupetomena macroura
+Neomorphus rufipennis --- Classe --- Thalurania glaucopis
+Neomorphus rufipennis --- Classe --- Anthracothorax nigricollis
+Neomorphus rufipennis --- Classe --- Jacamerops aureus
+Neomorphus rufipennis --- Classe --- Jacamaralcyon tridactyla
+Neomorphus rufipennis --- Classe --- Cyphos macrodactylus
+Neomorphus rufipennis --- Classe --- Galbula leucogastra
+Neomorphus rufipennis --- Classe --- Galbula cyanescens
+Neomorphus rufipennis --- Classe --- Nystalus maculatus
+Neomorphus rufipennis --- Classe --- Chelidoptera tenebrosa
+Neomorphus rufipennis --- Família --- Guira guira
+Neomorphus rufipennis --- Família --- Crotophaga major
+Neomorphus rufipennis --- Família --- Crotophaga ani
+Neomorphus rufipennis --- Família --- Dromococcyx pavoninus
+Neomorphus rufipennis --- Família --- Dromococcyx phasianellus
+Neomorphus rufipennis --- Família --- Tapera naevia
+Neomorphus rufipennis --- Gênero --- Neomorphus geoffroyi
+Neomorphus rufipennis --- Gênero --- Neomorphus squamiger
+Neomorphus rufipennis --- Gênero --- Neomorphus pucheranii
+Neomorphus rufipennis --- Família --- Coccycua minuta
+Neomorphus rufipennis --- Família --- Micrococcyx cinereus
+Neomorphus rufipennis --- Família --- Piaya cayana
+Neomorphus rufipennis --- Família --- Cuculus canorus
+Neomorphus rufipennis --- Classe --- Pelecanus occidentalis
+Neomorphus rufipennis --- Classe --- Platalea ajaja
+Neomorphus rufipennis --- Classe --- Theristicus caudatus
+Neomorphus rufipennis --- Classe --- Mesembrinibis cayennensis
+Neomorphus rufipennis --- Classe --- Eudocimus ruber
+Neomorphus rufipennis --- Classe --- Cochlearius cochlearius
+Neomorphus rufipennis --- Classe --- Butorides striata
+Neomorphus rufipennis --- Classe --- Ardea purpurea
+Neomorphus rufipennis --- Classe --- Egretta gularis
+Neomorphus rufipennis --- Classe --- Egretta caerulea
+Neomorphus rufipennis --- Classe --- Egretta thula
+
+Neomorphus pucheranii --- Classe --- Phyllaemulor bracteatus
+Neomorphus pucheranii --- Classe --- Nyctibius grandis
+Neomorphus pucheranii --- Classe --- Nyctibius aethereus
+Neomorphus pucheranii --- Classe --- Nyctibius griseus
+Neomorphus pucheranii --- Classe --- Nyctibius leucopterus
+Neomorphus pucheranii --- Classe --- Cypseloides senex
+Neomorphus pucheranii --- Classe --- Streptoprocne biscutata
+Neomorphus pucheranii --- Classe --- Panyptila cayennensis
+Neomorphus pucheranii --- Classe --- Chaetura meridionalis
+Neomorphus pucheranii --- Classe --- Calliphlox amethystina
+Neomorphus pucheranii --- Classe --- Stephanoxis loddigesii
+Neomorphus pucheranii --- Classe --- Chionomesa lactea
+Neomorphus pucheranii --- Classe --- Chlorestes notata
+Neomorphus pucheranii --- Classe --- Elliotomyia chionogaster
+Neomorphus pucheranii --- Classe --- Hylocharis chrysura
+Neomorphus pucheranii --- Classe --- Eupetomena macroura
+Neomorphus pucheranii --- Classe --- Thalurania glaucopis
+Neomorphus pucheranii --- Classe --- Anthracothorax nigricollis
+Neomorphus pucheranii --- Classe --- Jacamerops aureus
+Neomorphus pucheranii --- Classe --- Jacamaralcyon tridactyla
+Neomorphus pucheranii --- Classe --- Cyphos macrodactylus
+Neomorphus pucheranii --- Classe --- Galbula leucogastra
+Neomorphus pucheranii --- Classe --- Galbula cyanescens
+Neomorphus pucheranii --- Classe --- Nystalus maculatus
+Neomorphus pucheranii --- Classe --- Chelidoptera tenebrosa
+Neomorphus pucheranii --- Família --- Guira guira
+Neomorphus pucheranii --- Família --- Crotophaga major
+Neomorphus pucheranii --- Família --- Crotophaga ani
+Neomorphus pucheranii --- Família --- Dromococcyx pavoninus
+Neomorphus pucheranii --- Família --- Dromococcyx phasianellus
+Neomorphus pucheranii --- Família --- Tapera naevia
+Neomorphus pucheranii --- Gênero --- Neomorphus geoffroyi
+Neomorphus pucheranii --- Gênero --- Neomorphus squamiger
+Neomorphus pucheranii --- Gênero --- Neomorphus rufipennis
+Neomorphus pucheranii --- Família --- Coccycua minuta
+Neomorphus pucheranii --- Família --- Micrococcyx cinereus
+Neomorphus pucheranii --- Família --- Piaya cayana
+Neomorphus pucheranii --- Família --- Cuculus canorus
+Neomorphus pucheranii --- Classe --- Pelecanus occidentalis
+Neomorphus pucheranii --- Classe --- Platalea ajaja
+Neomorphus pucheranii --- Classe --- Theristicus caudatus
+Neomorphus pucheranii --- Classe --- Mesembrinibis cayennensis
+Neomorphus pucheranii --- Classe --- Eudocimus ruber
+Neomorphus pucheranii --- Classe --- Cochlearius cochlearius
+Neomorphus pucheranii --- Classe --- Butorides striata
+Neomorphus pucheranii --- Classe --- Ardea purpurea
+Neomorphus pucheranii --- Classe --- Egretta gularis
+Neomorphus pucheranii --- Classe --- Egretta caerulea
+Neomorphus pucheranii --- Classe --- Egretta thula
+
+Coccycua minuta --- Classe --- Phyllaemulor bracteatus
+Coccycua minuta --- Classe --- Nyctibius grandis
+Coccycua minuta --- Classe --- Nyctibius aethereus
+Coccycua minuta --- Classe --- Nyctibius griseus
+Coccycua minuta --- Classe --- Nyctibius leucopterus
+Coccycua minuta --- Classe --- Cypseloides senex
+Coccycua minuta --- Classe --- Streptoprocne biscutata
+Coccycua minuta --- Classe --- Panyptila cayennensis
+Coccycua minuta --- Classe --- Chaetura meridionalis
+Coccycua minuta --- Classe --- Calliphlox amethystina
+Coccycua minuta --- Classe --- Stephanoxis loddigesii
+Coccycua minuta --- Classe --- Chionomesa lactea
+Coccycua minuta --- Classe --- Chlorestes notata
+Coccycua minuta --- Classe --- Elliotomyia chionogaster
+Coccycua minuta --- Classe --- Hylocharis chrysura
+Coccycua minuta --- Classe --- Eupetomena macroura
+Coccycua minuta --- Classe --- Thalurania glaucopis
+Coccycua minuta --- Classe --- Anthracothorax nigricollis
+Coccycua minuta --- Classe --- Jacamerops aureus
+Coccycua minuta --- Classe --- Jacamaralcyon tridactyla
+Coccycua minuta --- Classe --- Cyphos macrodactylus
+Coccycua minuta --- Classe --- Galbula leucogastra
+Coccycua minuta --- Classe --- Galbula cyanescens
+Coccycua minuta --- Classe --- Nystalus maculatus
+Coccycua minuta --- Classe --- Chelidoptera tenebrosa
+Coccycua minuta --- Família --- Guira guira
+Coccycua minuta --- Família --- Crotophaga major
+Coccycua minuta --- Família --- Crotophaga ani
+Coccycua minuta --- Família --- Dromococcyx pavoninus
+Coccycua minuta --- Família --- Dromococcyx phasianellus
+Coccycua minuta --- Família --- Tapera naevia
+Coccycua minuta --- Família --- Neomorphus geoffroyi
+Coccycua minuta --- Família --- Neomorphus squamiger
+Coccycua minuta --- Família --- Neomorphus rufipennis
+Coccycua minuta --- Família --- Neomorphus pucheranii
+Coccycua minuta --- Família --- Micrococcyx cinereus
+Coccycua minuta --- Família --- Piaya cayana
+Coccycua minuta --- Família --- Cuculus canorus
+Coccycua minuta --- Classe --- Pelecanus occidentalis
+Coccycua minuta --- Classe --- Platalea ajaja
+Coccycua minuta --- Classe --- Theristicus caudatus
+Coccycua minuta --- Classe --- Mesembrinibis cayennensis
+Coccycua minuta --- Classe --- Eudocimus ruber
+Coccycua minuta --- Classe --- Cochlearius cochlearius
+Coccycua minuta --- Classe --- Butorides striata
+Coccycua minuta --- Classe --- Ardea purpurea
+Coccycua minuta --- Classe --- Egretta gularis
+Coccycua minuta --- Classe --- Egretta caerulea
+Coccycua minuta --- Classe --- Egretta thula
+
+Micrococcyx cinereus --- Classe --- Phyllaemulor bracteatus
+Micrococcyx cinereus --- Classe --- Nyctibius grandis
+Micrococcyx cinereus --- Classe --- Nyctibius aethereus
+Micrococcyx cinereus --- Classe --- Nyctibius griseus
+Micrococcyx cinereus --- Classe --- Nyctibius leucopterus
+Micrococcyx cinereus --- Classe --- Cypseloides senex
+Micrococcyx cinereus --- Classe --- Streptoprocne biscutata
+Micrococcyx cinereus --- Classe --- Panyptila cayennensis
+Micrococcyx cinereus --- Classe --- Chaetura meridionalis
+Micrococcyx cinereus --- Classe --- Calliphlox amethystina
+Micrococcyx cinereus --- Classe --- Stephanoxis loddigesii
+Micrococcyx cinereus --- Classe --- Chionomesa lactea
+Micrococcyx cinereus --- Classe --- Chlorestes notata
+Micrococcyx cinereus --- Classe --- Elliotomyia chionogaster
+Micrococcyx cinereus --- Classe --- Hylocharis chrysura
+Micrococcyx cinereus --- Classe --- Eupetomena macroura
+Micrococcyx cinereus --- Classe --- Thalurania glaucopis
+Micrococcyx cinereus --- Classe --- Anthracothorax nigricollis
+Micrococcyx cinereus --- Classe --- Jacamerops aureus
+Micrococcyx cinereus --- Classe --- Jacamaralcyon tridactyla
+Micrococcyx cinereus --- Classe --- Cyphos macrodactylus
+Micrococcyx cinereus --- Classe --- Galbula leucogastra
+Micrococcyx cinereus --- Classe --- Galbula cyanescens
+Micrococcyx cinereus --- Classe --- Nystalus maculatus
+Micrococcyx cinereus --- Classe --- Chelidoptera tenebrosa
+Micrococcyx cinereus --- Família --- Guira guira
+Micrococcyx cinereus --- Família --- Crotophaga major
+Micrococcyx cinereus --- Família --- Crotophaga ani
+Micrococcyx cinereus --- Família --- Dromococcyx pavoninus
+Micrococcyx cinereus --- Família --- Dromococcyx phasianellus
+Micrococcyx cinereus --- Família --- Tapera naevia
+Micrococcyx cinereus --- Família --- Neomorphus geoffroyi
+Micrococcyx cinereus --- Família --- Neomorphus squamiger
+Micrococcyx cinereus --- Família --- Neomorphus rufipennis
+Micrococcyx cinereus --- Família --- Neomorphus pucheranii
+Micrococcyx cinereus --- Família --- Coccycua minuta
+Micrococcyx cinereus --- Família --- Piaya cayana
+Micrococcyx cinereus --- Família --- Cuculus canorus
+Micrococcyx cinereus --- Classe --- Pelecanus occidentalis
+Micrococcyx cinereus --- Classe --- Platalea ajaja
+Micrococcyx cinereus --- Classe --- Theristicus caudatus
+Micrococcyx cinereus --- Classe --- Mesembrinibis cayennensis
+Micrococcyx cinereus --- Classe --- Eudocimus ruber
+Micrococcyx cinereus --- Classe --- Cochlearius cochlearius
+Micrococcyx cinereus --- Classe --- Butorides striata
+Micrococcyx cinereus --- Classe --- Ardea purpurea
+Micrococcyx cinereus --- Classe --- Egretta gularis
+Micrococcyx cinereus --- Classe --- Egretta caerulea
+Micrococcyx cinereus --- Classe --- Egretta thula
+
+Piaya cayana --- Classe --- Phyllaemulor bracteatus
+Piaya cayana --- Classe --- Nyctibius grandis
+Piaya cayana --- Classe --- Nyctibius aethereus
+Piaya cayana --- Classe --- Nyctibius griseus
+Piaya cayana --- Classe --- Nyctibius leucopterus
+Piaya cayana --- Classe --- Cypseloides senex
+Piaya cayana --- Classe --- Streptoprocne biscutata
+Piaya cayana --- Classe --- Panyptila cayennensis
+Piaya cayana --- Classe --- Chaetura meridionalis
+Piaya cayana --- Classe --- Calliphlox amethystina
+Piaya cayana --- Classe --- Stephanoxis loddigesii
+Piaya cayana --- Classe --- Chionomesa lactea
+Piaya cayana --- Classe --- Chlorestes notata
+Piaya cayana --- Classe --- Elliotomyia chionogaster
+Piaya cayana --- Classe --- Hylocharis chrysura
+Piaya cayana --- Classe --- Eupetomena macroura
+Piaya cayana --- Classe --- Thalurania glaucopis
+Piaya cayana --- Classe --- Anthracothorax nigricollis
+Piaya cayana --- Classe --- Jacamerops aureus
+Piaya cayana --- Classe --- Jacamaralcyon tridactyla
+Piaya cayana --- Classe --- Cyphos macrodactylus
+Piaya cayana --- Classe --- Galbula leucogastra
+Piaya cayana --- Classe --- Galbula cyanescens
+Piaya cayana --- Classe --- Nystalus maculatus
+Piaya cayana --- Classe --- Chelidoptera tenebrosa
+Piaya cayana --- Família --- Guira guira
+Piaya cayana --- Família --- Crotophaga major
+Piaya cayana --- Família --- Crotophaga ani
+Piaya cayana --- Família --- Dromococcyx pavoninus
+Piaya cayana --- Família --- Dromococcyx phasianellus
+Piaya cayana --- Família --- Tapera naevia
+Piaya cayana --- Família --- Neomorphus geoffroyi
+Piaya cayana --- Família --- Neomorphus squamiger
+Piaya cayana --- Família --- Neomorphus rufipennis
+Piaya cayana --- Família --- Neomorphus pucheranii
+Piaya cayana --- Família --- Coccycua minuta
+Piaya cayana --- Família --- Micrococcyx cinereus
+Piaya cayana --- Família --- Cuculus canorus
+Piaya cayana --- Classe --- Pelecanus occidentalis
+Piaya cayana --- Classe --- Platalea ajaja
+Piaya cayana --- Classe --- Theristicus caudatus
+Piaya cayana --- Classe --- Mesembrinibis cayennensis
+Piaya cayana --- Classe --- Eudocimus ruber
+Piaya cayana --- Classe --- Cochlearius cochlearius
+Piaya cayana --- Classe --- Butorides striata
+Piaya cayana --- Classe --- Ardea purpurea
+Piaya cayana --- Classe --- Egretta gularis
+Piaya cayana --- Classe --- Egretta caerulea
+Piaya cayana --- Classe --- Egretta thula
+
+Cuculus canorus --- Classe --- Phyllaemulor bracteatus
+Cuculus canorus --- Classe --- Nyctibius grandis
+Cuculus canorus --- Classe --- Nyctibius aethereus
+Cuculus canorus --- Classe --- Nyctibius griseus
+Cuculus canorus --- Classe --- Nyctibius leucopterus
+Cuculus canorus --- Classe --- Cypseloides senex
+Cuculus canorus --- Classe --- Streptoprocne biscutata
+Cuculus canorus --- Classe --- Panyptila cayennensis
+Cuculus canorus --- Classe --- Chaetura meridionalis
+Cuculus canorus --- Classe --- Calliphlox amethystina
+Cuculus canorus --- Classe --- Stephanoxis loddigesii
+Cuculus canorus --- Classe --- Chionomesa lactea
+Cuculus canorus --- Classe --- Chlorestes notata
+Cuculus canorus --- Classe --- Elliotomyia chionogaster
+Cuculus canorus --- Classe --- Hylocharis chrysura
+Cuculus canorus --- Classe --- Eupetomena macroura
+Cuculus canorus --- Classe --- Thalurania glaucopis
+Cuculus canorus --- Classe --- Anthracothorax nigricollis
+Cuculus canorus --- Classe --- Jacamerops aureus
+Cuculus canorus --- Classe --- Jacamaralcyon tridactyla
+Cuculus canorus --- Classe --- Cyphos macrodactylus
+Cuculus canorus --- Classe --- Galbula leucogastra
+Cuculus canorus --- Classe --- Galbula cyanescens
+Cuculus canorus --- Classe --- Nystalus maculatus
+Cuculus canorus --- Classe --- Chelidoptera tenebrosa
+Cuculus canorus --- Família --- Guira guira
+Cuculus canorus --- Família --- Crotophaga major
+Cuculus canorus --- Família --- Crotophaga ani
+Cuculus canorus --- Família --- Dromococcyx pavoninus
+Cuculus canorus --- Família --- Dromococcyx phasianellus
+Cuculus canorus --- Família --- Tapera naevia
+Cuculus canorus --- Família --- Neomorphus geoffroyi
+Cuculus canorus --- Família --- Neomorphus squamiger
+Cuculus canorus --- Família --- Neomorphus rufipennis
+Cuculus canorus --- Família --- Neomorphus pucheranii
+Cuculus canorus --- Família --- Coccycua minuta
+Cuculus canorus --- Família --- Micrococcyx cinereus
+Cuculus canorus --- Família --- Piaya cayana
+Cuculus canorus --- Classe --- Pelecanus occidentalis
+Cuculus canorus --- Classe --- Platalea ajaja
+Cuculus canorus --- Classe --- Theristicus caudatus
+Cuculus canorus --- Classe --- Mesembrinibis cayennensis
+Cuculus canorus --- Classe --- Eudocimus ruber
+Cuculus canorus --- Classe --- Cochlearius cochlearius
+Cuculus canorus --- Classe --- Butorides striata
+Cuculus canorus --- Classe --- Ardea purpurea
+Cuculus canorus --- Classe --- Egretta gularis
+Cuculus canorus --- Classe --- Egretta caerulea
+Cuculus canorus --- Classe --- Egretta thula
+
+Pelecanus occidentalis --- Classe --- Phyllaemulor bracteatus
+Pelecanus occidentalis --- Classe --- Nyctibius grandis
+Pelecanus occidentalis --- Classe --- Nyctibius aethereus
+Pelecanus occidentalis --- Classe --- Nyctibius griseus
+Pelecanus occidentalis --- Classe --- Nyctibius leucopterus
+Pelecanus occidentalis --- Classe --- Cypseloides senex
+Pelecanus occidentalis --- Classe --- Streptoprocne biscutata
+Pelecanus occidentalis --- Classe --- Panyptila cayennensis
+Pelecanus occidentalis --- Classe --- Chaetura meridionalis
+Pelecanus occidentalis --- Classe --- Calliphlox amethystina
+Pelecanus occidentalis --- Classe --- Stephanoxis loddigesii
+Pelecanus occidentalis --- Classe --- Chionomesa lactea
+Pelecanus occidentalis --- Classe --- Chlorestes notata
+Pelecanus occidentalis --- Classe --- Elliotomyia chionogaster
+Pelecanus occidentalis --- Classe --- Hylocharis chrysura
+Pelecanus occidentalis --- Classe --- Eupetomena macroura
+Pelecanus occidentalis --- Classe --- Thalurania glaucopis
+Pelecanus occidentalis --- Classe --- Anthracothorax nigricollis
+Pelecanus occidentalis --- Classe --- Jacamerops aureus
+Pelecanus occidentalis --- Classe --- Jacamaralcyon tridactyla
+Pelecanus occidentalis --- Classe --- Cyphos macrodactylus
+Pelecanus occidentalis --- Classe --- Galbula leucogastra
+Pelecanus occidentalis --- Classe --- Galbula cyanescens
+Pelecanus occidentalis --- Classe --- Nystalus maculatus
+Pelecanus occidentalis --- Classe --- Chelidoptera tenebrosa
+Pelecanus occidentalis --- Classe --- Guira guira
+Pelecanus occidentalis --- Classe --- Crotophaga major
+Pelecanus occidentalis --- Classe --- Crotophaga ani
+Pelecanus occidentalis --- Classe --- Dromococcyx pavoninus
+Pelecanus occidentalis --- Classe --- Dromococcyx phasianellus
+Pelecanus occidentalis --- Classe --- Tapera naevia
+Pelecanus occidentalis --- Classe --- Neomorphus geoffroyi
+Pelecanus occidentalis --- Classe --- Neomorphus squamiger
+Pelecanus occidentalis --- Classe --- Neomorphus rufipennis
+Pelecanus occidentalis --- Classe --- Neomorphus pucheranii
+Pelecanus occidentalis --- Classe --- Coccycua minuta
+Pelecanus occidentalis --- Classe --- Micrococcyx cinereus
+Pelecanus occidentalis --- Classe --- Piaya cayana
+Pelecanus occidentalis --- Classe --- Cuculus canorus
+Pelecanus occidentalis --- Ordem --- Platalea ajaja
+Pelecanus occidentalis --- Ordem --- Theristicus caudatus
+Pelecanus occidentalis --- Ordem --- Mesembrinibis cayennensis
+Pelecanus occidentalis --- Ordem --- Eudocimus ruber
+Pelecanus occidentalis --- Ordem --- Cochlearius cochlearius
+Pelecanus occidentalis --- Ordem --- Butorides striata
+Pelecanus occidentalis --- Ordem --- Ardea purpurea
+Pelecanus occidentalis --- Ordem --- Egretta gularis
+Pelecanus occidentalis --- Ordem --- Egretta caerulea
+Pelecanus occidentalis --- Ordem --- Egretta thula
+
+Platalea ajaja --- Classe --- Phyllaemulor bracteatus
+Platalea ajaja --- Classe --- Nyctibius grandis
+Platalea ajaja --- Classe --- Nyctibius aethereus
+Platalea ajaja --- Classe --- Nyctibius griseus
+Platalea ajaja --- Classe --- Nyctibius leucopterus
+Platalea ajaja --- Classe --- Cypseloides senex
+Platalea ajaja --- Classe --- Streptoprocne biscutata
+Platalea ajaja --- Classe --- Panyptila cayennensis
+Platalea ajaja --- Classe --- Chaetura meridionalis
+Platalea ajaja --- Classe --- Calliphlox amethystina
+Platalea ajaja --- Classe --- Stephanoxis loddigesii
+Platalea ajaja --- Classe --- Chionomesa lactea
+Platalea ajaja --- Classe --- Chlorestes notata
+Platalea ajaja --- Classe --- Elliotomyia chionogaster
+Platalea ajaja --- Classe --- Hylocharis chrysura
+Platalea ajaja --- Classe --- Eupetomena macroura
+Platalea ajaja --- Classe --- Thalurania glaucopis
+Platalea ajaja --- Classe --- Anthracothorax nigricollis
+Platalea ajaja --- Classe --- Jacamerops aureus
+Platalea ajaja --- Classe --- Jacamaralcyon tridactyla
+Platalea ajaja --- Classe --- Cyphos macrodactylus
+Platalea ajaja --- Classe --- Galbula leucogastra
+Platalea ajaja --- Classe --- Galbula cyanescens
+Platalea ajaja --- Classe --- Nystalus maculatus
+Platalea ajaja --- Classe --- Chelidoptera tenebrosa
+Platalea ajaja --- Classe --- Guira guira
+Platalea ajaja --- Classe --- Crotophaga major
+Platalea ajaja --- Classe --- Crotophaga ani
+Platalea ajaja --- Classe --- Dromococcyx pavoninus
+Platalea ajaja --- Classe --- Dromococcyx phasianellus
+Platalea ajaja --- Classe --- Tapera naevia
+Platalea ajaja --- Classe --- Neomorphus geoffroyi
+Platalea ajaja --- Classe --- Neomorphus squamiger
+Platalea ajaja --- Classe --- Neomorphus rufipennis
+Platalea ajaja --- Classe --- Neomorphus pucheranii
+Platalea ajaja --- Classe --- Coccycua minuta
+Platalea ajaja --- Classe --- Micrococcyx cinereus
+Platalea ajaja --- Classe --- Piaya cayana
+Platalea ajaja --- Classe --- Cuculus canorus
+Platalea ajaja --- Ordem --- Pelecanus occidentalis
+Platalea ajaja --- Família --- Theristicus caudatus
+Platalea ajaja --- Família --- Mesembrinibis cayennensis
+Platalea ajaja --- Família --- Eudocimus ruber
+Platalea ajaja --- Ordem --- Cochlearius cochlearius
+Platalea ajaja --- Ordem --- Butorides striata
+Platalea ajaja --- Ordem --- Ardea purpurea
+Platalea ajaja --- Ordem --- Egretta gularis
+Platalea ajaja --- Ordem --- Egretta caerulea
+Platalea ajaja --- Ordem --- Egretta thula
+
+Theristicus caudatus --- Classe --- Phyllaemulor bracteatus
+Theristicus caudatus --- Classe --- Nyctibius grandis
+Theristicus caudatus --- Classe --- Nyctibius aethereus
+Theristicus caudatus --- Classe --- Nyctibius griseus
+Theristicus caudatus --- Classe --- Nyctibius leucopterus
+Theristicus caudatus --- Classe --- Cypseloides senex
+Theristicus caudatus --- Classe --- Streptoprocne biscutata
+Theristicus caudatus --- Classe --- Panyptila cayennensis
+Theristicus caudatus --- Classe --- Chaetura meridionalis
+Theristicus caudatus --- Classe --- Calliphlox amethystina
+Theristicus caudatus --- Classe --- Stephanoxis loddigesii
+Theristicus caudatus --- Classe --- Chionomesa lactea
+Theristicus caudatus --- Classe --- Chlorestes notata
+Theristicus caudatus --- Classe --- Elliotomyia chionogaster
+Theristicus caudatus --- Classe --- Hylocharis chrysura
+Theristicus caudatus --- Classe --- Eupetomena macroura
+Theristicus caudatus --- Classe --- Thalurania glaucopis
+Theristicus caudatus --- Classe --- Anthracothorax nigricollis
+Theristicus caudatus --- Classe --- Jacamerops aureus
+Theristicus caudatus --- Classe --- Jacamaralcyon tridactyla
+Theristicus caudatus --- Classe --- Cyphos macrodactylus
+Theristicus caudatus --- Classe --- Galbula leucogastra
+Theristicus caudatus --- Classe --- Galbula cyanescens
+Theristicus caudatus --- Classe --- Nystalus maculatus
+Theristicus caudatus --- Classe --- Chelidoptera tenebrosa
+Theristicus caudatus --- Classe --- Guira guira
+Theristicus caudatus --- Classe --- Crotophaga major
+Theristicus caudatus --- Classe --- Crotophaga ani
+Theristicus caudatus --- Classe --- Dromococcyx pavoninus
+Theristicus caudatus --- Classe --- Dromococcyx phasianellus
+Theristicus caudatus --- Classe --- Tapera naevia
+Theristicus caudatus --- Classe --- Neomorphus geoffroyi
+Theristicus caudatus --- Classe --- Neomorphus squamiger
+Theristicus caudatus --- Classe --- Neomorphus rufipennis
+Theristicus caudatus --- Classe --- Neomorphus pucheranii
+Theristicus caudatus --- Classe --- Coccycua minuta
+Theristicus caudatus --- Classe --- Micrococcyx cinereus
+Theristicus caudatus --- Classe --- Piaya cayana
+Theristicus caudatus --- Classe --- Cuculus canorus
+Theristicus caudatus --- Ordem --- Pelecanus occidentalis
+Theristicus caudatus --- Família --- Platalea ajaja
+Theristicus caudatus --- Família --- Mesembrinibis cayennensis
+Theristicus caudatus --- Família --- Eudocimus ruber
+Theristicus caudatus --- Ordem --- Cochlearius cochlearius
+Theristicus caudatus --- Ordem --- Butorides striata
+Theristicus caudatus --- Ordem --- Ardea purpurea
+Theristicus caudatus --- Ordem --- Egretta gularis
+Theristicus caudatus --- Ordem --- Egretta caerulea
+Theristicus caudatus --- Ordem --- Egretta thula
+
+Mesembrinibis cayennensis --- Classe --- Phyllaemulor bracteatus
+Mesembrinibis cayennensis --- Classe --- Nyctibius grandis
+Mesembrinibis cayennensis --- Classe --- Nyctibius aethereus
+Mesembrinibis cayennensis --- Classe --- Nyctibius griseus
+Mesembrinibis cayennensis --- Classe --- Nyctibius leucopterus
+Mesembrinibis cayennensis --- Classe --- Cypseloides senex
+Mesembrinibis cayennensis --- Classe --- Streptoprocne biscutata
+Mesembrinibis cayennensis --- Espécie --- Panyptila cayennensis
+Mesembrinibis cayennensis --- Classe --- Chaetura meridionalis
+Mesembrinibis cayennensis --- Classe --- Calliphlox amethystina
+Mesembrinibis cayennensis --- Classe --- Stephanoxis loddigesii
+Mesembrinibis cayennensis --- Classe --- Chionomesa lactea
+Mesembrinibis cayennensis --- Classe --- Chlorestes notata
+Mesembrinibis cayennensis --- Classe --- Elliotomyia chionogaster
+Mesembrinibis cayennensis --- Classe --- Hylocharis chrysura
+Mesembrinibis cayennensis --- Classe --- Eupetomena macroura
+Mesembrinibis cayennensis --- Classe --- Thalurania glaucopis
+Mesembrinibis cayennensis --- Classe --- Anthracothorax nigricollis
+Mesembrinibis cayennensis --- Classe --- Jacamerops aureus
+Mesembrinibis cayennensis --- Classe --- Jacamaralcyon tridactyla
+Mesembrinibis cayennensis --- Classe --- Cyphos macrodactylus
+Mesembrinibis cayennensis --- Classe --- Galbula leucogastra
+Mesembrinibis cayennensis --- Classe --- Galbula cyanescens
+Mesembrinibis cayennensis --- Classe --- Nystalus maculatus
+Mesembrinibis cayennensis --- Classe --- Chelidoptera tenebrosa
+Mesembrinibis cayennensis --- Classe --- Guira guira
+Mesembrinibis cayennensis --- Classe --- Crotophaga major
+Mesembrinibis cayennensis --- Classe --- Crotophaga ani
+Mesembrinibis cayennensis --- Classe --- Dromococcyx pavoninus
+Mesembrinibis cayennensis --- Classe --- Dromococcyx phasianellus
+Mesembrinibis cayennensis --- Classe --- Tapera naevia
+Mesembrinibis cayennensis --- Classe --- Neomorphus geoffroyi
+Mesembrinibis cayennensis --- Classe --- Neomorphus squamiger
+Mesembrinibis cayennensis --- Classe --- Neomorphus rufipennis
+Mesembrinibis cayennensis --- Classe --- Neomorphus pucheranii
+Mesembrinibis cayennensis --- Classe --- Coccycua minuta
+Mesembrinibis cayennensis --- Classe --- Micrococcyx cinereus
+Mesembrinibis cayennensis --- Classe --- Piaya cayana
+Mesembrinibis cayennensis --- Classe --- Cuculus canorus
+Mesembrinibis cayennensis --- Ordem --- Pelecanus occidentalis
+Mesembrinibis cayennensis --- Família --- Platalea ajaja
+Mesembrinibis cayennensis --- Família --- Theristicus caudatus
+Mesembrinibis cayennensis --- Família --- Eudocimus ruber
+Mesembrinibis cayennensis --- Ordem --- Cochlearius cochlearius
+Mesembrinibis cayennensis --- Ordem --- Butorides striata
+Mesembrinibis cayennensis --- Ordem --- Ardea purpurea
+Mesembrinibis cayennensis --- Ordem --- Egretta gularis
+Mesembrinibis cayennensis --- Ordem --- Egretta caerulea
+Mesembrinibis cayennensis --- Ordem --- Egretta thula
+
+Eudocimus ruber --- Classe --- Phyllaemulor bracteatus
+Eudocimus ruber --- Classe --- Nyctibius grandis
+Eudocimus ruber --- Classe --- Nyctibius aethereus
+Eudocimus ruber --- Classe --- Nyctibius griseus
+Eudocimus ruber --- Classe --- Nyctibius leucopterus
+Eudocimus ruber --- Classe --- Cypseloides senex
+Eudocimus ruber --- Classe --- Streptoprocne biscutata
+Eudocimus ruber --- Classe --- Panyptila cayennensis
+Eudocimus ruber --- Classe --- Chaetura meridionalis
+Eudocimus ruber --- Classe --- Calliphlox amethystina
+Eudocimus ruber --- Classe --- Stephanoxis loddigesii
+Eudocimus ruber --- Classe --- Chionomesa lactea
+Eudocimus ruber --- Classe --- Chlorestes notata
+Eudocimus ruber --- Classe --- Elliotomyia chionogaster
+Eudocimus ruber --- Classe --- Hylocharis chrysura
+Eudocimus ruber --- Classe --- Eupetomena macroura
+Eudocimus ruber --- Classe --- Thalurania glaucopis
+Eudocimus ruber --- Classe --- Anthracothorax nigricollis
+Eudocimus ruber --- Classe --- Jacamerops aureus
+Eudocimus ruber --- Classe --- Jacamaralcyon tridactyla
+Eudocimus ruber --- Classe --- Cyphos macrodactylus
+Eudocimus ruber --- Classe --- Galbula leucogastra
+Eudocimus ruber --- Classe --- Galbula cyanescens
+Eudocimus ruber --- Classe --- Nystalus maculatus
+Eudocimus ruber --- Classe --- Chelidoptera tenebrosa
+Eudocimus ruber --- Classe --- Guira guira
+Eudocimus ruber --- Classe --- Crotophaga major
+Eudocimus ruber --- Classe --- Crotophaga ani
+Eudocimus ruber --- Classe --- Dromococcyx pavoninus
+Eudocimus ruber --- Classe --- Dromococcyx phasianellus
+Eudocimus ruber --- Classe --- Tapera naevia
+Eudocimus ruber --- Classe --- Neomorphus geoffroyi
+Eudocimus ruber --- Classe --- Neomorphus squamiger
+Eudocimus ruber --- Classe --- Neomorphus rufipennis
+Eudocimus ruber --- Classe --- Neomorphus pucheranii
+Eudocimus ruber --- Classe --- Coccycua minuta
+Eudocimus ruber --- Classe --- Micrococcyx cinereus
+Eudocimus ruber --- Classe --- Piaya cayana
+Eudocimus ruber --- Classe --- Cuculus canorus
+Eudocimus ruber --- Ordem --- Pelecanus occidentalis
+Eudocimus ruber --- Família --- Platalea ajaja
+Eudocimus ruber --- Família --- Theristicus caudatus
+Eudocimus ruber --- Família --- Mesembrinibis cayennensis
+Eudocimus ruber --- Ordem --- Cochlearius cochlearius
+Eudocimus ruber --- Ordem --- Butorides striata
+Eudocimus ruber --- Ordem --- Ardea purpurea
+Eudocimus ruber --- Ordem --- Egretta gularis
+Eudocimus ruber --- Ordem --- Egretta caerulea
+Eudocimus ruber --- Ordem --- Egretta thula
+
+Cochlearius cochlearius --- Classe --- Phyllaemulor bracteatus
+Cochlearius cochlearius --- Classe --- Nyctibius grandis
+Cochlearius cochlearius --- Classe --- Nyctibius aethereus
+Cochlearius cochlearius --- Classe --- Nyctibius griseus
+Cochlearius cochlearius --- Classe --- Nyctibius leucopterus
+Cochlearius cochlearius --- Classe --- Cypseloides senex
+Cochlearius cochlearius --- Classe --- Streptoprocne biscutata
+Cochlearius cochlearius --- Classe --- Panyptila cayennensis
+Cochlearius cochlearius --- Classe --- Chaetura meridionalis
+Cochlearius cochlearius --- Classe --- Calliphlox amethystina
+Cochlearius cochlearius --- Classe --- Stephanoxis loddigesii
+Cochlearius cochlearius --- Classe --- Chionomesa lactea
+Cochlearius cochlearius --- Classe --- Chlorestes notata
+Cochlearius cochlearius --- Classe --- Elliotomyia chionogaster
+Cochlearius cochlearius --- Classe --- Hylocharis chrysura
+Cochlearius cochlearius --- Classe --- Eupetomena macroura
+Cochlearius cochlearius --- Classe --- Thalurania glaucopis
+Cochlearius cochlearius --- Classe --- Anthracothorax nigricollis
+Cochlearius cochlearius --- Classe --- Jacamerops aureus
+Cochlearius cochlearius --- Classe --- Jacamaralcyon tridactyla
+Cochlearius cochlearius --- Classe --- Cyphos macrodactylus
+Cochlearius cochlearius --- Classe --- Galbula leucogastra
+Cochlearius cochlearius --- Classe --- Galbula cyanescens
+Cochlearius cochlearius --- Classe --- Nystalus maculatus
+Cochlearius cochlearius --- Classe --- Chelidoptera tenebrosa
+Cochlearius cochlearius --- Classe --- Guira guira
+Cochlearius cochlearius --- Classe --- Crotophaga major
+Cochlearius cochlearius --- Classe --- Crotophaga ani
+Cochlearius cochlearius --- Classe --- Dromococcyx pavoninus
+Cochlearius cochlearius --- Classe --- Dromococcyx phasianellus
+Cochlearius cochlearius --- Classe --- Tapera naevia
+Cochlearius cochlearius --- Classe --- Neomorphus geoffroyi
+Cochlearius cochlearius --- Classe --- Neomorphus squamiger
+Cochlearius cochlearius --- Classe --- Neomorphus rufipennis
+Cochlearius cochlearius --- Classe --- Neomorphus pucheranii
+Cochlearius cochlearius --- Classe --- Coccycua minuta
+Cochlearius cochlearius --- Classe --- Micrococcyx cinereus
+Cochlearius cochlearius --- Classe --- Piaya cayana
+Cochlearius cochlearius --- Classe --- Cuculus canorus
+Cochlearius cochlearius --- Ordem --- Pelecanus occidentalis
+Cochlearius cochlearius --- Ordem --- Platalea ajaja
+Cochlearius cochlearius --- Ordem --- Theristicus caudatus
+Cochlearius cochlearius --- Ordem --- Mesembrinibis cayennensis
+Cochlearius cochlearius --- Ordem --- Eudocimus ruber
+Cochlearius cochlearius --- Família --- Butorides striata
+Cochlearius cochlearius --- Família --- Ardea purpurea
+Cochlearius cochlearius --- Família --- Egretta gularis
+Cochlearius cochlearius --- Família --- Egretta caerulea
+Cochlearius cochlearius --- Família --- Egretta thula
+
+Butorides striata --- Classe --- Phyllaemulor bracteatus
+Butorides striata --- Classe --- Nyctibius grandis
+Butorides striata --- Classe --- Nyctibius aethereus
+Butorides striata --- Classe --- Nyctibius griseus
+Butorides striata --- Classe --- Nyctibius leucopterus
+Butorides striata --- Classe --- Cypseloides senex
+Butorides striata --- Classe --- Streptoprocne biscutata
+Butorides striata --- Classe --- Panyptila cayennensis
+Butorides striata --- Classe --- Chaetura meridionalis
+Butorides striata --- Classe --- Calliphlox amethystina
+Butorides striata --- Classe --- Stephanoxis loddigesii
+Butorides striata --- Classe --- Chionomesa lactea
+Butorides striata --- Classe --- Chlorestes notata
+Butorides striata --- Classe --- Elliotomyia chionogaster
+Butorides striata --- Classe --- Hylocharis chrysura
+Butorides striata --- Classe --- Eupetomena macroura
+Butorides striata --- Classe --- Thalurania glaucopis
+Butorides striata --- Classe --- Anthracothorax nigricollis
+Butorides striata --- Classe --- Jacamerops aureus
+Butorides striata --- Classe --- Jacamaralcyon tridactyla
+Butorides striata --- Classe --- Cyphos macrodactylus
+Butorides striata --- Classe --- Galbula leucogastra
+Butorides striata --- Classe --- Galbula cyanescens
+Butorides striata --- Classe --- Nystalus maculatus
+Butorides striata --- Classe --- Chelidoptera tenebrosa
+Butorides striata --- Classe --- Guira guira
+Butorides striata --- Classe --- Crotophaga major
+Butorides striata --- Classe --- Crotophaga ani
+Butorides striata --- Classe --- Dromococcyx pavoninus
+Butorides striata --- Classe --- Dromococcyx phasianellus
+Butorides striata --- Classe --- Tapera naevia
+Butorides striata --- Classe --- Neomorphus geoffroyi
+Butorides striata --- Classe --- Neomorphus squamiger
+Butorides striata --- Classe --- Neomorphus rufipennis
+Butorides striata --- Classe --- Neomorphus pucheranii
+Butorides striata --- Classe --- Coccycua minuta
+Butorides striata --- Classe --- Micrococcyx cinereus
+Butorides striata --- Classe --- Piaya cayana
+Butorides striata --- Classe --- Cuculus canorus
+Butorides striata --- Ordem --- Pelecanus occidentalis
+Butorides striata --- Ordem --- Platalea ajaja
+Butorides striata --- Ordem --- Theristicus caudatus
+Butorides striata --- Ordem --- Mesembrinibis cayennensis
+Butorides striata --- Ordem --- Eudocimus ruber
+Butorides striata --- Família --- Cochlearius cochlearius
+Butorides striata --- Família --- Ardea purpurea
+Butorides striata --- Família --- Egretta gularis
+Butorides striata --- Família --- Egretta caerulea
+Butorides striata --- Família --- Egretta thula
+
+Ardea purpurea --- Classe --- Phyllaemulor bracteatus
+Ardea purpurea --- Classe --- Nyctibius grandis
+Ardea purpurea --- Classe --- Nyctibius aethereus
+Ardea purpurea --- Classe --- Nyctibius griseus
+Ardea purpurea --- Classe --- Nyctibius leucopterus
+Ardea purpurea --- Classe --- Cypseloides senex
+Ardea purpurea --- Classe --- Streptoprocne biscutata
+Ardea purpurea --- Classe --- Panyptila cayennensis
+Ardea purpurea --- Classe --- Chaetura meridionalis
+Ardea purpurea --- Classe --- Calliphlox amethystina
+Ardea purpurea --- Classe --- Stephanoxis loddigesii
+Ardea purpurea --- Classe --- Chionomesa lactea
+Ardea purpurea --- Classe --- Chlorestes notata
+Ardea purpurea --- Classe --- Elliotomyia chionogaster
+Ardea purpurea --- Classe --- Hylocharis chrysura
+Ardea purpurea --- Classe --- Eupetomena macroura
+Ardea purpurea --- Classe --- Thalurania glaucopis
+Ardea purpurea --- Classe --- Anthracothorax nigricollis
+Ardea purpurea --- Classe --- Jacamerops aureus
+Ardea purpurea --- Classe --- Jacamaralcyon tridactyla
+Ardea purpurea --- Classe --- Cyphos macrodactylus
+Ardea purpurea --- Classe --- Galbula leucogastra
+Ardea purpurea --- Classe --- Galbula cyanescens
+Ardea purpurea --- Classe --- Nystalus maculatus
+Ardea purpurea --- Classe --- Chelidoptera tenebrosa
+Ardea purpurea --- Classe --- Guira guira
+Ardea purpurea --- Classe --- Crotophaga major
+Ardea purpurea --- Classe --- Crotophaga ani
+Ardea purpurea --- Classe --- Dromococcyx pavoninus
+Ardea purpurea --- Classe --- Dromococcyx phasianellus
+Ardea purpurea --- Classe --- Tapera naevia
+Ardea purpurea --- Classe --- Neomorphus geoffroyi
+Ardea purpurea --- Classe --- Neomorphus squamiger
+Ardea purpurea --- Classe --- Neomorphus rufipennis
+Ardea purpurea --- Classe --- Neomorphus pucheranii
+Ardea purpurea --- Classe --- Coccycua minuta
+Ardea purpurea --- Classe --- Micrococcyx cinereus
+Ardea purpurea --- Classe --- Piaya cayana
+Ardea purpurea --- Classe --- Cuculus canorus
+Ardea purpurea --- Ordem --- Pelecanus occidentalis
+Ardea purpurea --- Ordem --- Platalea ajaja
+Ardea purpurea --- Ordem --- Theristicus caudatus
+Ardea purpurea --- Ordem --- Mesembrinibis cayennensis
+Ardea purpurea --- Ordem --- Eudocimus ruber
+Ardea purpurea --- Família --- Cochlearius cochlearius
+Ardea purpurea --- Família --- Butorides striata
+Ardea purpurea --- Família --- Egretta gularis
+Ardea purpurea --- Família --- Egretta caerulea
+Ardea purpurea --- Família --- Egretta thula
+
+Egretta gularis --- Classe --- Phyllaemulor bracteatus
+Egretta gularis --- Classe --- Nyctibius grandis
+Egretta gularis --- Classe --- Nyctibius aethereus
+Egretta gularis --- Classe --- Nyctibius griseus
+Egretta gularis --- Classe --- Nyctibius leucopterus
+Egretta gularis --- Classe --- Cypseloides senex
+Egretta gularis --- Classe --- Streptoprocne biscutata
+Egretta gularis --- Classe --- Panyptila cayennensis
+Egretta gularis --- Classe --- Chaetura meridionalis
+Egretta gularis --- Classe --- Calliphlox amethystina
+Egretta gularis --- Classe --- Stephanoxis loddigesii
+Egretta gularis --- Classe --- Chionomesa lactea
+Egretta gularis --- Classe --- Chlorestes notata
+Egretta gularis --- Classe --- Elliotomyia chionogaster
+Egretta gularis --- Classe --- Hylocharis chrysura
+Egretta gularis --- Classe --- Eupetomena macroura
+Egretta gularis --- Classe --- Thalurania glaucopis
+Egretta gularis --- Classe --- Anthracothorax nigricollis
+Egretta gularis --- Classe --- Jacamerops aureus
+Egretta gularis --- Classe --- Jacamaralcyon tridactyla
+Egretta gularis --- Classe --- Cyphos macrodactylus
+Egretta gularis --- Classe --- Galbula leucogastra
+Egretta gularis --- Classe --- Galbula cyanescens
+Egretta gularis --- Classe --- Nystalus maculatus
+Egretta gularis --- Classe --- Chelidoptera tenebrosa
+Egretta gularis --- Classe --- Guira guira
+Egretta gularis --- Classe --- Crotophaga major
+Egretta gularis --- Classe --- Crotophaga ani
+Egretta gularis --- Classe --- Dromococcyx pavoninus
+Egretta gularis --- Classe --- Dromococcyx phasianellus
+Egretta gularis --- Classe --- Tapera naevia
+Egretta gularis --- Classe --- Neomorphus geoffroyi
+Egretta gularis --- Classe --- Neomorphus squamiger
+Egretta gularis --- Classe --- Neomorphus rufipennis
+Egretta gularis --- Classe --- Neomorphus pucheranii
+Egretta gularis --- Classe --- Coccycua minuta
+Egretta gularis --- Classe --- Micrococcyx cinereus
+Egretta gularis --- Classe --- Piaya cayana
+Egretta gularis --- Classe --- Cuculus canorus
+Egretta gularis --- Ordem --- Pelecanus occidentalis
+Egretta gularis --- Ordem --- Platalea ajaja
+Egretta gularis --- Ordem --- Theristicus caudatus
+Egretta gularis --- Ordem --- Mesembrinibis cayennensis
+Egretta gularis --- Ordem --- Eudocimus ruber
+Egretta gularis --- Família --- Cochlearius cochlearius
+Egretta gularis --- Família --- Butorides striata
+Egretta gularis --- Família --- Ardea purpurea
+Egretta gularis --- Gênero --- Egretta caerulea
+Egretta gularis --- Gênero --- Egretta thula
+
+Egretta caerulea --- Classe --- Phyllaemulor bracteatus
+Egretta caerulea --- Classe --- Nyctibius grandis
+Egretta caerulea --- Classe --- Nyctibius aethereus
+Egretta caerulea --- Classe --- Nyctibius griseus
+Egretta caerulea --- Classe --- Nyctibius leucopterus
+Egretta caerulea --- Classe --- Cypseloides senex
+Egretta caerulea --- Classe --- Streptoprocne biscutata
+Egretta caerulea --- Classe --- Panyptila cayennensis
+Egretta caerulea --- Classe --- Chaetura meridionalis
+Egretta caerulea --- Classe --- Calliphlox amethystina
+Egretta caerulea --- Classe --- Stephanoxis loddigesii
+Egretta caerulea --- Classe --- Chionomesa lactea
+Egretta caerulea --- Classe --- Chlorestes notata
+Egretta caerulea --- Classe --- Elliotomyia chionogaster
+Egretta caerulea --- Classe --- Hylocharis chrysura
+Egretta caerulea --- Classe --- Eupetomena macroura
+Egretta caerulea --- Classe --- Thalurania glaucopis
+Egretta caerulea --- Classe --- Anthracothorax nigricollis
+Egretta caerulea --- Classe --- Jacamerops aureus
+Egretta caerulea --- Classe --- Jacamaralcyon tridactyla
+Egretta caerulea --- Classe --- Cyphos macrodactylus
+Egretta caerulea --- Classe --- Galbula leucogastra
+Egretta caerulea --- Classe --- Galbula cyanescens
+Egretta caerulea --- Classe --- Nystalus maculatus
+Egretta caerulea --- Classe --- Chelidoptera tenebrosa
+Egretta caerulea --- Classe --- Guira guira
+Egretta caerulea --- Classe --- Crotophaga major
+Egretta caerulea --- Classe --- Crotophaga ani
+Egretta caerulea --- Classe --- Dromococcyx pavoninus
+Egretta caerulea --- Classe --- Dromococcyx phasianellus
+Egretta caerulea --- Classe --- Tapera naevia
+Egretta caerulea --- Classe --- Neomorphus geoffroyi
+Egretta caerulea --- Classe --- Neomorphus squamiger
+Egretta caerulea --- Classe --- Neomorphus rufipennis
+Egretta caerulea --- Classe --- Neomorphus pucheranii
+Egretta caerulea --- Classe --- Coccycua minuta
+Egretta caerulea --- Classe --- Micrococcyx cinereus
+Egretta caerulea --- Classe --- Piaya cayana
+Egretta caerulea --- Classe --- Cuculus canorus
+Egretta caerulea --- Ordem --- Pelecanus occidentalis
+Egretta caerulea --- Ordem --- Platalea ajaja
+Egretta caerulea --- Ordem --- Theristicus caudatus
+Egretta caerulea --- Ordem --- Mesembrinibis cayennensis
+Egretta caerulea --- Ordem --- Eudocimus ruber
+Egretta caerulea --- Família --- Cochlearius cochlearius
+Egretta caerulea --- Família --- Butorides striata
+Egretta caerulea --- Família --- Ardea purpurea
+Egretta caerulea --- Gênero --- Egretta gularis
+Egretta caerulea --- Gênero --- Egretta thula
+
+Egretta thula --- Classe --- Phyllaemulor bracteatus
+Egretta thula --- Classe --- Nyctibius grandis
+Egretta thula --- Classe --- Nyctibius aethereus
+Egretta thula --- Classe --- Nyctibius griseus
+Egretta thula --- Classe --- Nyctibius leucopterus
+Egretta thula --- Classe --- Cypseloides senex
+Egretta thula --- Classe --- Streptoprocne biscutata
+Egretta thula --- Classe --- Panyptila cayennensis
+Egretta thula --- Classe --- Chaetura meridionalis
+Egretta thula --- Classe --- Calliphlox amethystina
+Egretta thula --- Classe --- Stephanoxis loddigesii
+Egretta thula --- Classe --- Chionomesa lactea
+Egretta thula --- Classe --- Chlorestes notata
+Egretta thula --- Classe --- Elliotomyia chionogaster
+Egretta thula --- Classe --- Hylocharis chrysura
+Egretta thula --- Classe --- Eupetomena macroura
+Egretta thula --- Classe --- Thalurania glaucopis
+Egretta thula --- Classe --- Anthracothorax nigricollis
+Egretta thula --- Classe --- Jacamerops aureus
+Egretta thula --- Classe --- Jacamaralcyon tridactyla
+Egretta thula --- Classe --- Cyphos macrodactylus
+Egretta thula --- Classe --- Galbula leucogastra
+Egretta thula --- Classe --- Galbula cyanescens
+Egretta thula --- Classe --- Nystalus maculatus
+Egretta thula --- Classe --- Chelidoptera tenebrosa
+Egretta thula --- Classe --- Guira guira
+Egretta thula --- Classe --- Crotophaga major
+Egretta thula --- Classe --- Crotophaga ani
+Egretta thula --- Classe --- Dromococcyx pavoninus
+Egretta thula --- Classe --- Dromococcyx phasianellus
+Egretta thula --- Classe --- Tapera naevia
+Egretta thula --- Classe --- Neomorphus geoffroyi
+Egretta thula --- Classe --- Neomorphus squamiger
+Egretta thula --- Classe --- Neomorphus rufipennis
+Egretta thula --- Classe --- Neomorphus pucheranii
+Egretta thula --- Classe --- Coccycua minuta
+Egretta thula --- Classe --- Micrococcyx cinereus
+Egretta thula --- Classe --- Piaya cayana
+Egretta thula --- Classe --- Cuculus canorus
+Egretta thula --- Ordem --- Pelecanus occidentalis
+Egretta thula --- Ordem --- Platalea ajaja
+Egretta thula --- Ordem --- Theristicus caudatus
+Egretta thula --- Ordem --- Mesembrinibis cayennensis
+Egretta thula --- Ordem --- Eudocimus ruber
+Egretta thula --- Família --- Cochlearius cochlearius
+Egretta thula --- Família --- Butorides striata
+Egretta thula --- Família --- Ardea purpurea
+Egretta thula --- Gênero --- Egretta gularis
+Egretta thula --- Gênero --- Egretta caerulea
+

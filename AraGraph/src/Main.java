@@ -9,6 +9,7 @@
 
     DATA            AUTOR       ATUALIZAÇÃO       
     23/09/2024;     Pedro       Adicionado Main completo
+    30/10/2024;     Pedro       Atualizando projeto 
 */
 
 import java.io.BufferedReader;
@@ -31,7 +32,15 @@ public class Main {
         System.out.println("g) Mostrar conteúdo do arquivo " + filePath);
         System.out.println("h) Mostrar grafo");
         System.out.println("i) Apresentar conexidade do grafo");
-        System.out.println("j) Encerrar a aplicação");
+        System.out.println("j) Apresentar aves e seus respectivos vértices no grafo");
+        System.out.println("k) Apresentar informações de uma ave por seu vértice");
+        System.out.println("l) Apresentar as relações de uma ave por seu vértice");
+        System.out.println("m) Apresentar as organizações taxonômicas no grafo");
+        System.out.println("n) Gerar relatório taxonômico completo do grafo");
+        System.out.println("o) Apresentar grau dos vértices");
+        System.out.println("p) Verificar se possui caminho euleriano");
+        System.out.println("q) Verificar se é grafo euleriano");
+        System.out.println("r) Encerrar a aplicação");
         System.out.println("!) Mudar caminho de arquivo\n");
     }
 
@@ -41,7 +50,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int origem, destino, peso; // Recebem input do usuário
+        int origem, destino, peso, verticeAve; // Recebem input do usuário
         WUGraph graph = new WUGraph(); // Inicializa-se grafo vazio
         boolean flagControl = true; // Controla laço do menu
         String optionSelected = ""; // Recebe input do usuário
@@ -175,8 +184,109 @@ public class Main {
                     System.out.println("Conexidade do grafo: " + graph.getConexidade() + "\n");
 
                     break;
+                
+                case "j": // Apresentar as aves no grafo
+                    if(!isGraphLoaded) {
+                        graphNotLoadedYet();
+                        continue;
+                    }
 
-                case "j": // Encerrar aplicação
+                    System.out.println("Lista de aves pertencentes ao grafo: ");
+                    graph.showAves();
+                    System.out.println();
+                    break;
+                
+                case "k": // Apresentar informações da ave por seu vértice
+                    if(!isGraphLoaded) {
+                        graphNotLoadedYet();
+                        continue;
+                    }
+
+                    System.out.print("Selecione um vértice: ");
+                    verticeAve = Integer.parseInt(scanner.nextLine());
+                    System.out.println("\nInformações da Ave no vértice " + verticeAve);
+                    graph.showInfoAve(verticeAve);
+                    System.out.println();
+                    break;
+                
+                case "l": // Apresentar relações de um vértice
+                    if(!isGraphLoaded) {
+                        graphNotLoadedYet();
+                        continue;
+                    }
+
+                    System.out.print("Selecione um vértice: ");
+                    verticeAve = Integer.parseInt(scanner.nextLine());
+                    System.out.println("\nRelações taxonômicas do vértice " + verticeAve + " (" 
+                    + graph.getAves()[verticeAve].getTaxon() + "): ");
+                    graph.showRelacoesDoVertice(verticeAve);
+                    System.out.println();
+                    break;
+                
+                case "m": // Apresentar organizacoes taxonomicas no grafo
+                    if(!isGraphLoaded) {
+                        graphNotLoadedYet();
+                        continue;
+                    }
+
+                    System.out.println("Organizações taxonômicas presentes no grafo:\n");
+                    graph.showOrganizacoesTaxonomicas();
+                    System.out.println();
+                    break;
+
+                case "n": // Gerar relatório completo
+                    if(!isGraphLoaded) {
+                        graphNotLoadedYet();
+                        continue;
+                    }
+
+                    System.out.println("Gerando relatório...");
+                    graph.writeRelatorio();
+                    System.out.println("Relatório gerado em assets/RelatorioTaxonomico.txt");
+                    System.out.println();
+                    break;
+                
+                case "o": // Exibir graus dos vertices
+                    if(!isGraphLoaded) {
+                        graphNotLoadedYet();
+                        continue;
+                    }
+
+                    System.out.println("Exibindo graus dos vértices no grafo: ");
+                    graph.showAllDegrees();
+                    System.out.println();
+                    break;
+                
+                case "p": // Verificar se grafo possui caminho euleriano
+                    if(!isGraphLoaded) {
+                        graphNotLoadedYet();
+                        continue;
+                    }
+
+                    System.out.print("Grafo possui caminho euleriano? RESPOSTA: ");
+                    if(graph.hasEulerianPath()) {
+                        System.out.println("SIM\n");
+                    } else {
+                        System.err.println("NÃO\n");
+                    }
+                    break;
+                
+                case "q": // Verificar se grafo é euleriano
+                    if(!isGraphLoaded) {
+                        graphNotLoadedYet();
+                        continue;
+                    }
+
+                    System.out.print("Grafo é euleriano? RESPOSTA: ");
+                    if(graph.isAnEulerianGraph()) {
+                        System.out.println("SIM\n");
+                    } else {
+                        System.err.println("NÃO\n");
+                    }
+
+                    break;
+
+                case "r": // Encerrar aplicação
                     System.out.println("Encerrando a aplicação...");
                     flagControl = false;
                     break;
