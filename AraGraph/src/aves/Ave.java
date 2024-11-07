@@ -9,6 +9,7 @@
 
     DATA            AUTOR       ATUALIZAÇÃO       
 	30/10/2024;		Pedro		Adicionando classe Ave ao projeto
+	06/11/2024		Pedro		Finalizando parte 2 do projeto
 */
 
 package aves;
@@ -18,22 +19,28 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Ave {
+	private String idGraph;
 	private String taxon;
 	private String ordem;
 	private String familia;
 	private String genero;
 	private String especie;
 
-	public Ave(String taxon, String ordem, String familia, String genero, String especie) {
+	public Ave(String taxon, String ordem, String familia) {
 		this.taxon = taxon;
+		this.idGraph = taxon;
 		this.ordem = ordem;
 		this.familia = familia;
-		this.genero = genero;
-		this.especie = especie;
+
+		String[] generoEspecie = taxon.split(" ");
+
+		this.genero = generoEspecie[0];
+		this.especie = generoEspecie[1];
 	}
 
 	public Ave(String taxon) {
 		this.taxon = taxon;
+		this.idGraph = taxon;
 
 		try {
 			Scanner scanner = new Scanner(new File("assets/aves.txt"));
@@ -52,6 +59,14 @@ public class Ave {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
+	}
+
+	public String getIDGraph() {
+		return this.idGraph;
+	}
+
+	public void setIDGraph(String idGraph) {
+		this.idGraph = idGraph;
 	}
 
 	public String getTaxon() {

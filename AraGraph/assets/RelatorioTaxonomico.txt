@@ -7,6 +7,7 @@ Apodiformes
 Galbuliformes
 Cuculiformes
 Pelecaniformes
+Ordemteste
 
 FAMÍLIAS:
 Nyctibiidae
@@ -18,6 +19,7 @@ Cuculidae
 Pelecanidae
 Threskiornithidae
 Ardeidae
+Familiateste
 
 GÊNEROS:
 Phyllaemulor
@@ -59,6 +61,7 @@ Cochlearius
 Butorides
 Ardea
 Egretta
+Generoteste
 
 ESPÉCIES (TAXON):
 Phyllaemulor bracteatus
@@ -111,307 +114,365 @@ Ardea purpurea
 Egretta gularis
 Egretta caerulea
 Egretta thula
+Generoteste especieteste
 
 INFORMAÇÕES COMPLETAS DAS ESPÉCIES NO GRAFO:
-Phyllaemulor bracteatus
+ID: Phyllaemulor bracteatus
+TAXON: Phyllaemulor bracteatus
 ORDEM: Nyctibiiformes
 FAMÍLIA: Nyctibiidae
 GÊNERO: Phyllaemulor
 ESPÉCIE: bracteatus
 
-Nyctibius grandis
+ID: Nyctibius grandis
+TAXON: Nyctibius grandis
 ORDEM: Nyctibiiformes
 FAMÍLIA: Nyctibiidae
 GÊNERO: Nyctibius
 ESPÉCIE: grandis
 
-Nyctibius aethereus
+ID: Nyctibius aethereus
+TAXON: Nyctibius aethereus
 ORDEM: Nyctibiiformes
 FAMÍLIA: Nyctibiidae
 GÊNERO: Nyctibius
 ESPÉCIE: aethereus
 
-Nyctibius griseus
+ID: Nyctibius griseus
+TAXON: Nyctibius griseus
 ORDEM: Nyctibiiformes
 FAMÍLIA: Nyctibiidae
 GÊNERO: Nyctibius
 ESPÉCIE: griseus
 
-Nyctibius leucopterus
+ID: Nyctibius leucopterus
+TAXON: Nyctibius leucopterus
 ORDEM: Nyctibiiformes
 FAMÍLIA: Nyctibiidae
 GÊNERO: Nyctibius
 ESPÉCIE: leucopterus
 
-Cypseloides senex
+ID: Cypseloides senex
+TAXON: Cypseloides senex
 ORDEM: Apodiformes
 FAMÍLIA: Apodidae
 GÊNERO: Cypseloides 
 ESPÉCIE: senex
 
-Streptoprocne biscutata
+ID: Streptoprocne biscutata
+TAXON: Streptoprocne biscutata
 ORDEM: Apodiformes
 FAMÍLIA: Apodidae
 GÊNERO: Streptoprocne 
 ESPÉCIE: biscutata
 
-Panyptila cayennensis
+ID: Panyptila cayennensis
+TAXON: Panyptila cayennensis
 ORDEM: Apodiformes
 FAMÍLIA: Apodidae
 GÊNERO: Panyptila 
 ESPÉCIE: cayennensis
 
-Chaetura meridionalis
+ID: Chaetura meridionalis
+TAXON: Chaetura meridionalis
 ORDEM: Apodiformes
 FAMÍLIA: Apodidae
 GÊNERO: Chaetura 
 ESPÉCIE: meridionalis
 
-Calliphlox amethystina
+ID: Calliphlox amethystina
+TAXON: Calliphlox amethystina
 ORDEM: Apodiformes
 FAMÍLIA: Trochilidae
 GÊNERO: Calliphlox 
 ESPÉCIE: amethystina
 
-Stephanoxis loddigesii
+ID: Stephanoxis loddigesii
+TAXON: Stephanoxis loddigesii
 ORDEM: Apodiformes
 FAMÍLIA: Trochilidae
 GÊNERO: Stephanoxis 
 ESPÉCIE: loddigesii
 
-Chionomesa lactea
+ID: Chionomesa lactea
+TAXON: Chionomesa lactea
 ORDEM: Apodiformes
 FAMÍLIA: Trochilidae
 GÊNERO: Chionomesa
 ESPÉCIE: lactea
 
-Chlorestes notata
+ID: Chlorestes notata
+TAXON: Chlorestes notata
 ORDEM: Apodiformes
 FAMÍLIA: Trochilidae
 GÊNERO: Chlorestes
 ESPÉCIE: notata
 
-Elliotomyia chionogaster
+ID: Elliotomyia chionogaster
+TAXON: Elliotomyia chionogaster
 ORDEM: Apodiformes
 FAMÍLIA: Trochilidae
 GÊNERO: Elliotomyia
 ESPÉCIE: chionogaster
 
-Hylocharis chrysura
+ID: Hylocharis chrysura
+TAXON: Hylocharis chrysura
 ORDEM: Apodiformes
 FAMÍLIA: Trochilidae
 GÊNERO: Hylocharis
 ESPÉCIE: chrysura
 
-Eupetomena macroura
+ID: Eupetomena macroura
+TAXON: Eupetomena macroura
 ORDEM: Apodiformes
 FAMÍLIA: Trochilidae
 GÊNERO: Eupetomena
 ESPÉCIE: macroura
 
-Thalurania glaucopis
+ID: Thalurania glaucopis
+TAXON: Thalurania glaucopis
 ORDEM: Apodiformes
 FAMÍLIA: Trochilidae
 GÊNERO: Thalurania
 ESPÉCIE: glaucopis
 
-Anthracothorax nigricollis
+ID: Anthracothorax nigricollis
+TAXON: Anthracothorax nigricollis
 ORDEM: Apodiformes
 FAMÍLIA: Trochilidae
 GÊNERO: Anthracothorax
 ESPÉCIE: nigricollis
 
-Jacamerops aureus
+ID: Jacamerops aureus
+TAXON: Jacamerops aureus
 ORDEM: Galbuliformes
 FAMÍLIA: Galbulidae
 GÊNERO: Jacamerops
 ESPÉCIE: aureus
 
-Jacamaralcyon tridactyla
+ID: Jacamaralcyon tridactyla
+TAXON: Jacamaralcyon tridactyla
 ORDEM: Galbuliformes
 FAMÍLIA: Galbulidae
 GÊNERO: Jacamaralcyon
 ESPÉCIE: tridactyla
 
-Cyphos macrodactylus
+ID: Cyphos macrodactylus
+TAXON: Cyphos macrodactylus
 ORDEM: Galbuliformes
 FAMÍLIA: Bucconidae
 GÊNERO: Cyphos
 ESPÉCIE: macrodactylus
 
-Galbula leucogastra
+ID: Galbula leucogastra
+TAXON: Galbula leucogastra
 ORDEM: Galbuliformes
 FAMÍLIA: Galbulidae
 GÊNERO: Galbula
 ESPÉCIE: leucogastra
 
-Galbula cyanescens
+ID: Galbula cyanescens
+TAXON: Galbula cyanescens
 ORDEM: Galbuliformes
 FAMÍLIA: Galbulidae
 GÊNERO: Galbula
 ESPÉCIE: cyanescens
 
-Nystalus maculatus
+ID: Nystalus maculatus
+TAXON: Nystalus maculatus
 ORDEM: Galbuliformes
 FAMÍLIA: Bucconidae
 GÊNERO: Nystalus
 ESPÉCIE: maculatus
 
-Chelidoptera tenebrosa
+ID: Chelidoptera tenebrosa
+TAXON: Chelidoptera tenebrosa
 ORDEM: Galbuliformes
 FAMÍLIA: Bucconidae
 GÊNERO: Chelidoptera
 ESPÉCIE: tenebrosa
 
-Guira guira
+ID: Guira guira
+TAXON: Guira guira
 ORDEM: Cuculiformes
 FAMÍLIA: Cuculidae
 GÊNERO: Guira
 ESPÉCIE: guira
 
-Crotophaga major
+ID: Crotophaga major
+TAXON: Crotophaga major
 ORDEM: Cuculiformes
 FAMÍLIA: Cuculidae
 GÊNERO: Crotophaga
 ESPÉCIE: major
 
-Crotophaga ani
+ID: Crotophaga ani
+TAXON: Crotophaga ani
 ORDEM: Cuculiformes
 FAMÍLIA: Cuculidae
 GÊNERO: Crotophaga
 ESPÉCIE: ani
 
-Dromococcyx pavoninus
+ID: Dromococcyx pavoninus
+TAXON: Dromococcyx pavoninus
 ORDEM: Cuculiformes
 FAMÍLIA: Cuculidae
 GÊNERO: Dromococcyx
 ESPÉCIE: pavoninus
 
-Dromococcyx phasianellus
+ID: Dromococcyx phasianellus
+TAXON: Dromococcyx phasianellus
 ORDEM: Cuculiformes
 FAMÍLIA: Cuculidae
 GÊNERO: Dromococcyx
 ESPÉCIE: phasianellus
 
-Tapera naevia
+ID: Tapera naevia
+TAXON: Tapera naevia
 ORDEM: Cuculiformes
 FAMÍLIA: Cuculidae
 GÊNERO: Tapera
 ESPÉCIE: naevia
 
-Neomorphus geoffroyi
+ID: Neomorphus geoffroyi
+TAXON: Neomorphus geoffroyi
 ORDEM: Cuculiformes
 FAMÍLIA: Cuculidae
 GÊNERO: Neomorphus
 ESPÉCIE: geoffroyi
 
-Neomorphus squamiger
+ID: Neomorphus squamiger
+TAXON: Neomorphus squamiger
 ORDEM: Cuculiformes
 FAMÍLIA: Cuculidae
 GÊNERO: Neomorphus
 ESPÉCIE: squamiger
 
-Neomorphus rufipennis
+ID: Neomorphus rufipennis
+TAXON: Neomorphus rufipennis
 ORDEM: Cuculiformes
 FAMÍLIA: Cuculidae
 GÊNERO: Neomorphus
 ESPÉCIE: rufipennis
 
-Neomorphus pucheranii
+ID: Neomorphus pucheranii
+TAXON: Neomorphus pucheranii
 ORDEM: Cuculiformes
 FAMÍLIA: Cuculidae
 GÊNERO: Neomorphus
 ESPÉCIE: pucheranii
 
-Coccycua minuta
+ID: Coccycua minuta
+TAXON: Coccycua minuta
 ORDEM: Cuculiformes
 FAMÍLIA: Cuculidae
 GÊNERO: Coccycua
 ESPÉCIE: minuta
 
-Micrococcyx cinereus
+ID: Micrococcyx cinereus
+TAXON: Micrococcyx cinereus
 ORDEM: Cuculiformes
 FAMÍLIA: Cuculidae
 GÊNERO: Micrococcyx
 ESPÉCIE: cinereus
 
-Piaya cayana
+ID: Piaya cayana
+TAXON: Piaya cayana
 ORDEM: Cuculiformes
 FAMÍLIA: Cuculidae
 GÊNERO: Piaya
 ESPÉCIE: cayana
 
-Cuculus canorus
+ID: Cuculus canorus
+TAXON: Cuculus canorus
 ORDEM: Cuculiformes
 FAMÍLIA: Cuculidae
 GÊNERO: Cuculus
 ESPÉCIE: canorus
 
-Pelecanus occidentalis
+ID: Pelecanus occidentalis
+TAXON: Pelecanus occidentalis
 ORDEM: Pelecaniformes
 FAMÍLIA: Pelecanidae
 GÊNERO: Pelecanus
 ESPÉCIE: occidentalis
 
-Platalea ajaja
+ID: Platalea ajaja
+TAXON: Platalea ajaja
 ORDEM: Pelecaniformes
 FAMÍLIA: Threskiornithidae
 GÊNERO: Platalea
 ESPÉCIE: ajaja
 
-Theristicus caudatus
+ID: Theristicus caudatus
+TAXON: Theristicus caudatus
 ORDEM: Pelecaniformes
 FAMÍLIA: Threskiornithidae
 GÊNERO: Theristicus
 ESPÉCIE: caudatus
 
-Mesembrinibis cayennensis
+ID: Mesembrinibis cayennensis
+TAXON: Mesembrinibis cayennensis
 ORDEM: Pelecaniformes
 FAMÍLIA: Threskiornithidae
 GÊNERO: Mesembrinibis
 ESPÉCIE: cayennensis
 
-Eudocimus ruber
+ID: Eudocimus ruber
+TAXON: Eudocimus ruber
 ORDEM: Pelecaniformes
 FAMÍLIA: Threskiornithidae
 GÊNERO: Eudocimus
 ESPÉCIE: ruber
 
-Cochlearius cochlearius
+ID: Cochlearius cochlearius
+TAXON: Cochlearius cochlearius
 ORDEM: Pelecaniformes
 FAMÍLIA: Ardeidae
 GÊNERO: Cochlearius
 ESPÉCIE: cochlearius
 
-Butorides striata
+ID: Butorides striata
+TAXON: Butorides striata
 ORDEM: Pelecaniformes
 FAMÍLIA: Ardeidae
 GÊNERO: Butorides
 ESPÉCIE: striata
 
-Ardea purpurea
+ID: Ardea purpurea
+TAXON: Ardea purpurea
 ORDEM: Pelecaniformes
 FAMÍLIA: Ardeidae
 GÊNERO: Ardea
 ESPÉCIE: purpurea
 
-Egretta gularis
+ID: Egretta gularis
+TAXON: Egretta gularis
 ORDEM: Pelecaniformes
 FAMÍLIA: Ardeidae
 GÊNERO: Egretta
 ESPÉCIE: gularis
 
-Egretta caerulea
+ID: Egretta caerulea
+TAXON: Egretta caerulea
 ORDEM: Pelecaniformes
 FAMÍLIA: Ardeidae
 GÊNERO: Egretta
 ESPÉCIE: caerulea
 
-Egretta thula
+ID: Egretta thula
+TAXON: Egretta thula
 ORDEM: Pelecaniformes
 FAMÍLIA: Ardeidae
 GÊNERO: Egretta
 ESPÉCIE: thula
+
+ID: Generoteste especieteste
+TAXON: Generoteste especieteste
+ORDEM: Ordemteste
+FAMÍLIA: Familiateste
+GÊNERO: Generoteste
+ESPÉCIE: especieteste
 
 RELAÇÕES TAXONÔMICAS NO GRAFO:
 Phyllaemulor bracteatus --- Família --- Nyctibius grandis
@@ -2913,4 +2974,5 @@ Egretta thula --- Família --- Butorides striata
 Egretta thula --- Família --- Ardea purpurea
 Egretta thula --- Gênero --- Egretta gularis
 Egretta thula --- Gênero --- Egretta caerulea
+
 

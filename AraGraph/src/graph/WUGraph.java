@@ -11,6 +11,7 @@
     DATA            AUTOR       ATUALIZAÇÃO       
     23/09/2024;     Pedro       Corrigido DFS
 	30/10/2024;		Pedro		Atualizando estrutura e adicionando funções
+	06/11/2024		Pedro		Finalizando parte 2 do projeto
 */
 
 package graph;
@@ -98,9 +99,9 @@ public class WUGraph {
 
 	// Método que insere vértice no grafo
 	// Argumentos: Rótulo do vértice a ser adicionado
-	public void insereV(String rotulo) {
-		Integer[][] novaMatriz = new Integer[this.n + 1][this.n + 1];
+	public void insereV(Ave novaAve) {
 		Ave[] novoVetorAves = new Ave[this.n + 1];
+		Integer[][] novaMatriz = new Integer[this.n + 1][this.n + 1];
 
 		for(int i = 0; i < this.n; i++) {
 			for(int j = 0; j < this.n; j++) {
@@ -113,9 +114,13 @@ public class WUGraph {
 		}
 
 		novaMatriz[this.n][this.n] = Integer.MAX_VALUE;
-
 		this.adj = novaMatriz;
-		Ave novaAve = new Ave(rotulo);
+
+		int numAvesMesmoTaxon = numOfAvesSameTaxon(novaAve);
+		if(numAvesMesmoTaxon != 0) {
+			novaAve.setIDGraph(novaAve.getTaxon() + " (" + numAvesMesmoTaxon + ")");
+		}
+
 		novoVetorAves[this.n] = novaAve;
 		this.aves = novoVetorAves;
 		this.n++;
@@ -319,7 +324,7 @@ public class WUGraph {
 
 	public void showAves() {
 		for(int i = 0; i < this.n; i++) {
-			System.out.println("Vértice " + i + ": " + this.aves[i].getTaxon());
+			System.out.println("Vértice " + i + ": " + this.aves[i].getIDGraph());
 		}
 	}
 
@@ -329,6 +334,7 @@ public class WUGraph {
 			return;
 		}
 
+		System.out.println("ID no Grafo: " + this.aves[vertice].getIDGraph());
 		System.out.println("Taxon: " + this.aves[vertice].getTaxon());
 		System.out.println("Ordem: " + this.aves[vertice].getOrdem());
 		System.out.println("Familia: " + this.aves[vertice].getFamilia());
@@ -345,10 +351,10 @@ public class WUGraph {
 		String relacoes[] = {"Classe", "Ordem", "Família", "Gênero", "Espécie"};
 
 		for(int i = 0; i < this.n; i++) {
-			if(vertice != i) {
-				System.out.print(this.aves[vertice].getTaxon() + " --- ");
+			if(vertice != i && this.adj[vertice][i] != Integer.MAX_VALUE) {
+				System.out.print(this.aves[vertice].getIDGraph() + " --- ");
 				System.out.print(relacoes[this.adj[vertice][i] - 1]);
-				System.out.println(" --- " + this.aves[i].getTaxon());
+				System.out.println(" --- " + this.aves[i].getIDGraph());
 			}
 		}
 	}
@@ -458,7 +464,8 @@ public class WUGraph {
 
 			writer.write("\nINFORMAÇÕES COMPLETAS DAS ESPÉCIES NO GRAFO:\n");
 			for(int i = 0; i < this.n; i++) {
-				writer.write(this.aves[i].getTaxon() + "\n");
+				writer.write("ID: " + this.aves[i].getIDGraph() + "\n");
+				writer.write("TAXON: " + this.aves[i].getTaxon() + "\n");
 				writer.write("ORDEM: " + this.aves[i].getOrdem() + "\n");
 				writer.write("FAMÍLIA: " + this.aves[i].getFamilia() + "\n");
 				writer.write("GÊNERO: " + this.aves[i].getGenero() + "\n");
@@ -468,10 +475,10 @@ public class WUGraph {
 			writer.write("RELAÇÕES TAXONÔMICAS NO GRAFO:\n");
 			for(int i = 0; i < this.n; i++) {
 				for(int j = 0; j < this.n; j++) {
-					if(i != j) {
-						writer.write(this.aves[i].getTaxon() + " --- ");
+					if(i != j && this.adj[i][j] != Integer.MAX_VALUE) {
+						writer.write(this.aves[i].getIDGraph() + " --- ");
 						writer.write(relacoes[this.adj[i][j] - 1]);
-						writer.write(" --- " + this.aves[j].getTaxon() + "\n");
+						writer.write(" --- " + this.aves[j].getIDGraph() + "\n");
 					}
 				}
 				writer.write("\n");
@@ -515,5 +522,17 @@ public class WUGraph {
 		}
 
 		return true;
+	}
+
+	private int numOfAvesSameTaxon(Ave ave) {
+		int num = 0;
+
+		for(Ave aveNoGrafo : this.aves) {
+			if(aveNoGrafo.getTaxon().equals(ave.getTaxon())) {
+				num++;
+			}
+		}
+
+		return num;
 	}
 }

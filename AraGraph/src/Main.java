@@ -10,6 +10,7 @@
     DATA            AUTOR       ATUALIZAÇÃO       
     23/09/2024;     Pedro       Adicionado Main completo
     30/10/2024;     Pedro       Atualizando projeto 
+    06/11/2024		Pedro		Finalizando parte 2 do projeto
 */
 
 import java.io.BufferedReader;
@@ -17,6 +18,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
+import aves.Ave;
 import graph.WUGraph;
 
 public class Main {
@@ -90,9 +92,15 @@ public class Main {
                         continue;
                     }
 
-                    System.out.print("Insira o rótulo do novo vértice: ");
-                    String novoRotulo = scanner.nextLine();
-                    graph.insereV(novoRotulo);
+                    System.out.print("Insira o taxon da espécie: ");
+                    String novoTaxon = scanner.nextLine();
+                    System.out.print("Insira a ordem: ");
+                    String novaOrdem = scanner.nextLine();
+                    System.out.print("Insira a família: ");
+                    String novaFamilia = scanner.nextLine();
+                    
+                    Ave novaAve = new Ave(novoTaxon, novaOrdem, novaFamilia);
+                    graph.insereV(novaAve);
 
                     System.out.println("Vértice inserido!\n");
                     break;
