@@ -8,8 +8,9 @@
 	um objeto Ave a ser adicionado ao grafo.
 
     DATA            AUTOR       ATUALIZAÇÃO       
-	30/10/2024;		Pedro		Adicionando classe Ave ao projeto
+	30/10/2024		Pedro		Adicionando classe Ave ao projeto
 	06/11/2024		Pedro		Finalizando parte 2 do projeto
+	17/11/2024		Pedro		Adicionando comentarios
 */
 
 package aves;
@@ -26,18 +27,21 @@ public class Ave {
 	private String genero;
 	private String especie;
 
+	// Metodo construtor padrao
 	public Ave(String taxon, String ordem, String familia) {
 		this.taxon = taxon;
 		this.idGraph = taxon;
 		this.ordem = ordem;
 		this.familia = familia;
-
+		// Como o taxon corresponde a genero + especie, basta separar a string
+		// para obter ambos
 		String[] generoEspecie = taxon.split(" ");
 
 		this.genero = generoEspecie[0];
 		this.especie = generoEspecie[1];
 	}
 
+	// Metodo construtor obtido a partir de leitura do arquivo assets/aves.txt
 	public Ave(String taxon) {
 		this.taxon = taxon;
 		this.idGraph = taxon;
@@ -60,6 +64,8 @@ public class Ave {
 			e.printStackTrace();
 		}
 	}
+
+	// Getters e Setters da classe
 
 	public String getIDGraph() {
 		return this.idGraph;

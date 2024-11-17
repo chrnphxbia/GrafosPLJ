@@ -9,9 +9,10 @@
 	chamadas para processamento dos métodos da estrutura de dados.
 
     DATA            AUTOR       ATUALIZAÇÃO       
-    23/09/2024;     Pedro       Corrigido DFS
-	30/10/2024;		Pedro		Atualizando estrutura e adicionando funções
+    23/09/2024     	Pedro       Corrigido DFS
+	30/10/2024		Pedro		Atualizando estrutura e adicionando funções
 	06/11/2024		Pedro		Finalizando parte 2 do projeto
+	17/11/2024		Pedro		Adicionando comentarios
 */
 
 package graph;
@@ -322,12 +323,14 @@ public class WUGraph {
 		}
 	}
 
-	public void showAves() {
+	public void showAves() { // Metodo que exibe aves representadas pelos vertices
 		for(int i = 0; i < this.n; i++) {
 			System.out.println("Vértice " + i + ": " + this.aves[i].getIDGraph());
 		}
 	}
 
+	// Metodo que exibe todas as informacoes de uma ave representada por um vertice
+	// Argumentos: numero do vertice que representa a ave no grafo
 	public void showInfoAve(int vertice) {
 		if(vertice < 0 || vertice >= this.n) {
 			System.out.println("Vértice não encontrado no grafo");
@@ -342,6 +345,9 @@ public class WUGraph {
 		System.out.println("Especie: " + this.aves[vertice].getEspecie());
 	}
 
+	// Metodo que exibe as relacoes de uma ave representada por um vertice com
+	// outras aves
+	// Argumentos: numero do vertice que representa a ave no grafo 
 	public void showRelacoesDoVertice(int vertice) {
 		if(vertice < 0 || vertice >= this.n) {
 			System.out.println("Vértice não encontrado no grafo");
@@ -359,6 +365,7 @@ public class WUGraph {
 		}
 	}
 
+	// Metodo que retorna todas as Ordens taxonomicas das aves no grafo
 	private ArrayList<String> getAllOrdens() {
 		String ordem;
 		ArrayList<String> ordens = new ArrayList<String>();
@@ -374,6 +381,7 @@ public class WUGraph {
 		return ordens;
 	}
 
+	// Metodo que retorna todas as Familias taxonomicas das aves no grafo
 	private ArrayList<String> getAllFamilias() {
 		String familia;
 		ArrayList<String> familias = new ArrayList<String>();
@@ -389,6 +397,7 @@ public class WUGraph {
 		return familias;
 	}
 
+	// Metodo que retorna todos os Generos taxonomicos das aves no grafo
 	private ArrayList<String> getAllGeneros() {
 		String genero;
 		ArrayList<String> generos = new ArrayList<String>();
@@ -404,6 +413,9 @@ public class WUGraph {
 		return generos;
 	}
 
+	// Metodo que exibe todas as organizacoes taxonomicas (ordem, genero, familia e especie)
+	// A especie e exibida por taxon (genero + especie), pois nao e comum um individuo ser
+	// referenciado apenas por sua especie, mas sim por seu taxon
 	public void showOrganizacoesTaxonomicas() {
 		ArrayList<String> ordens = getAllOrdens();
 		ArrayList<String> generos = getAllGeneros();
@@ -432,6 +444,8 @@ public class WUGraph {
 		}
 	}
 
+	// Metodo que escreve a um arquivo o relatorio completo com todas as organizacoes
+	// taxonomicas presentes no grafo, bem como as relacoes das aves que o compoem
 	public void writeRelatorio() {
 		ArrayList<String> ordens = getAllOrdens();
 		ArrayList<String> generos = getAllGeneros();
@@ -490,12 +504,14 @@ public class WUGraph {
 		}
 	}
 
+	// Metodo que exibe o grau de todos os vertices do grafo
 	public void showAllDegrees() {
 		for(int i = 0; i < this.n; i++) {
 			System.out.println("Grau do Vértice " + i + ": " + getDegree(i));
 		}
 	}
 
+	// Metodo que retorna se o grafo possui um caminho euleriano
 	public boolean hasEulerianPath() {
 		int numGrausImpares = 0, i = 0;
 
@@ -510,6 +526,7 @@ public class WUGraph {
 		return true;
 	}
 
+	// Metodo que retorna se o grafo é euleriano
 	public boolean isAnEulerianGraph() {
 		if(getConexidade() != 0) { 
 			return false; 
@@ -524,6 +541,9 @@ public class WUGraph {
 		return true;
 	}
 
+	// Metodo que garante a unicidade de uma ave a partir da numeracao de aves
+	// em seu ID caso aves de mesmo taxon coexistam no grafo
+	// Argumentos: ave a ter o numero de individuos de mesmo taxon verificado
 	private int numOfAvesSameTaxon(Ave ave) {
 		int num = 0;
 

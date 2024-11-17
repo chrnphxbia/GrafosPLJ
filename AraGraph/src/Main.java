@@ -8,9 +8,10 @@
     executado o método main.
 
     DATA            AUTOR       ATUALIZAÇÃO       
-    23/09/2024;     Pedro       Adicionado Main completo
-    30/10/2024;     Pedro       Atualizando projeto 
+    23/09/2024      Pedro       Adicionado Main completo
+    30/10/2024      Pedro       Atualizando projeto 
     06/11/2024		Pedro		Finalizando parte 2 do projeto
+    17/11/2024      Pedro       Corrigindo comentarios
 */
 
 import java.io.BufferedReader;
